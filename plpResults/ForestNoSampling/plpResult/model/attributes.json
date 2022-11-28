@@ -1,0 +1,7 @@
+{
+  "class": "plpModel",
+  "predictionFunction": "predictPythonSklearn",
+  "modelType": "binary",
+  "saveType": "file",
+  "saveToJson": false
+}

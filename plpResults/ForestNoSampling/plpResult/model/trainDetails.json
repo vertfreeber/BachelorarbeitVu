@@ -1,0 +1,43 @@
+{
+  "analysisId": "ForestNoSampling",
+  "analysisSource": "",
+  "developmentDatabase": "cmd",
+  "attrition": {
+    "outcomeId": [3, 3, 3, 3],
+    "description": ["Original cohorts", "Initial plpData cohort or population", "First Exposure", "Removing subjects with no time at risk (if any))"],
+    "targetCount": [22242, 22242, 22242, 22225],
+    "uniquePeople": [22242, 22242, 22242, 22225],
+    "outcomes": [550, 548, 548, 548],
+    "attr_class": "data.frame",
+    "attr_row.names": [1, 2, 3, 4]
+  },
+  "trainingTime": "12.9009097854296 mins",
+  "trainingDate": "2022-11-25",
+  "modelName": "Random forest",
+  "finalModelParameters": {
+    "ntrees": 500,
+    "criterion": "gini",
+    "maxDepth": 17,
+    "minSamplesSplit": 5,
+    "minSamplesLeaf": 10,
+    "minWeightFractionLeaf": 0,
+    "mtries": "sqrt",
+    "maxLeafNodes": null,
+    "minImpurityDecrease": 0,
+    "bootstrap": true,
+    "oobScore": false,
+    "nJobs": null,
+    "seed": 4273,
+    "classWeight": "balanced_subsample",
+    "maxSamples": null
+  },
+  "hyperParamSearch": [
+    ["computeAuc", "0.558948407656466", "0.554828022732782", "0.553789518630717", "0.569389536410817", "500", "gini", "17", "5", "10", "0", "sqrt", "null", "0", "TRUE", "FALSE", "null", "4273", "balanced_subsample", "null"],
+    ["computeAuc", "0.558719136287462", "0.555182212406066", "0.552577239046717", "0.569482477845591", "750", "gini", "17", "5", "10", "0", "sqrt", "null", "0", "TRUE", "FALSE", "null", "4273", "balanced_subsample", "null"],
+    ["computeAuc", "0.558117074461414", "0.554795701241684", "0.553218400248921", "0.567319232276809", "1000", "gini", "17", "5", "10", "0", "sqrt", "null", "0", "TRUE", "FALSE", "null", "4273", "balanced_subsample", "null"],
+    ["computeAuc", "0.557497802317197", "0.554471139601907", "0.551655906562878", "0.567033673085912", "1250", "gini", "17", "5", "10", "0", "sqrt", "null", "0", "TRUE", "FALSE", "null", "4273", "balanced_subsample", "null"],
+    ["computeAuc", "0.557572180822677", "0.554153311606109", "0.55147945253454", "0.568070845618889", "1500", "gini", "17", "5", "10", "0", "sqrt", "null", "0", "TRUE", "FALSE", "null", "4273", "balanced_subsample", "null"],
+    ["computeAuc", "0.557984929148861", "0.555622592722278", "0.551778481498593", "0.567347518800436", "2000", "gini", "17", "5", "10", "0", "sqrt", "null", "0", "TRUE", "FALSE", "null", "4273", "balanced_subsample", "null"]
+  ],
+  "developmentDatabaseId": "cmd"
+}

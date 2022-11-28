@@ -1,0 +1,23 @@
+{
+  "analysisId": "LogiRegNoSampling",
+  "analysisSource": "",
+  "developmentDatabase": "cmd",
+  "attrition": {
+    "outcomeId": [3, 3, 3, 3],
+    "description": ["Original cohorts", "Initial plpData cohort or population", "First Exposure", "Removing subjects with no time at risk (if any))"],
+    "targetCount": [22242, 22242, 22242, 22225],
+    "uniquePeople": [22242, 22242, 22242, 22225],
+    "outcomes": [550, 548, 548, 548],
+    "attr_class": "data.frame",
+    "attr_row.names": [1, 2, 3, 4]
+  },
+  "trainingTime": "10.0753262042999 secs",
+  "trainingDate": "2022-11-23",
+  "modelName": "logistic",
+  "finalModelParameters": {
+    "variance": 0.0042,
+    "log_likelihood": -1917.5307
+  },
+  "hyperParamSearch": [0.509, 0.502, 0.5556],
+  "developmentDatabaseId": "cmd"
+}

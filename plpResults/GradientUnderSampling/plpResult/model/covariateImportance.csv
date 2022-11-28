@@ -1,0 +1,1569 @@
+"covariateId","columnId","covariateName","analysisId","conceptId","covariateValue","included"
+8507001,1178,"gender = MALE",1,8507,0.000783685218598854,1
+22288201,546,"condition_era any time prior through 0 days relative to index: Hereditary elliptocytosis",201,22288,0,0
+23988201,823,"condition_era any time prior through 0 days relative to index: Hemolytic anemia due to glutathione metabolism disorder",201,23988,0,0
+24609201,996,"condition_era any time prior through 0 days relative to index: Hypoglycemia",201,24609,0,0
+24909201,1129,"condition_era any time prior through 0 days relative to index: Hereditary spherocytosis",201,24909,0,0
+25844201,930,"condition_era any time prior through 0 days relative to index: Ulcer of esophagus",201,25844,0,0
+26662201,95,"condition_era any time prior through 0 days relative to index: Testicular hypofunction",201,26662,0,0
+26727201,1153,"condition_era any time prior through 0 days relative to index: Hematemesis",201,26727,0,0
+27674201,107,"condition_era any time prior through 0 days relative to index: Nausea and vomiting",201,27674,0,0
+28396201,192,"condition_era any time prior through 0 days relative to index: Hereditary hemolytic anemia",201,28396,0,0
+29735201,650,"condition_era any time prior through 0 days relative to index: Candidiasis of mouth",201,29735,0,0
+30234201,623,"condition_era any time prior through 0 days relative to index: Neck sprain",201,30234,0,0
+30437201,200,"condition_era any time prior through 0 days relative to index: Gastro-esophageal reflux disease with esophagitis",201,30437,0,0
+30753201,156,"condition_era any time prior through 0 days relative to index: Esophagitis",201,30753,0,0
+30978201,1027,"condition_era any time prior through 0 days relative to index: Thalassemia",201,30978,0,0
+31317201,386,"condition_era any time prior through 0 days relative to index: Dysphagia",201,31317,0,0
+31610201,502,"condition_era any time prior through 0 days relative to index: Disorder of esophagus",201,31610,0,0
+31668201,859,"condition_era any time prior through 0 days relative to index: Acquired deformity of neck",201,31668,0,0
+31967201,259,"condition_era any time prior through 0 days relative to index: Nausea",201,31967,0,0
+72401201,1060,"condition_era any time prior through 0 days relative to index: Kashin-Bek disease",201,72401,0,0
+72404201,1007,"condition_era any time prior through 0 days relative to index: Joint stiffness",201,72404,0,0
+72405201,834,"condition_era any time prior through 0 days relative to index: Degenerative joint disease of shoulder region",201,72405,0.00642821457775447,1
+72705201,1018,"condition_era any time prior through 0 days relative to index: Pauciarticular juvenile rheumatoid arthritis",201,72705,0,0
+72711201,795,"condition_era any time prior through 0 days relative to index: Shoulder stiff",201,72711,0,0
+72715201,1008,"condition_era any time prior through 0 days relative to index: Exostosis",201,72715,0,0
+72737201,512,"condition_era any time prior through 0 days relative to index: Microcalcifications of the breast",201,72737,0,0
+72748201,371,"condition_era any time prior through 0 days relative to index: Strain of rotator cuff capsule",201,72748,0,0
+72990201,307,"condition_era any time prior through 0 days relative to index: Localized osteoarthrosis uncertain if primary OR secondary",201,72990,0,0
+72992201,1034,"condition_era any time prior through 0 days relative to index: Allergic arthritis",201,72992,0,0
+72993201,264,"condition_era any time prior through 0 days relative to index: Localized, primary osteoarthritis",201,72993,0,0
+73008201,493,"condition_era any time prior through 0 days relative to index: Enthesopathy",201,73008,0,0
+73241201,977,"condition_era any time prior through 0 days relative to index: Anal and rectal polyp",201,73241,0,0
+73301201,936,"condition_era any time prior through 0 days relative to index: Synovitis/tenosynovitis - wrist",201,73301,0,0
+73553201,213,"condition_era any time prior through 0 days relative to index: Arthropathy",201,73553,0.00936084846760954,1
+73560201,629,"condition_era any time prior through 0 days relative to index: Calcaneal spur",201,73560,0,0
+73562201,873,"condition_era any time prior through 0 days relative to index: Solitary sacroiliitis",201,73562,0,0
+73564201,447,"condition_era any time prior through 0 days relative to index: Full thickness rotator cuff tear",201,73564,0,0
+73574201,748,"condition_era any time prior through 0 days relative to index: Nonunion of fracture",201,73574,0,0
+73754201,989,"condition_era any time prior through 0 days relative to index: Restless legs",201,73754,0,0
+73819201,290,"condition_era any time prior through 0 days relative to index: Pain of breast",201,73819,0,0
+73840201,624,"condition_era any time prior through 0 days relative to index: Localized, primary osteoarthritis of the shoulder region",201,73840,0,0
+73843201,583,"condition_era any time prior through 0 days relative to index: Synovial cyst of popliteal space",201,73843,0,0
+74114201,1017,"condition_era any time prior through 0 days relative to index: Cellulitis and abscess of foot excluding toe",201,74114,0,0
+74125201,269,"condition_era any time prior through 0 days relative to index: Inflammatory polyarthropathy",201,74125,0,0
+74130201,545,"condition_era any time prior through 0 days relative to index: Thoracic spondylosis without myelopathy",201,74130,0,0
+74132201,346,"condition_era any time prior through 0 days relative to index: Degeneration of lumbosacral intervertebral disc",201,74132,0,0
+74138201,416,"condition_era any time prior through 0 days relative to index: Pathological fracture of vertebra",201,74138,0,0
+74174201,1066,"condition_era any time prior through 0 days relative to index: Urinary symptoms",201,74174,0,0
+74458201,839,"condition_era any time prior through 0 days relative to index: Enthesopathy of knee",201,74458,0.0021210875432947,1
+74464201,607,"condition_era any time prior through 0 days relative to index: Idiopathic scoliosis AND/OR kyphoscoliosis",201,74464,0,0
+74582201,367,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of rectum",201,74582,0,0
+74719201,115,"condition_era any time prior through 0 days relative to index: Ulcer of foot",201,74719,0,0
+74722201,717,"condition_era any time prior through 0 days relative to index: Secondary localized osteoarthrosis of pelvic region",201,74722,0,0
+74725201,802,"condition_era any time prior through 0 days relative to index: Displacement of cervical intervertebral disc without myelopathy",201,74725,0,0
+74728201,603,"condition_era any time prior through 0 days relative to index: Synovitis and tenosynovitis",201,74728,0,0
+74729201,1028,"condition_era any time prior through 0 days relative to index: Ganglion and cyst of synovium, tendon and bursa",201,74729,0,0
+74731201,789,"condition_era any time prior through 0 days relative to index: Hypertrophic osteoarthropathy",201,74731,0,0
+75004201,1108,"condition_era any time prior through 0 days relative to index: Frank hematuria",201,75004,0,0
+75036201,440,"condition_era any time prior through 0 days relative to index: Localized, primary osteoarthritis of the hand",201,75036,0,0
+75095201,557,"condition_era any time prior through 0 days relative to index: Closed fracture of ankle",201,75095,0,0
+75128201,759,"condition_era any time prior through 0 days relative to index: Injury of chest wall",201,75128,0,0
+75337201,845,"condition_era any time prior through 0 days relative to index: Cellulitis and abscess of buttock",201,75337,0.00333505596367411,1
+75344201,701,"condition_era any time prior through 0 days relative to index: Intervertebral disc disorder",201,75344,0.00652372816585918,1
+75347201,990,"condition_era any time prior through 0 days relative to index: Spinal enthesopathy",201,75347,0,0
+75354201,293,"condition_era any time prior through 0 days relative to index: Osteochondropathy",201,75354,0,0
+75389201,729,"condition_era any time prior through 0 days relative to index: Current tear of lateral cartilage AND/OR meniscus of knee",201,75389,0,0
+75617201,355,"condition_era any time prior through 0 days relative to index: Degenerative joint disease involving multiple joints",201,75617,0.00449545398853483,1
+75634201,952,"condition_era any time prior through 0 days relative to index: Fracture malunion",201,75634,0,0
+75860201,356,"condition_era any time prior through 0 days relative to index: Constipation",201,75860,0,0
+75863201,851,"condition_era any time prior through 0 days relative to index: Chronic interstitial cystitis",201,75863,0,0
+75897201,579,"condition_era any time prior through 0 days relative to index: Polyarthropathy",201,75897,0,0
+75908201,1173,"condition_era any time prior through 0 days relative to index: Kissing spine",201,75908,0,0
+75909201,1029,"condition_era any time prior through 0 days relative to index: Disorder of bone",201,75909,0,0
+75911201,461,"condition_era any time prior through 0 days relative to index: Acquired hallux valgus",201,75911,0,0
+76153201,478,"condition_era any time prior through 0 days relative to index: Low compliance bladder",201,76153,0,0
+76161201,854,"condition_era any time prior through 0 days relative to index: Impotence of organic origin",201,76161,0.00751512826228133,1
+76194201,601,"condition_era any time prior through 0 days relative to index: Osteoarthrosis involving multiple sites but not designated as generalized",201,76194,0,0
+76196201,648,"condition_era any time prior through 0 days relative to index: Palindromic rheumatism",201,76196,0,0
+76611201,939,"condition_era any time prior through 0 days relative to index: Injury of shoulder region",201,76611,0,0
+76685201,562,"condition_era any time prior through 0 days relative to index: Myasthenia gravis",201,76685,0,0
+76836201,1011,"condition_era any time prior through 0 days relative to index: Sprain of knee and leg",201,76836,0,0
+77025201,111,"condition_era any time prior through 0 days relative to index: Diverticulitis of colon",201,77025,0,0
+77030201,418,"condition_era any time prior through 0 days relative to index: Disorder of breast",201,77030,0,0
+77074201,685,"condition_era any time prior through 0 days relative to index: Joint pain",201,77074,0,0
+77079201,721,"condition_era any time prior through 0 days relative to index: Spinal stenosis",201,77079,0,0
+77081201,1010,"condition_era any time prior through 0 days relative to index: Tibialis tendinitis",201,77081,0,0
+77234201,303,"condition_era any time prior through 0 days relative to index: Benign neoplasm of colon",201,77234,0,0
+77310201,643,"condition_era any time prior through 0 days relative to index: Deep vein phlebitis and thrombophlebitis of the leg",201,77310,0,0
+77364201,713,"condition_era any time prior through 0 days relative to index: Hypermobility of coccyx",201,77364,0,0
+77365201,770,"condition_era any time prior through 0 days relative to index: Disuse osteoporosis",201,77365,0,0
+77630201,564,"condition_era any time prior through 0 days relative to index: Disorder of shoulder",201,77630,0,0
+77631201,189,"condition_era any time prior through 0 days relative to index: Localized, secondary osteoarthritis of the shoulder region",201,77631,0,0
+77638201,678,"condition_era any time prior through 0 days relative to index: Displacement of intervertebral disc without myelopathy",201,77638,0,0
+77639201,265,"condition_era any time prior through 0 days relative to index: Diffuse cervicobrachial syndrome",201,77639,0,0
+77644201,247,"condition_era any time prior through 0 days relative to index: Adhesive capsulitis of shoulder",201,77644,0.00698765186072676,1
+77646201,250,"condition_era any time prior through 0 days relative to index: Disorder of bone and articular cartilage",201,77646,0,0
+77650201,890,"condition_era any time prior through 0 days relative to index: Aseptic necrosis of bone",201,77650,0,0
+77670201,161,"condition_era any time prior through 0 days relative to index: Chest pain",201,77670,0.0219635604186404,1
+77923201,1070,"condition_era any time prior through 0 days relative to index: Eosinophilic colitis",201,77923,0,0
+77961201,672,"condition_era any time prior through 0 days relative to index: Disseminated idiopathic skeletal hyperostosis",201,77961,0,0
+77965201,621,"condition_era any time prior through 0 days relative to index: Acquired trigger finger",201,77965,0,0
+78097201,642,"condition_era any time prior through 0 days relative to index: Secondary malignant neoplasm of bone",201,78097,0,0
+78162201,773,"condition_era any time prior through 0 days relative to index: Peripheral vertigo",201,78162,0,0
+78227201,733,"condition_era any time prior through 0 days relative to index: Degenerative joint disease of hand",201,78227,0,0
+78228201,358,"condition_era any time prior through 0 days relative to index: Joint derangement",201,78228,0,0
+78230201,442,"condition_era any time prior through 0 days relative to index: Rheumatoid arthritis with organ / system involvement",201,78230,0,0
+78232201,169,"condition_era any time prior through 0 days relative to index: Shoulder joint pain",201,78232,0,0
+78234201,419,"condition_era any time prior through 0 days relative to index: Hand joint pain",201,78234,0.00639752759769612,1
+78235201,609,"condition_era any time prior through 0 days relative to index: Disorder of coccyx",201,78235,0,0
+78236201,214,"condition_era any time prior through 0 days relative to index: Muscle atrophy",201,78236,0,0
+78238201,1170,"condition_era any time prior through 0 days relative to index: Rupture of synovium",201,78238,0,0
+78472201,319,"condition_era any time prior through 0 days relative to index: Microscopic hematuria",201,78472,0,0
+78497201,612,"condition_era any time prior through 0 days relative to index: Cellulitis and abscess of toe",201,78497,0,0
+78505201,653,"condition_era any time prior through 0 days relative to index: Localized, primary osteoarthritis of the ankle and/or foot",201,78505,0,0
+78508201,300,"condition_era any time prior through 0 days relative to index: Arthralgia of the ankle and/or foot",201,78508,0,0
+78516201,527,"condition_era any time prior through 0 days relative to index: Arthralgia of the upper arm",201,78516,0,0
+78517201,405,"condition_era any time prior through 0 days relative to index: Multiple joint pain",201,78517,0,0
+78619201,301,"condition_era any time prior through 0 days relative to index: Contusion of knee",201,78619,0,0
+78771201,718,"condition_era any time prior through 0 days relative to index: Labyrinthine dysfunction",201,78771,0,0
+78804201,1140,"condition_era any time prior through 0 days relative to index: Fibrocystic disease of breast",201,78804,0,0
+78832201,769,"condition_era any time prior through 0 days relative to index: Intervertebral disc disorder with myelopathy",201,78832,0,0
+79106201,105,"condition_era any time prior through 0 days relative to index: Arthralgia of the pelvic region and thigh",201,79106,0,0
+79109201,1035,"condition_era any time prior through 0 days relative to index: Climacteric arthritis",201,79109,0,0
+79116201,908,"condition_era any time prior through 0 days relative to index: Disorder of tendon of shoulder region",201,79116,0,0
+79119201,809,"condition_era any time prior through 0 days relative to index: Thoracic spondylosis with myelopathy",201,79119,0,0
+79127201,396,"condition_era any time prior through 0 days relative to index: Congenital spondylolisthesis",201,79127,0,0
+79740201,140,"condition_era any time prior through 0 days relative to index: Overlapping malignant neoplasm of colon",201,79740,0,0
+79864201,312,"condition_era any time prior through 0 days relative to index: Hematuria syndrome",201,79864,0,0
+79904201,785,"condition_era any time prior through 0 days relative to index: Localized, secondary osteoarthritis of the hand",201,79904,0,0
+79908201,137,"condition_era any time prior through 0 days relative to index: Muscle weakness",201,79908,0,0
+79936201,762,"condition_era any time prior through 0 days relative to index: Polyuria",201,79936,0,0
+80141201,332,"condition_era any time prior through 0 days relative to index: Functional diarrhea",201,80141,0,0
+80180201,128,"condition_era any time prior through 0 days relative to index: Osteoarthritis",201,80180,0.00755824051952208,1
+80183201,830,"condition_era any time prior through 0 days relative to index: Localized, secondary osteoarthritis of the ankle and/or foot",201,80183,0,0
+80189201,260,"condition_era any time prior through 0 days relative to index: Displacement of lumbar intervertebral disc without myelopathy",201,80189,0,0
+80242201,292,"condition_era any time prior through 0 days relative to index: Current tear of medial cartilage AND/OR meniscus of knee",201,80242,0,0
+80496201,625,"condition_era any time prior through 0 days relative to index: Schmorl's nodes",201,80496,0,0
+80497201,556,"condition_era any time prior through 0 days relative to index: Disorder of cervical spine",201,80497,0,0
+80502201,379,"condition_era any time prior through 0 days relative to index: Osteoporosis",201,80502,0,0
+80509201,540,"condition_era any time prior through 0 days relative to index: Bone cyst",201,80509,0,0
+80767201,170,"condition_era any time prior through 0 days relative to index: Breast lump",201,80767,0,0
+80802201,326,"condition_era any time prior through 0 days relative to index: Localized, secondary osteoarthritis",201,80802,0,0
+80809201,268,"condition_era any time prior through 0 days relative to index: Rheumatoid arthritis",201,80809,0,0
+80813201,197,"condition_era any time prior through 0 days relative to index: Lumbosacral spondylosis without myelopathy",201,80813,0,0
+80816201,563,"condition_era any time prior through 0 days relative to index: Degeneration of intervertebral disc",201,80816,0,0
+80824201,568,"condition_era any time prior through 0 days relative to index: Senile osteoporosis",201,80824,0,0
+81112201,243,"condition_era any time prior through 0 days relative to index: Arthralgia of the lower leg",201,81112,0.00591383734836196,1
+81151201,649,"condition_era any time prior through 0 days relative to index: Sprain of ankle",201,81151,0,0
+81250201,378,"condition_era any time prior through 0 days relative to index: Carcinoma in situ of breast",201,81250,0,0
+81378201,1053,"condition_era any time prior through 0 days relative to index: Chondromalacia of patella",201,81378,0,0
+81379201,973,"condition_era any time prior through 0 days relative to index: Lateral epicondylitis",201,81379,0,0
+81380201,283,"condition_era any time prior through 0 days relative to index: Cervical syndrome",201,81380,0.00513659542844709,1
+81390201,538,"condition_era any time prior through 0 days relative to index: Idiopathic osteoporosis",201,81390,0,0
+81611201,382,"condition_era any time prior through 0 days relative to index: Diverticular disease of colon",201,81611,0,0
+81660201,693,"condition_era any time prior through 0 days relative to index: Cervicocranial syndrome",201,81660,0,0
+81665201,429,"condition_era any time prior through 0 days relative to index: Traumatic spondylopathy",201,81665,0,0
+81878201,1084,"condition_era any time prior through 0 days relative to index: Benign paroxysmal positional vertigo",201,81878,0,0
+81902201,277,"condition_era any time prior through 0 days relative to index: Urinary tract infectious disease",201,81902,0.0212123725475115,1
+81942201,465,"condition_era any time prior through 0 days relative to index: Enthesopathy of ankle AND/OR tarsus",201,81942,0,0
+132412201,900,"condition_era any time prior through 0 days relative to index: Post-laminectomy syndrome",201,132412,0,0
+132583201,867,"condition_era any time prior through 0 days relative to index: Postablative hypothyroidism",201,132583,0,0
+132706201,139,"condition_era any time prior through 0 days relative to index: Disorder of nail",201,132706,0,0
+132776201,906,"condition_era any time prior through 0 days relative to index: Injury involving multiple body regions",201,132776,0,0
+132797201,353,"condition_era any time prior through 0 days relative to index: Sepsis",201,132797,0,0
+132862201,1125,"condition_era any time prior through 0 days relative to index: Carcinoma in situ of skin of trunk, excluding scrotum",201,132862,0,0
+132932201,689,"condition_era any time prior through 0 days relative to index: Chronic ethmoidal sinusitis",201,132932,0,0
+133141201,1059,"condition_era any time prior through 0 days relative to index: Tinea pedis",201,133141,0,0
+133154201,1038,"condition_era any time prior through 0 days relative to index: Plasma cell leukemia",201,133154,0,0
+133280201,470,"condition_era any time prior through 0 days relative to index: Alopecia",201,133280,0,0
+133295201,423,"condition_era any time prior through 0 days relative to index: Inflammatory spondylopathy",201,133295,0,0
+133299201,787,"condition_era any time prior through 0 days relative to index: Swelling of limb",201,133299,0.00209945829977699,1
+133414201,1176,"condition_era any time prior through 0 days relative to index: Candidiasis of skin and nails",201,133414,0,0
+133468201,1102,"condition_era any time prior through 0 days relative to index: Disorder of extremity",201,133468,0,0
+133547201,1143,"condition_era any time prior through 0 days relative to index: Pyoderma",201,133547,0,0
+133711201,444,"condition_era any time prior through 0 days relative to index: Overlapping malignant neoplasm of female breast",201,133711,0,0
+133726201,679,"condition_era any time prior through 0 days relative to index: Carcinoma in situ of skin of face",201,133726,0,0
+133727201,330,"condition_era any time prior through 0 days relative to index: Thyrotoxicosis without goiter OR other cause",201,133727,0,0
+133729201,660,"condition_era any time prior through 0 days relative to index: Hyperparathyroidism",201,133729,0,0
+133810201,223,"condition_era any time prior through 0 days relative to index: Hyperparathyroidism due to renal insufficiency",201,133810,0,0
+133834201,591,"condition_era any time prior through 0 days relative to index: Atopic dermatitis",201,133834,0.00385883600097457,1
+133853201,597,"condition_era any time prior through 0 days relative to index: Osteomyelitis of ankle AND/OR foot",201,133853,0,0
+133857201,858,"condition_era any time prior through 0 days relative to index: Acquired deformity of limb",201,133857,0,0
+133974201,1065,"condition_era any time prior through 0 days relative to index: Overlapping malignant neoplasm of skin",201,133974,0,0
+134057201,498,"condition_era any time prior through 0 days relative to index: Disorder of cardiovascular system",201,134057,0.00285672283126208,1
+134159201,199,"condition_era any time prior through 0 days relative to index: Precordial pain",201,134159,0,0
+134308201,1171,"condition_era any time prior through 0 days relative to index: Carcinoma in situ of skin of lower limb",201,134308,0,0
+134315201,922,"condition_era any time prior through 0 days relative to index: Myelophthisis",201,134315,0,0
+134452201,674,"condition_era any time prior through 0 days relative to index: Olecranon bursitis",201,134452,0,0
+134453201,652,"condition_era any time prior through 0 days relative to index: Bursitis",201,134453,0,0
+134461201,1006,"condition_era any time prior through 0 days relative to index: Tietze's disease",201,134461,0,0
+134668201,1109,"condition_era any time prior through 0 days relative to index: Chronic maxillary sinusitis",201,134668,0,0
+134736201,110,"condition_era any time prior through 0 days relative to index: Backache",201,134736,0.00172669224727876,1
+134898201,510,"condition_era any time prior through 0 days relative to index: Non-toxic uninodular goiter",201,134898,0,0
+135029201,1172,"condition_era any time prior through 0 days relative to index: Peeling of skin",201,135029,0,0
+135033201,798,"condition_era any time prior through 0 days relative to index: Hair and hair follicle diseases",201,135033,0,0
+135157201,951,"condition_era any time prior through 0 days relative to index: Finding of cardiovascular device",201,135157,0,0
+135214201,567,"condition_era any time prior through 0 days relative to index: Polycythemia vera",201,135214,0,0
+135215201,1045,"condition_era any time prior through 0 days relative to index: Hashimoto thyroiditis",201,135215,0,0
+135333201,351,"condition_era any time prior through 0 days relative to index: Pressure ulcer",201,135333,0,0
+135340201,1077,"condition_era any time prior through 0 days relative to index: Pressure ulcer stage 3",201,135340,0,0
+135473201,723,"condition_era any time prior through 0 days relative to index: Dermatophytosis",201,135473,0,0
+135489201,764,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of male breast",201,135489,0,0
+135772201,661,"condition_era any time prior through 0 days relative to index: Goiter",201,135772,0,0
+135777201,129,"condition_era any time prior through 0 days relative to index: Neoplasm of uncertain behavior of skin",201,135777,0.0056284041393445,1
+135892201,1094,"condition_era any time prior through 0 days relative to index: Erythematous condition",201,135892,0,0
+135893201,998,"condition_era any time prior through 0 days relative to index: Pressure ulcer of heel",201,135893,0,0
+136057201,389,"condition_era any time prior through 0 days relative to index: Benign neoplasm of skin of trunk",201,136057,0,0
+136184201,1030,"condition_era any time prior through 0 days relative to index: Pruritus of skin",201,136184,0,0
+136198201,735,"condition_era any time prior through 0 days relative to index: Cervical spondylosis with myelopathy",201,136198,0,0
+136496201,1005,"condition_era any time prior through 0 days relative to index: Cellulitis and abscess of face",201,136496,0,0
+136773201,887,"condition_era any time prior through 0 days relative to index: Rosacea",201,136773,0,0
+136775201,322,"condition_era any time prior through 0 days relative to index: Contact dermatitis due to solar radiation",201,136775,0,0
+136788201,530,"condition_era any time prior through 0 days relative to index: Spinal stenosis of lumbar region",201,136788,0,0
+136834201,517,"condition_era any time prior through 0 days relative to index: Closed intertrochanteric fracture",201,136834,0,0
+136915201,956,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of skin of lip",201,136915,0,0
+136982201,474,"condition_era any time prior through 0 days relative to index: Trichiasis without entropion",201,136982,0,0
+137053201,298,"condition_era any time prior through 0 days relative to index: Seborrheic dermatitis",201,137053,0,0
+137057201,1152,"condition_era any time prior through 0 days relative to index: Paronychia",201,137057,0,0
+137213201,915,"condition_era any time prior through 0 days relative to index: Dermal mycosis",201,137213,0,0
+137345201,1131,"condition_era any time prior through 0 days relative to index: Pressure ulcer stage 4",201,137345,0,0
+137379201,751,"condition_era any time prior through 0 days relative to index: Musculoskeletal symptom",201,137379,0,0
+137497201,408,"condition_era any time prior through 0 days relative to index: Dermatophytosis of the body",201,137497,0,0
+137651201,1156,"condition_era any time prior through 0 days relative to index: Aseptic necrosis of medial femoral condyle",201,137651,0,0
+137820201,1013,"condition_era any time prior through 0 days relative to index: Postoperative hypothyroidism",201,137820,0,0
+137829201,818,"condition_era any time prior through 0 days relative to index: Aplastic anemia",201,137829,0,0
+137945201,736,"condition_era any time prior through 0 days relative to index: Pressure ulcer stage 2",201,137945,0,0
+137967201,1047,"condition_era any time prior through 0 days relative to index: Muscle, ligament and fascia disorders",201,137967,0,0
+137989201,702,"condition_era any time prior through 0 days relative to index: Abnormal results of cardiovascular function studies",201,137989,0,0
+138148201,486,"condition_era any time prior through 0 days relative to index: Plantar nerve lesion",201,138148,0,0
+138225201,572,"condition_era any time prior through 0 days relative to index: Disorder of sebaceous gland",201,138225,0,0
+138239201,790,"condition_era any time prior through 0 days relative to index: Finding of limb structure",201,138239,0,0
+138255201,430,"condition_era any time prior through 0 days relative to index: Abnormal cardiovascular function",201,138255,0,0
+138379201,96,"condition_era any time prior through 0 days relative to index: Chronic lymphoid leukemia, disease",201,138379,0,0
+138384201,118,"condition_era any time prior through 0 days relative to index: Acquired hypothyroidism",201,138384,0.0056983514981634,1
+138519201,334,"condition_era any time prior through 0 days relative to index: Spondylosis without myelopathy",201,138519,0,0
+138525201,187,"condition_era any time prior through 0 days relative to index: Pain in limb",201,138525,0,0
+138545201,901,"condition_era any time prior through 0 days relative to index: Progressive infantile idiopathic scoliosis",201,138545,0,0
+138667201,966,"condition_era any time prior through 0 days relative to index: Stoma finding",201,138667,0,0
+138717201,868,"condition_era any time prior through 0 days relative to index: Toxic diffuse goiter",201,138717,0,0
+138723201,898,"condition_era any time prior through 0 days relative to index: Acquired red cell aplasia",201,138723,0,0
+138825201,286,"condition_era any time prior through 0 days relative to index: Actinic keratosis",201,138825,0.00435913571124545,1
+138841201,519,"condition_era any time prior through 0 days relative to index: Disorder of sacrum",201,138841,0,0
+138845201,778,"condition_era any time prior through 0 days relative to index: Rheumatism",201,138845,0,0
+138994201,295,"condition_era any time prior through 0 days relative to index: Myelodysplastic syndrome",201,138994,0,0
+138996201,439,"condition_era any time prior through 0 days relative to index: Carcinoma in situ of skin",201,138996,0,0
+139099201,153,"condition_era any time prior through 0 days relative to index: Ingrowing nail",201,139099,0,0
+139110201,972,"condition_era any time prior through 0 days relative to index: Intervertebral disc disorder of thoracic region with myelopathy",201,139110,0,0
+139188201,806,"condition_era any time prior through 0 days relative to index: Open wound of scalp without complication",201,139188,0,0
+139900201,964,"condition_era any time prior through 0 days relative to index: Urticaria",201,139900,0.00521716030828309,1
+139906201,466,"condition_era any time prior through 0 days relative to index: Intervertebral disc disorder of cervical region with myelopathy",201,139906,0,0
+139912201,481,"condition_era any time prior through 0 days relative to index: Spondylosis with myelopathy",201,139912,0,0
+140065201,994,"condition_era any time prior through 0 days relative to index: Pure red cell aplasia",201,140065,0,0
+140168201,944,"condition_era any time prior through 0 days relative to index: Psoriasis",201,140168,0,0
+140190201,246,"condition_era any time prior through 0 days relative to index: Disorder of back",201,140190,0,0
+140214201,662,"condition_era any time prior through 0 days relative to index: Eruption",201,140214,0,0
+140352201,1026,"condition_era any time prior through 0 days relative to index: Acute myeloid leukemia, disease",201,140352,0,0
+140641201,602,"condition_era any time prior through 0 days relative to index: Verruca vulgaris",201,140641,0,0
+140648201,123,"condition_era any time prior through 0 days relative to index: Onychomycosis due to dermatophyte",201,140648,0,0
+140673201,176,"condition_era any time prior through 0 days relative to index: Hypothyroidism",201,140673,0.00428627884373421,1
+140681201,942,"condition_era any time prior through 0 days relative to index: Constitutional aplastic anemia",201,140681,0,0
+140821201,391,"condition_era any time prior through 0 days relative to index: Spasm",201,140821,0,0
+140966201,664,"condition_era any time prior through 0 days relative to index: Benign neoplasm of skin of face",201,140966,0,0
+140976201,1048,"condition_era any time prior through 0 days relative to index: Toxic uninodular goiter",201,140976,0,0
+141104201,108,"condition_era any time prior through 0 days relative to index: Intervertebral disc disorder of lumbar region with myelopathy",201,141104,0,0
+141253201,667,"condition_era any time prior through 0 days relative to index: Disorder of thyroid gland",201,141253,0,0
+141663201,1117,"condition_era any time prior through 0 days relative to index: Osteomyelitis",201,141663,0,0
+141673201,1014,"condition_era any time prior through 0 days relative to index: Aseptic necrosis of head of humerus",201,141673,0,0
+141932201,217,"condition_era any time prior through 0 days relative to index: Senile hyperkeratosis",201,141932,0,0
+141941201,225,"condition_era any time prior through 0 days relative to index: Cervical spondylosis without myelopathy",201,141941,0,0
+142026201,695,"condition_era any time prior through 0 days relative to index: Disorder of cardiovascular prostheses and implants",201,142026,0.00561055288570702,1
+192242201,1092,"condition_era any time prior through 0 days relative to index: Acute hepatitis C",201,192242,0,0
+192279201,584,"condition_era any time prior through 0 days relative to index: Diabetic renal disease",201,192279,0,0
+192353201,860,"condition_era any time prior through 0 days relative to index: Disorder of gallbladder",201,192353,0,0
+192357201,934,"condition_era any time prior through 0 days relative to index: Paralytic ileus",201,192357,0,0
+192450201,328,"condition_era any time prior through 0 days relative to index: Retention of urine",201,192450,0.0053581823106343,1
+192606201,1118,"condition_era any time prior through 0 days relative to index: Paraplegia",201,192606,0,0
+192667201,610,"condition_era any time prior through 0 days relative to index: Atrophic gastritis",201,192667,0,0
+192673201,109,"condition_era any time prior through 0 days relative to index: Vascular insufficiency of intestine",201,192673,0,0
+192731201,645,"condition_era any time prior through 0 days relative to index: Digestive symptom",201,192731,0,0
+192956201,800,"condition_era any time prior through 0 days relative to index: Cholecystitis",201,192956,0,0
+193016201,1112,"condition_era any time prior through 0 days relative to index: Cystic disease of kidney",201,193016,0,0
+193020201,397,"condition_era any time prior through 0 days relative to index: Incomplete emptying of bladder",201,193020,0,0
+193155201,320,"condition_era any time prior through 0 days relative to index: Carcinoid tumor of large intestine",201,193155,0,0
+193239201,150,"condition_era any time prior through 0 days relative to index: Diverticulitis of small intestine",201,193239,0.00421224091917768,1
+193250201,503,"condition_era any time prior through 0 days relative to index: Gastric hemorrhage",201,193250,0,0
+193252201,677,"condition_era any time prior through 0 days relative to index: Diverticulosis of small intestine",201,193252,0,0
+193253201,573,"condition_era any time prior through 0 days relative to index: Nephritis",201,193253,0,0
+193322201,415,"condition_era any time prior through 0 days relative to index: Right lower quadrant pain",201,193322,0,0
+193326201,716,"condition_era any time prior through 0 days relative to index: Urge incontinence of urine",201,193326,0,0
+193493201,368,"condition_era any time prior through 0 days relative to index: Benign hypertensive renal disease",201,193493,0,0
+193518201,614,"condition_era any time prior through 0 days relative to index: Intestinal obstruction",201,193518,0.00451751998718,1
+193519201,875,"condition_era any time prior through 0 days relative to index: Impaired renal function disorder",201,193519,0,0
+193520201,815,"condition_era any time prior through 0 days relative to index: Urinary bladder stone",201,193520,0,0
+193666201,883,"condition_era any time prior through 0 days relative to index: Injury of hip region",201,193666,0,0
+193688201,194,"condition_era any time prior through 0 days relative to index: Clostridium difficile infection",201,193688,0.00225728357557055,1
+193739201,284,"condition_era any time prior through 0 days relative to index: Ovarian failure",201,193739,0,0
+193782201,226,"condition_era any time prior through 0 days relative to index: End stage renal disease",201,193782,0,0
+194081201,548,"condition_era any time prior through 0 days relative to index: Acute cystitis",201,194081,0,0
+194083201,697,"condition_era any time prior through 0 days relative to index: Vaginitis and vulvovaginitis",201,194083,0,0
+194133201,126,"condition_era any time prior through 0 days relative to index: Low back pain",201,194133,0.0184495516818023,1
+194175201,424,"condition_era any time prior through 0 days relative to index: Left upper quadrant pain",201,194175,0,0
+194286201,895,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of corpus uteri, excluding isthmus",201,194286,0,0
+194395201,473,"condition_era any time prior through 0 days relative to index: Bleeding diverticulosis",201,194395,0.00286753300423088,1
+194406201,960,"condition_era any time prior through 0 days relative to index: Urinary tract obstruction",201,194406,0,0
+194491201,722,"condition_era any time prior through 0 days relative to index: Tenderness of epigastrium",201,194491,0,0
+194526201,647,"condition_era any time prior through 0 days relative to index: Injury of trunk",201,194526,0,0
+194685201,710,"condition_era any time prior through 0 days relative to index: Non-obstructive reflux-associated chronic pyelonephritis",201,194685,0,0
+194686201,482,"condition_era any time prior through 0 days relative to index: Acquired renal cystic disease",201,194686,0,0
+194692201,1021,"condition_era any time prior through 0 days relative to index: Cirrhosis - non-alcoholic",201,194692,0,0
+194755201,1072,"condition_era any time prior through 0 days relative to index: Abdominal tenderness of left lower quadrant",201,194755,0,0
+194984201,331,"condition_era any time prior through 0 days relative to index: Disease of liver",201,194984,0,0
+195007201,236,"condition_era any time prior through 0 days relative to index: Female stress incontinence",201,195007,0,0
+195083201,288,"condition_era any time prior through 0 days relative to index: Left lower quadrant pain",201,195083,0,0
+195306201,794,"condition_era any time prior through 0 days relative to index: Gastroduodenitis",201,195306,0,0
+195313201,804,"condition_era any time prior through 0 days relative to index: Urethral abscess",201,195313,0,0
+195321201,731,"condition_era any time prior through 0 days relative to index: Postmenopausal bleeding",201,195321,0,0
+195401201,829,"condition_era any time prior through 0 days relative to index: Contusion of hip",201,195401,0.00480324140042241,1
+195556201,801,"condition_era any time prior through 0 days relative to index: Hypertensive heart AND renal disease",201,195556,0,0
+195562201,433,"condition_era any time prior through 0 days relative to index: Hemorrhoids",201,195562,0,0
+195581201,1044,"condition_era any time prior through 0 days relative to index: Peritoneal adhesion",201,195581,0,0
+195588201,463,"condition_era any time prior through 0 days relative to index: Cystitis",201,195588,0,0
+195590201,709,"condition_era any time prior through 0 days relative to index: Urethral stricture",201,195590,0,0
+195743201,781,"condition_era any time prior through 0 days relative to index: Diphtheritic cystitis",201,195743,0,0
+195771201,254,"condition_era any time prior through 0 days relative to index: Secondary diabetes mellitus",201,195771,0,0
+195851201,560,"condition_era any time prior through 0 days relative to index: Gastric ulcer without hemorrhage, without perforation AND without obstruction",201,195851,0,0
+195862201,788,"condition_era any time prior through 0 days relative to index: Urethritis",201,195862,0.00447006764510755,1
+195906201,403,"condition_era any time prior through 0 days relative to index: Disorder of lumbar spine",201,195906,0,0
+195926201,178,"condition_era any time prior through 0 days relative to index: Slowing of urinary stream",201,195926,0,0
+196061201,555,"condition_era any time prior through 0 days relative to index: Benign neoplasm of stomach",201,196061,0,0
+196151201,1051,"condition_era any time prior through 0 days relative to index: Functional disorder of intestine",201,196151,0,0
+196236201,797,"condition_era any time prior through 0 days relative to index: Septic shock",201,196236,0,0
+196444201,924,"condition_era any time prior through 0 days relative to index: Angiodysplasia of intestine",201,196444,0,0
+196454201,1093,"condition_era any time prior through 0 days relative to index: Colostomy and enterostomy malfunction",201,196454,0,0
+196523201,257,"condition_era any time prior through 0 days relative to index: Diarrhea",201,196523,0.00539839318306021,1
+196726201,354,"condition_era any time prior through 0 days relative to index: Gallbladder calculus with acute cholecystitis and no obstruction",201,196726,0,0
+196733201,827,"condition_era any time prior through 0 days relative to index: Urethral syndrome",201,196733,0,0
+196735201,926,"condition_era any time prior through 0 days relative to index: Acute pyelonephritis without medullary necrosis",201,196735,0,0
+196738201,1147,"condition_era any time prior through 0 days relative to index: Disorder of male genital organ",201,196738,0,0
+196931201,507,"condition_era any time prior through 0 days relative to index: Neoplasm of digestive tract",201,196931,0,0
+197028201,706,"condition_era any time prior through 0 days relative to index: Calculus of lower urinary tract",201,197028,0,0
+197032201,309,"condition_era any time prior through 0 days relative to index: Hyperplasia of prostate",201,197032,0,0
+197035201,100,"condition_era any time prior through 0 days relative to index: Acute pyelonephritis with medullary necrosis",201,197035,0,0
+197036201,1142,"condition_era any time prior through 0 days relative to index: Vesicoureteric reflux",201,197036,0,0
+197253201,986,"condition_era any time prior through 0 days relative to index: Hemolytic uremic syndrome",201,197253,0,0
+197304201,193,"condition_era any time prior through 0 days relative to index: Ulcer of lower extremity",201,197304,0,0
+197320201,1097,"condition_era any time prior through 0 days relative to index: Acute renal failure syndrome",201,197320,0,0
+197329201,881,"condition_era any time prior through 0 days relative to index: Acute renal failure due to acute cortical necrosis",201,197329,0.00555361108103349,1
+197331201,184,"condition_era any time prior through 0 days relative to index: Disorder of urinary tract",201,197331,0,0
+197381201,528,"condition_era any time prior through 0 days relative to index: Epigastric pain",201,197381,0.00795564048965228,1
+197494201,1016,"condition_era any time prior through 0 days relative to index: Viral hepatitis C",201,197494,0,0
+197500201,559,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of colon",201,197500,0,0
+197508201,363,"condition_era any time prior through 0 days relative to index: Malignant tumor of urinary bladder",201,197508,0,0
+197593201,816,"condition_era any time prior through 0 days relative to index: Impaction of intestine",201,197593,0,0
+197610201,1055,"condition_era any time prior through 0 days relative to index: Cyst of ovary",201,197610,0,0
+197672201,181,"condition_era any time prior through 0 days relative to index: Urinary incontinence",201,197672,0,0
+197911201,458,"condition_era any time prior through 0 days relative to index: Hernia of anterior abdominal wall without obstruction AND without gangrene",201,197911,0,0
+197913201,267,"condition_era any time prior through 0 days relative to index: Disorder of function of stomach",201,197913,0,0
+197917201,605,"condition_era any time prior through 0 days relative to index: Disorder of biliary tract",201,197917,0,0
+197919201,945,"condition_era any time prior through 0 days relative to index: Urethral stricture due to infection",201,197919,0,0
+197921201,1073,"condition_era any time prior through 0 days relative to index: Renal osteodystrophy",201,197921,0,0
+197981201,256,"condition_era any time prior through 0 days relative to index: Abdominal tenderness",201,197981,0.00306162481650739,1
+197988201,131,"condition_era any time prior through 0 days relative to index: Generalized abdominal pain",201,197988,0,0
+198194201,1054,"condition_era any time prior through 0 days relative to index: Female genital organ symptoms",201,198194,0,0
+198199201,923,"condition_era any time prior through 0 days relative to index: Pyelonephritis",201,198199,0,0
+198263201,580,"condition_era any time prior through 0 days relative to index: Right upper quadrant pain",201,198263,0,0
+198400201,889,"condition_era any time prior through 0 days relative to index: Hemangioma of skin and subcutaneous tissue",201,198400,0,0
+198520201,1164,"condition_era any time prior through 0 days relative to index: Lumbar spondylosis with myelopathy",201,198520,0,0
+198571201,588,"condition_era any time prior through 0 days relative to index: Cardiogenic shock",201,198571,0,0
+198700201,238,"condition_era any time prior through 0 days relative to index: Secondary malignant neoplasm of liver",201,198700,0,0
+198802201,1086,"condition_era any time prior through 0 days relative to index: Occlusion of ureter",201,198802,0,0
+198803201,910,"condition_era any time prior through 0 days relative to index: Benign prostatic hyperplasia",201,198803,0.00216799790668374,1
+198809201,950,"condition_era any time prior through 0 days relative to index: Acute cholecystitis",201,198809,0,0
+198846201,296,"condition_era any time prior through 0 days relative to index: Enthesopathy of hip region",201,198846,0,0
+198964201,676,"condition_era any time prior through 0 days relative to index: Chronic hepatitis C",201,198964,0,0
+198985201,978,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of kidney",201,198985,0,0
+199064201,1087,"condition_era any time prior through 0 days relative to index: Chronic vascular insufficiency of intestine",201,199064,0,0
+199074201,835,"condition_era any time prior through 0 days relative to index: Acute pancreatitis",201,199074,0,0
+199075201,974,"condition_era any time prior through 0 days relative to index: Neurogenic bladder",201,199075,0,0
+199754201,1058,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of pancreas",201,199754,0,0
+199839201,772,"condition_era any time prior through 0 days relative to index: External hemorrhoids without complication",201,199839,0.00242029614056174,1
+199866201,690,"condition_era any time prior through 0 days relative to index: Acute gastritis",201,199866,0,0
+199872201,1071,"condition_era any time prior through 0 days relative to index: Chronic pyelonephritis without medullary necrosis",201,199872,0,0
+199876201,941,"condition_era any time prior through 0 days relative to index: Prolapse of female genital organs",201,199876,0,0
+199913201,410,"condition_era any time prior through 0 days relative to index: Acquired deformity of ankle AND/OR foot",201,199913,0,0
+199991201,352,"condition_era any time prior through 0 days relative to index: Disorder of transplanted kidney",201,199991,0,0
+200051201,374,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of ovary",201,200051,0,0
+200174201,479,"condition_era any time prior through 0 days relative to index: Disorder of skin AND/OR subcutaneous tissue",201,200174,0,0
+200219201,142,"condition_era any time prior through 0 days relative to index: Abdominal pain",201,200219,0.00352197787379617,1
+200485201,445,"condition_era any time prior through 0 days relative to index: Pressure ulcer of buttock",201,200485,0,0
+200528201,166,"condition_era any time prior through 0 days relative to index: Ascites",201,200528,0.00432117631343586,1
+200680201,791,"condition_era any time prior through 0 days relative to index: Neoplasm of bladder",201,200680,0,0
+200687201,681,"condition_era any time prior through 0 days relative to index: Renal disorder associated with type 1 diabetes mellitus",201,200687,0,0
+200845201,715,"condition_era any time prior through 0 days relative to index: Urgent desire to urinate",201,200845,0.00375420742233554,1
+200970201,514,"condition_era any time prior through 0 days relative to index: Carcinoma in situ of prostate",201,200970,0,0
+201059201,638,"condition_era any time prior through 0 days relative to index: Hypertrophic gastritis",201,201059,0,0
+201066201,1148,"condition_era any time prior through 0 days relative to index: Obstruction of bile duct",201,201066,0,0
+201069201,692,"condition_era any time prior through 0 days relative to index: Peptic ulcer without hemorrhage, without perforation AND without obstruction",201,201069,0,0
+201070201,644,"condition_era any time prior through 0 days relative to index: Cholelithiasis AND cholecystitis without obstruction",201,201070,0,0
+201072201,114,"condition_era any time prior through 0 days relative to index: Benign prostatic hypertrophy without outflow obstruction",201,201072,0,0
+201078201,421,"condition_era any time prior through 0 days relative to index: Atrophic vaginitis",201,201078,0,0
+201254201,255,"condition_era any time prior through 0 days relative to index: Type 1 diabetes mellitus",201,201254,0,0
+201337201,1128,"condition_era any time prior through 0 days relative to index: Disorder of bladder",201,201337,0,0
+201340201,308,"condition_era any time prior through 0 days relative to index: Gastritis",201,201340,0,0
+201353201,899,"condition_era any time prior through 0 days relative to index: Irradiation cystitis",201,201353,0,0
+201527201,970,"condition_era any time prior through 0 days relative to index: Neoplasm of uncertain behavior of prostate",201,201527,0,0
+201530201,520,"condition_era any time prior through 0 days relative to index: Type 2 diabetes mellitus with hyperosmolar coma",201,201530,0,0
+201606201,251,"condition_era any time prior through 0 days relative to index: Crohn's disease",201,201606,0,0
+201618201,547,"condition_era any time prior through 0 days relative to index: Disorder of intestine",201,201618,0,0
+201620201,113,"condition_era any time prior through 0 days relative to index: Kidney stone",201,201620,0.00401011536577453,1
+201621201,1043,"condition_era any time prior through 0 days relative to index: Chronic cystitis",201,201621,0,0
+201633201,173,"condition_era any time prior through 0 days relative to index: Cystitis cystica",201,201633,0,0
+201826201,207,"condition_era any time prior through 0 days relative to index: Type 2 diabetes mellitus",201,201826,0,0
+201894201,925,"condition_era any time prior through 0 days relative to index: Acute vascular insufficiency of intestine",201,201894,0,0
+201908201,364,"condition_era any time prior through 0 days relative to index: Chronic pyelonephritis with medullary necrosis",201,201908,0,0
+201965201,954,"condition_era any time prior through 0 days relative to index: Shock",201,201965,0,0
+252658201,1024,"condition_era any time prior through 0 days relative to index: Intrinsic asthma without status asthmaticus",201,252658,0,0
+252663201,1009,"condition_era any time prior through 0 days relative to index: Pneumonitis due to inhalation of food or vomitus",201,252663,0,0
+254058201,940,"condition_era any time prior through 0 days relative to index: Acute bronchiolitis due to respiratory syncytial virus",201,254058,0,0
+254061201,959,"condition_era any time prior through 0 days relative to index: Pleural effusion",201,254061,0.00335013001176681,1
+254062201,807,"condition_era any time prior through 0 days relative to index: Acute chest syndrome",201,254062,0,0
+254591201,1041,"condition_era any time prior through 0 days relative to index: Secondary malignant neoplasm of lung",201,254591,0.00282522849252259,1
+254676201,532,"condition_era any time prior through 0 days relative to index: Lung involvement associated with another disorder",201,254676,0,0
+255302201,133,"condition_era any time prior through 0 days relative to index: Spontaneous pneumothorax",201,255302,0,0
+255304201,817,"condition_era any time prior through 0 days relative to index: Lung disease with systemic sclerosis",201,255304,0,0
+255841201,305,"condition_era any time prior through 0 days relative to index: Chronic bronchitis",201,255841,0,0
+255848201,988,"condition_era any time prior through 0 days relative to index: Pneumonia",201,255848,0,0
+256197201,938,"condition_era any time prior through 0 days relative to index: Rheumatoid lung disease",201,256197,0,0
+256439201,172,"condition_era any time prior through 0 days relative to index: Allergic rhinitis due to pollen",201,256439,0,0
+256448201,144,"condition_era any time prior through 0 days relative to index: Chronic asthmatic bronchitis",201,256448,0.0039095448573632,1
+256449201,877,"condition_era any time prior through 0 days relative to index: Bronchiectasis",201,256449,0,0
+256717201,491,"condition_era any time prior through 0 days relative to index: Bronchospasm",201,256717,0,0
+257004201,258,"condition_era any time prior through 0 days relative to index: Acute exacerbation of chronic obstructive airways disease",201,257004,0,0
+257007201,240,"condition_era any time prior through 0 days relative to index: Allergic rhinitis",201,257007,0.00160801825817673,1
+257011201,120,"condition_era any time prior through 0 days relative to index: Acute upper respiratory infection",201,257011,0,0
+257012201,383,"condition_era any time prior through 0 days relative to index: Chronic sinusitis",201,257012,0,0
+257315201,995,"condition_era any time prior through 0 days relative to index: Bacterial pneumonia",201,257315,0,0
+257581201,147,"condition_era any time prior through 0 days relative to index: Exacerbation of asthma",201,257581,0,0
+257628201,522,"condition_era any time prior through 0 days relative to index: Systemic lupus erythematosus",201,257628,0,0
+257683201,932,"condition_era any time prior through 0 days relative to index: Posterior rhinorrhea",201,257683,0,0
+257907201,494,"condition_era any time prior through 0 days relative to index: Disorder of lung",201,257907,0,0
+258375201,525,"condition_era any time prior through 0 days relative to index: Overlapping malignant neoplasm of bronchus and lung",201,258375,0,0
+258453201,1107,"condition_era any time prior through 0 days relative to index: Acute upper respiratory infection of multiple sites",201,258453,0,0
+258780201,195,"condition_era any time prior through 0 days relative to index: Emphysematous bronchitis",201,258780,0,0
+258787201,157,"condition_era any time prior through 0 days relative to index: Spontaneous tension pneumothorax",201,258787,0,0
+259043201,616,"condition_era any time prior through 0 days relative to index: Emphysematous bleb of lung",201,259043,0,0
+259848201,464,"condition_era any time prior through 0 days relative to index: Chronic rhinitis",201,259848,0,0
+260123201,392,"condition_era any time prior through 0 days relative to index: Acute sinusitis",201,260123,0,0
+260125201,485,"condition_era any time prior through 0 days relative to index: Acute bronchiolitis",201,260125,0,0
+261325201,151,"condition_era any time prior through 0 days relative to index: Pulmonary emphysema",201,261325,0.00733661959441971,1
+261326201,694,"condition_era any time prior through 0 days relative to index: Viral pneumonia",201,261326,0.00397508675347925,1
+261327201,1015,"condition_era any time prior through 0 days relative to index: Pleural empyema with no fistula",201,261327,0,0
+261880201,456,"condition_era any time prior through 0 days relative to index: Atelectasis",201,261880,0.00392214383078318,1
+261883201,935,"condition_era any time prior through 0 days relative to index: Empyema with fistula",201,261883,0,0
+312327201,459,"condition_era any time prior through 0 days relative to index: Acute myocardial infarction",201,312327,0.00975171219802885,1
+312338201,393,"condition_era any time prior through 0 days relative to index: Benign hypertensive heart disease with congestive heart failure",201,312338,0,0
+312437201,191,"condition_era any time prior through 0 days relative to index: Dyspnea",201,312437,0,0
+312622201,691,"condition_era any time prior through 0 days relative to index: Venous retinal branch occlusion",201,312622,0,0
+312922201,210,"condition_era any time prior through 0 days relative to index: Coronary bypass graft finding",201,312922,0.00591908111785066,1
+312931201,489,"condition_era any time prior through 0 days relative to index: Multiple mitral and aortic valve involvement",201,312931,0,0
+312940201,864,"condition_era any time prior through 0 days relative to index: Acute-on-chronic respiratory failure",201,312940,0,0
+312950201,902,"condition_era any time prior through 0 days relative to index: IgE-mediated allergic asthma",201,312950,0,0
+312998201,241,"condition_era any time prior through 0 days relative to index: Pain in thoracic spine",201,312998,0,0
+313217201,203,"condition_era any time prior through 0 days relative to index: Atrial fibrillation",201,313217,0,0
+313324201,1032,"condition_era any time prior through 0 days relative to index: Cheyne-Stokes respiration",201,313324,0,0
+313459201,345,"condition_era any time prior through 0 days relative to index: Sleep apnea",201,313459,0,0
+313502201,553,"condition_era any time prior through 0 days relative to index: Benign hypertensive heart disease without congestive heart failure",201,313502,0,0
+313761201,1167,"condition_era any time prior through 0 days relative to index: Central retinal vein occlusion",201,313761,0,0
+313780201,975,"condition_era any time prior through 0 days relative to index: Mobitz type II atrioventricular block",201,313780,0,0
+313792201,242,"condition_era any time prior through 0 days relative to index: Paroxysmal tachycardia",201,313792,0.0023781506247413,1
+313878201,224,"condition_era any time prior through 0 days relative to index: Respiratory symptom",201,313878,0.00638427252445668,1
+314131201,542,"condition_era any time prior through 0 days relative to index: Degeneration of cervical intervertebral disc",201,314131,0.00228629239465199,1
+314369201,536,"condition_era any time prior through 0 days relative to index: Malignant hypertensive heart disease without congestive heart failure",201,314369,0,0
+314378201,728,"condition_era any time prior through 0 days relative to index: Hypertensive heart disease with congestive heart failure",201,314378,0.00712417787716888,1
+314379201,208,"condition_era any time prior through 0 days relative to index: First degree atrioventricular block",201,314379,0,0
+314658201,116,"condition_era any time prior through 0 days relative to index: Cardiomegaly",201,314658,0.00542166306297788,1
+314659201,366,"condition_era any time prior through 0 days relative to index: Arteritis",201,314659,0,0
+314665201,504,"condition_era any time prior through 0 days relative to index: Atrial flutter",201,314665,0,0
+314754201,385,"condition_era any time prior through 0 days relative to index: Wheezing",201,314754,0,0
+314962201,1037,"condition_era any time prior through 0 days relative to index: Raynaud's disease",201,314962,0,0
+314971201,476,"condition_era any time prior through 0 days relative to index: Chronic respiratory failure",201,314971,0,0
+315273201,1160,"condition_era any time prior through 0 days relative to index: Mitral valve stenosis",201,315273,0,0
+315276201,921,"condition_era any time prior through 0 days relative to index: Vitreous hemorrhage",201,315276,0,0
+315286201,124,"condition_era any time prior through 0 days relative to index: Chronic ischemic heart disease",201,315286,0.000421794039950797,1
+315295201,336,"condition_era any time prior through 0 days relative to index: Congestive rheumatic heart failure",201,315295,0,0
+315296201,291,"condition_era any time prior through 0 days relative to index: Preinfarction syndrome",201,315296,0,0
+315361201,747,"condition_era any time prior through 0 days relative to index: Orthopnea",201,315361,0,0
+315831201,837,"condition_era any time prior through 0 days relative to index: Chronic pulmonary heart disease",201,315831,0,0
+315832201,495,"condition_era any time prior through 0 days relative to index: Angina decubitus",201,315832,0,0
+316127201,824,"condition_era any time prior through 0 days relative to index: Vitreous opacities",201,316127,0,0
+316135201,558,"condition_era any time prior through 0 days relative to index: Atrioventricular block",201,316135,0,0
+316211201,912,"condition_era any time prior through 0 days relative to index: Acquired spondylolisthesis",201,316211,0,0
+316427201,993,"condition_era any time prior through 0 days relative to index: Aneurysm of coronary vessels",201,316427,0,0
+316429201,141,"condition_era any time prior through 0 days relative to index: Premature beats",201,316429,0,0
+316437201,761,"condition_era any time prior through 0 days relative to index: Cerebral atherosclerosis",201,316437,0,0
+316814201,523,"condition_era any time prior through 0 days relative to index: Hyperventilation",201,316814,0,0
+316993201,164,"condition_era any time prior through 0 days relative to index: Tricuspid valve disorder",201,316993,0,0
+316995201,411,"condition_era any time prior through 0 days relative to index: Coronary occlusion",201,316995,0.00152917099815111,1
+316999201,130,"condition_era any time prior through 0 days relative to index: Conduction disorder of the heart",201,316999,0.00341081150804103,1
+317002201,457,"condition_era any time prior through 0 days relative to index: Low blood pressure",201,317002,0.000106089812744607,1
+317009201,196,"condition_era any time prior through 0 days relative to index: Asthma",201,317009,0.00391810626367484,1
+317248201,477,"condition_era any time prior through 0 days relative to index: Disorder of hematopoietic structure",201,317248,0,0
+317302201,136,"condition_era any time prior through 0 days relative to index: Sinus node dysfunction",201,317302,0,0
+317305201,980,"condition_era any time prior through 0 days relative to index: Stricture of artery",201,317305,0,0
+317309201,963,"condition_era any time prior through 0 days relative to index: Peripheral arterial occlusive disease",201,317309,0,0
+317376201,665,"condition_era any time prior through 0 days relative to index: Tachypnea",201,317376,0.00651865345039236,1
+317576201,134,"condition_era any time prior through 0 days relative to index: Coronary arteriosclerosis",201,317576,0.00295613510685532,1
+317890201,847,"condition_era any time prior through 0 days relative to index: Mitral and aortic stenosis",201,317890,0,0
+317893201,376,"condition_era any time prior through 0 days relative to index: Paroxysmal supraventricular tachycardia",201,317893,0.00131395304248379,1
+317898201,177,"condition_era any time prior through 0 days relative to index: Malignant essential hypertension",201,317898,0,0
+318169201,909,"condition_era any time prior through 0 days relative to index: Varicose veins of lower extremity",201,318169,0,0
+318443201,1031,"condition_era any time prior through 0 days relative to index: Arteriosclerotic vascular disease",201,318443,0,0
+318448201,734,"condition_era any time prior through 0 days relative to index: Second degree atrioventricular block",201,318448,0,0
+318459201,248,"condition_era any time prior through 0 days relative to index: Respiratory insufficiency",201,318459,0,0
+318521201,657,"condition_era any time prior through 0 days relative to index: Displacement of thoracic intervertebral disc without myelopathy",201,318521,0.003989026553535,1
+318522201,680,"condition_era any time prior through 0 days relative to index: Schmorl's nodes of thoracic region",201,318522,0,0
+318712201,786,"condition_era any time prior through 0 days relative to index: Peripheral circulatory disorder associated with type 1 diabetes mellitus",201,318712,0,0
+318736201,698,"condition_era any time prior through 0 days relative to index: Migraine",201,318736,0,0
+318784201,599,"condition_era any time prior through 0 days relative to index: Varicose veins of lower extremity with ulcer",201,318784,0,0
+318800201,565,"condition_era any time prior through 0 days relative to index: Gastroesophageal reflux disease",201,318800,0.00470048208730676,1
+319034201,132,"condition_era any time prior through 0 days relative to index: Hypertensive heart disease without congestive heart failure",201,319034,0,0
+319038201,154,"condition_era any time prior through 0 days relative to index: Postmyocardial infarction syndrome",201,319038,0,0
+319041201,205,"condition_era any time prior through 0 days relative to index: Orthostatic hypotension",201,319041,0,0
+319049201,289,"condition_era any time prior through 0 days relative to index: Acute respiratory failure",201,319049,0.00222141394853027,1
+319835201,163,"condition_era any time prior through 0 days relative to index: Congestive heart failure",201,319835,0,0
+319845201,314,"condition_era any time prior through 0 days relative to index: Pulmonary valve disorder",201,319845,0,0
+320416201,929,"condition_era any time prior through 0 days relative to index: Diseases of mitral and aortic valves",201,320416,0,0
+320420201,455,"condition_era any time prior through 0 days relative to index: Vitreous degeneration",201,320420,0,0
+320536201,501,"condition_era any time prior through 0 days relative to index: Electrocardiogram abnormal",201,320536,0,0
+320744201,927,"condition_era any time prior through 0 days relative to index: Complete atrioventricular block",201,320744,0,0
+321042201,618,"condition_era any time prior through 0 days relative to index: Cardiac arrest",201,321042,0,0
+321052201,453,"condition_era any time prior through 0 days relative to index: Peripheral vascular disease",201,321052,0,0
+321109201,828,"condition_era any time prior through 0 days relative to index: Congenital anomaly of coronary artery",201,321109,0,0
+321389201,212,"condition_era any time prior through 0 days relative to index: Disorder of intervertebral disc of thoracic spine",201,321389,0.00685114518685007,1
+321596201,533,"condition_era any time prior through 0 days relative to index: Peripheral venous insufficiency",201,321596,0,0
+321661201,342,"condition_era any time prior through 0 days relative to index: Spinal stenosis of thoracic region",201,321661,0.00795159711977431,1
+321689201,920,"condition_era any time prior through 0 days relative to index: Apnea",201,321689,0,0
+321822201,570,"condition_era any time prior through 0 days relative to index: Peripheral circulatory disorder associated with diabetes mellitus",201,321822,0,0
+321882201,874,"condition_era any time prior through 0 days relative to index: Generalized atherosclerosis",201,321882,0,0
+321887201,884,"condition_era any time prior through 0 days relative to index: Disorder of artery",201,321887,0,0
+372309201,1120,"condition_era any time prior through 0 days relative to index: Mononeuritis",201,372309,0,0
+372315201,1166,"condition_era any time prior through 0 days relative to index: Anterior subcapsular polar cataract",201,372315,0,0
+372409201,508,"condition_era any time prior through 0 days relative to index: Sciatica",201,372409,0,0
+372624201,1069,"condition_era any time prior through 0 days relative to index: Cataract with neovascularization",201,372624,0,0
+372629201,361,"condition_era any time prior through 0 days relative to index: Nonexudative age-related macular degeneration",201,372629,0,0
+372886201,1068,"condition_era any time prior through 0 days relative to index: Refractory migraine with aura",201,372886,0,0
+372887201,551,"condition_era any time prior through 0 days relative to index: Disorder of brain",201,372887,0,0
+372892201,967,"condition_era any time prior through 0 days relative to index: Metabolic encephalopathy",201,372892,0,0
+372903201,294,"condition_era any time prior through 0 days relative to index: Retinal edema",201,372903,0,0
+372905201,1049,"condition_era any time prior through 0 days relative to index: Myotonic cataract",201,372905,0,0
+372924201,185,"condition_era any time prior through 0 days relative to index: Cerebral artery occlusion",201,372924,0,0
+373179201,782,"condition_era any time prior through 0 days relative to index: Senile degeneration of brain",201,373179,0,0
+373474201,907,"condition_era any time prior through 0 days relative to index: Diplopia",201,373474,0,0
+373478201,600,"condition_era any time prior through 0 days relative to index: Presbyopia",201,373478,0,0
+373503201,849,"condition_era any time prior through 0 days relative to index: Transient cerebral ischemia",201,373503,0,0
+373769201,641,"condition_era any time prior through 0 days relative to index: Nuclear cataract",201,373769,0,0
+373770201,526,"condition_era any time prior through 0 days relative to index: Infantile, juvenile and presenile cataracts",201,373770,0,0
+373995201,1085,"condition_era any time prior through 0 days relative to index: Delirium",201,373995,0,0
+373999201,805,"condition_era any time prior through 0 days relative to index: Diabetic oculopathy associated with type 1 diabetes mellitus",201,373999,0,0
+374009201,202,"condition_era any time prior through 0 days relative to index: Organic mental disorder",201,374009,0,0
+374022201,937,"condition_era any time prior through 0 days relative to index: Hemiplegia",201,374022,0,0
+374025201,1078,"condition_era any time prior through 0 days relative to index: Retinal hemorrhage",201,374025,0,0
+374028201,516,"condition_era any time prior through 0 days relative to index: Age related macular degeneration",201,374028,0.00504031200623818,1
+374034201,1004,"condition_era any time prior through 0 days relative to index: Visual disturbance",201,374034,0,0
+374044201,492,"condition_era any time prior through 0 days relative to index: Ptosis of eyelid",201,374044,0,0
+374055201,143,"condition_era any time prior through 0 days relative to index: Basilar artery syndrome",201,374055,0,0
+374326201,1101,"condition_era any time prior through 0 days relative to index: Arteriosclerotic dementia with depression",201,374326,0,0
+374366201,318,"condition_era any time prior through 0 days relative to index: Sensorineural hearing loss",201,374366,0,0
+374384201,768,"condition_era any time prior through 0 days relative to index: Cerebral ischemia",201,374384,0,0
+374642201,755,"condition_era any time prior through 0 days relative to index: Total traumatic cataract",201,374642,0,0
+374646201,803,"condition_era any time prior through 0 days relative to index: Toxic cataract",201,374646,0,0
+374882201,879,"condition_era any time prior through 0 days relative to index: Benign connective tissue neoplasm",201,374882,0,0
+374888201,377,"condition_era any time prior through 0 days relative to index: Dementia associated with another disease",201,374888,0,0
+374914201,1003,"condition_era any time prior through 0 days relative to index: Tetraplegia",201,374914,0,0
+374915201,1163,"condition_era any time prior through 0 days relative to index: Localization-related epilepsy",201,374915,0,0
+374924201,524,"condition_era any time prior through 0 days relative to index: Generalized convulsive epilepsy",201,374924,0,0
+375239201,619,"condition_era any time prior through 0 days relative to index: Degenerative brain disorder",201,375239,0.00392162661058352,1
+375256201,1155,"condition_era any time prior through 0 days relative to index: Anterior subcapsular polar senile cataract",201,375256,0,0
+375415201,422,"condition_era any time prior through 0 days relative to index: Injury of head",201,375415,0,0
+375545201,344,"condition_era any time prior through 0 days relative to index: Cataract",201,375545,0,0
+375546201,1133,"condition_era any time prior through 0 days relative to index: Combined nonsenile cataract",201,375546,0.010299278561744,1
+375791201,275,"condition_era any time prior through 0 days relative to index: Uncomplicated senile dementia",201,375791,0.0068294683606214,1
+375806201,639,"condition_era any time prior through 0 days relative to index: Idiopathic peripheral neuropathy",201,375806,0,0
+376065201,211,"condition_era any time prior through 0 days relative to index: Neurologic disorder associated with type 2 diabetes mellitus",201,376065,0,0
+376085201,863,"condition_era any time prior through 0 days relative to index: Uncomplicated presenile dementia",201,376085,0.00375105651842662,1
+376115201,1067,"condition_era any time prior through 0 days relative to index: Cystoid macular retinal degeneration",201,376115,0,0
+376117201,380,"condition_era any time prior through 0 days relative to index: Cataract in degenerative disorder",201,376117,0,0
+376120201,587,"condition_era any time prior through 0 days relative to index: Keratoconjunctivitis sicca, not specified as Sj+¦gren's",201,376120,0,0
+376208201,984,"condition_era any time prior through 0 days relative to index: Disorder of soft tissue",201,376208,0,0
+376400201,369,"condition_era any time prior through 0 days relative to index: Combined form of senile cataract",201,376400,0,0
+376401201,999,"condition_era any time prior through 0 days relative to index: Traumatic cataract",201,376401,0,0
+376415201,499,"condition_era any time prior through 0 days relative to index: Hypermetropia",201,376415,0,0
+376680201,1136,"condition_era any time prior through 0 days relative to index: Generalized non-convulsive epilepsy",201,376680,0,0
+376683201,232,"condition_era any time prior through 0 days relative to index: Nonproliferative diabetic retinopathy",201,376683,0,0
+376688201,632,"condition_era any time prior through 0 days relative to index: Subcapsular glaucomatous flecks",201,376688,0,0
+376714201,1149,"condition_era any time prior through 0 days relative to index: Vertebrobasilar artery syndrome",201,376714,0,0
+376946201,1175,"condition_era any time prior through 0 days relative to index: Senile dementia with delirium",201,376946,0,0
+376961201,190,"condition_era any time prior through 0 days relative to index: Disturbance of consciousness",201,376961,0.00758635455152662,1
+376965201,180,"condition_era any time prior through 0 days relative to index: Hypertensive retinopathy",201,376965,0,0
+376966201,511,"condition_era any time prior through 0 days relative to index: Exudative age-related macular degeneration",201,376966,0.00494520151719708,1
+376973201,401,"condition_era any time prior through 0 days relative to index: Cataract secondary to ocular disease",201,376973,0,0
+376979201,891,"condition_era any time prior through 0 days relative to index: Diabetic cataract",201,376979,0,0
+377091201,239,"condition_era any time prior through 0 days relative to index: Seizure",201,377091,0,0
+377274201,719,"condition_era any time prior through 0 days relative to index: Nonsenile cataract",201,377274,0,0
+377285201,656,"condition_era any time prior through 0 days relative to index: Mature cataract",201,377285,0,0
+377575201,420,"condition_era any time prior through 0 days relative to index: Tinnitus",201,377575,0,0
+377821201,531,"condition_era any time prior through 0 days relative to index: Neurological disorder associated with type 1 diabetes mellitus",201,377821,0,0
+377844201,460,"condition_era any time prior through 0 days relative to index: Status migrainosus",201,377844,0,0
+377861201,1105,"condition_era any time prior through 0 days relative to index: Disorder of refraction AND/OR accommodation",201,377861,0,0
+377864201,1126,"condition_era any time prior through 0 days relative to index: Cataract associated with radiation",201,377864,0,0
+378087201,754,"condition_era any time prior through 0 days relative to index: Secondary malignant neoplasm of brain and spinal cord",201,378087,0,0
+378140201,1012,"condition_era any time prior through 0 days relative to index: Inflammatory and toxic neuropathy",201,378140,0,0
+378414201,992,"condition_era any time prior through 0 days relative to index: Retinal detachment",201,378414,0.0049120251489676,1
+378416201,390,"condition_era any time prior through 0 days relative to index: Retinal disorder",201,378416,0,0
+378419201,349,"condition_era any time prior through 0 days relative to index: Alzheimer's disease",201,378419,0.000365600792559491,1
+378424201,384,"condition_era any time prior through 0 days relative to index: Astigmatism",201,378424,0,0
+378425201,449,"condition_era any time prior through 0 days relative to index: Blepharitis",201,378425,0,0
+378427201,266,"condition_era any time prior through 0 days relative to index: Tear film insufficiency",201,378427,0,0
+378735201,569,"condition_era any time prior through 0 days relative to index: Migraine without aura",201,378735,0,0
+378743201,893,"condition_era any time prior through 0 days relative to index: Mild non-proliferative diabetic retinopathy",201,378743,0,0
+379010201,204,"condition_era any time prior through 0 days relative to index: Epiretinal membrane",201,379010,0,0
+379019201,730,"condition_era any time prior through 0 days relative to index: Conjunctivitis",201,379019,0,0
+379784201,705,"condition_era any time prior through 0 days relative to index: Senile dementia with depression",201,379784,0,0
+379805201,1090,"condition_era any time prior through 0 days relative to index: Myopia",201,379805,0,0
+379809201,882,"condition_era any time prior through 0 days relative to index: Degenerative drusen",201,379809,0,0
+379811201,395,"condition_era any time prior through 0 days relative to index: Hypermature cataract",201,379811,0,0
+380094201,414,"condition_era any time prior through 0 days relative to index: Carpal tunnel syndrome",201,380094,0,0
+380096201,843,"condition_era any time prior through 0 days relative to index: Proliferative diabetic retinopathy",201,380096,0.00721550728151927,1
+380101201,1040,"condition_era any time prior through 0 days relative to index: Partial resolved traumatic cataract",201,380101,0,0
+380378201,313,"condition_era any time prior through 0 days relative to index: Epilepsy",201,380378,0,0
+380394201,566,"condition_era any time prior through 0 days relative to index: Idiopathic progressive polyneuropathy",201,380394,0,0
+380688201,513,"condition_era any time prior through 0 days relative to index: Hypoglycemic coma",201,380688,0,0
+380701201,819,"condition_era any time prior through 0 days relative to index: Diffuse Lewy body disease",201,380701,0,0
+380706201,780,"condition_era any time prior through 0 days relative to index: Regular astigmatism",201,380706,0,0
+380722201,1089,"condition_era any time prior through 0 days relative to index: Localized traumatic opacity",201,380722,0,0
+380733201,758,"condition_era any time prior through 0 days relative to index: Otalgia",201,380733,0,0
+380818201,911,"condition_era any time prior through 0 days relative to index: Acquired deformity of head",201,380818,0,0
+380834201,1144,"condition_era any time prior through 0 days relative to index: Coma",201,380834,0,0
+380986201,631,"condition_era any time prior through 0 days relative to index: Senile dementia with delusion",201,380986,0,0
+381279201,515,"condition_era any time prior through 0 days relative to index: Tetanic cataract",201,381279,0,0
+381290201,886,"condition_era any time prior through 0 days relative to index: Ocular hypertension",201,381290,0.0028780259591266,1
+381292201,799,"condition_era any time prior through 0 days relative to index: Chronic allergic conjunctivitis",201,381292,0,0
+381295201,451,"condition_era any time prior through 0 days relative to index: Age-related cataract",201,381295,0,0
+381549201,576,"condition_era any time prior through 0 days relative to index: Migraine with aura",201,381549,0,0
+381566201,1095,"condition_era any time prior through 0 days relative to index: Cataract in eye inflammatory disorder",201,381566,0,0
+381591201,174,"condition_era any time prior through 0 days relative to index: Cerebrovascular disease",201,381591,0,0
+381686201,162,"condition_era any time prior through 0 days relative to index: Persistent vegetative state",201,381686,0,0
+381859201,1141,"condition_era any time prior through 0 days relative to index: Infective otitis externa",201,381859,0,0
+381877201,946,"condition_era any time prior through 0 days relative to index: Dysfunction of eustachian tube",201,381877,0,0
+432282201,750,"condition_era any time prior through 0 days relative to index: Sideroblastic anemia",201,432282,0,0
+432284201,436,"condition_era any time prior through 0 days relative to index: Single major depressive episode",201,432284,0,0
+432285201,763,"condition_era any time prior through 0 days relative to index: Recurrent major depressive episodes",201,432285,0,0
+432289201,448,"condition_era any time prior through 0 days relative to index: Drug-induced neutropenia",201,432289,0,0
+432295201,535,"condition_era any time prior through 0 days relative to index: Pernicious anemia",201,432295,0,0
+432311201,712,"condition_era any time prior through 0 days relative to index: Angle-closure glaucoma - borderline",201,432311,0,0
+432453201,249,"condition_era any time prior through 0 days relative to index: General clinical state finding",201,432453,0,0
+432571201,101,"condition_era any time prior through 0 days relative to index: Malignant lymphoma",201,432571,0,0
+432585201,335,"condition_era any time prior through 0 days relative to index: Blood coagulation disorder",201,432585,0,0
+432590201,933,"condition_era any time prior through 0 days relative to index: Delusional disorder",201,432590,0,0
+432597201,739,"condition_era any time prior through 0 days relative to index: Schizoaffective schizophrenia",201,432597,0,0
+432626201,338,"condition_era any time prior through 0 days relative to index: Glaucoma associated with vascular disorder",201,432626,0,0
+432719201,437,"condition_era any time prior through 0 days relative to index: Panniculitis",201,432719,0,0
+432730201,668,"condition_era any time prior through 0 days relative to index: Difficulty speaking",201,432730,0,0
+432738201,627,"condition_era any time prior through 0 days relative to index: Chronic fatigue syndrome",201,432738,0.00284733820536563,1
+432795201,870,"condition_era any time prior through 0 days relative to index: Traumatic AND/OR non-traumatic injury",201,432795,0,0
+432798201,1110,"condition_era any time prior through 0 days relative to index: Mechanical complication of internal orthopedic device, implant AND/OR graft",201,432798,0,0
+432851201,914,"condition_era any time prior through 0 days relative to index: Secondary malignant neoplastic disease",201,432851,0,0
+432863201,670,"condition_era any time prior through 0 days relative to index: Acquired coagulation factor deficiency",201,432863,0,0
+432868201,1050,"condition_era any time prior through 0 days relative to index: Hemoglobinopathy",201,432868,0,0
+432869201,746,"condition_era any time prior through 0 days relative to index: Hemorrhagic disorder due to circulating anticoagulants",201,432869,0,0
+432870201,518,"condition_era any time prior through 0 days relative to index: Thrombocytopenic disorder",201,432870,0,0
+432875201,428,"condition_era any time prior through 0 days relative to index: Anemia due to chronic blood loss",201,432875,0.00764805578785043,1
+432876201,962,"condition_era any time prior through 0 days relative to index: Bipolar I disorder",201,432876,0,0
+432881201,913,"condition_era any time prior through 0 days relative to index: Pancytopenia",201,432881,0,0
+432883201,373,"condition_era any time prior through 0 days relative to index: Recurrent major depressive episodes, moderate",201,432883,0,0
+432895201,928,"condition_era any time prior through 0 days relative to index: Cortical senile cataract",201,432895,0,0
+432961201,152,"condition_era any time prior through 0 days relative to index: Acute renal papillary necrosis with renal failure",201,432961,0,0
+433134201,981,"condition_era any time prior through 0 days relative to index: Histoplasmosis",201,433134,0,0
+433163201,244,"condition_era any time prior through 0 days relative to index: Deficiency of macronutrients",201,433163,0.00256249842625563,1
+433168201,1046,"condition_era any time prior through 0 days relative to index: Iron deficiency anemia secondary to inadequate dietary iron intake",201,433168,0,0
+433197201,1106,"condition_era any time prior through 0 days relative to index: Pseudoexfoliation of lens capsule",201,433197,0,0
+433208201,919,"condition_era any time prior through 0 days relative to index: Disorder of pulmonary circulation",201,433208,0,0
+433390201,675,"condition_era any time prior through 0 days relative to index: Immunosuppressant adverse reaction",201,433390,0,0
+433440201,585,"condition_era any time prior through 0 days relative to index: Dysthymia",201,433440,0.00348698949403699,1
+433450201,1121,"condition_era any time prior through 0 days relative to index: Paranoid schizophrenia",201,433450,0,0
+433454201,699,"condition_era any time prior through 0 days relative to index: Adjustment disorder with mixed emotional features",201,433454,0,0
+433471201,866,"condition_era any time prior through 0 days relative to index: Retinal neovascularization",201,433471,0,0
+433505201,948,"condition_era any time prior through 0 days relative to index: Subclavian steal syndrome",201,433505,0,0
+433513201,218,"condition_era any time prior through 0 days relative to index: Acute epiglottitis with obstruction",201,433513,0,0
+433516201,462,"condition_era any time prior through 0 days relative to index: Duodenitis",201,433516,0.00316768822665018,1
+433565201,684,"condition_era any time prior through 0 days relative to index: Juvenile osteochondrosis of spine",201,433565,0,0
+433577201,549,"condition_era any time prior through 0 days relative to index: Hammer toe",201,433577,0,0
+433596201,1022,"condition_era any time prior through 0 days relative to index: Abnormal sputum",201,433596,0,0
+433656201,857,"condition_era any time prior through 0 days relative to index: Abnormal patient reaction",201,433656,0,0
+433736201,302,"condition_era any time prior through 0 days relative to index: Obesity",201,433736,0,0
+433753201,865,"condition_era any time prior through 0 days relative to index: Alcohol abuse",201,433753,0,0
+433813201,682,"condition_era any time prior through 0 days relative to index: Bladder neck obstruction",201,433813,0,0
+433942801,78,"observation any time prior through 0 days relative to index: Accident while engaged in household activity",801,433942,0,0
+434004201,450,"condition_era any time prior through 0 days relative to index: Hypervolemia",201,434004,0,0
+434005201,467,"condition_era any time prior through 0 days relative to index: Morbid obesity",201,434005,0,0
+434008201,219,"condition_era any time prior through 0 days relative to index: White blood cell disorder",201,434008,0,0
+434056201,593,"condition_era any time prior through 0 days relative to index: Late effects of cerebrovascular disease",201,434056,0,0
+434123201,347,"condition_era any time prior through 0 days relative to index: Primary localized osteoarthrosis of pelvic region",201,434123,0,0
+434169201,182,"condition_era any time prior through 0 days relative to index: Abnormal findings on diagnostic imaging of breast",201,434169,0,0
+434300201,813,"condition_era any time prior through 0 days relative to index: Neuroendocrine tumor",201,434300,0,0
+434303201,767,"condition_era any time prior through 0 days relative to index: Benign neoplasm of rectum and anal canal",201,434303,0,0
+434376201,280,"condition_era any time prior through 0 days relative to index: Acute myocardial infarction of anterior wall",201,434376,0,0
+434494201,606,"condition_era any time prior through 0 days relative to index: Closed fracture of upper end of humerus",201,434494,0,0
+434500201,407,"condition_era any time prior through 0 days relative to index: Closed fracture of neck of femur",201,434500,0,0
+434547201,1082,"condition_era any time prior through 0 days relative to index: Complication of surgical procedure",201,434547,0,0
+434581201,997,"condition_era any time prior through 0 days relative to index: African histoplasmosis",201,434581,0,0
+434610201,432,"condition_era any time prior through 0 days relative to index: Hyperkalemia",201,434610,0.00337429661301793,1
+434613201,497,"condition_era any time prior through 0 days relative to index: Generalized anxiety disorder",201,434613,0,0
+434614201,704,"condition_era any time prior through 0 days relative to index: Disorder of iron metabolism",201,434614,0,0
+434616201,1162,"condition_era any time prior through 0 days relative to index: Hemoglobinuria due to hemolysis from external causes",201,434616,0,0
+434656201,387,"condition_era any time prior through 0 days relative to index: Vertebral artery syndrome",201,434656,0,0
+434657201,822,"condition_era any time prior through 0 days relative to index: Weakness of face muscles",201,434657,0,0
+434675201,741,"condition_era any time prior through 0 days relative to index: Complication of gastrostomy",201,434675,0,0
+434894201,186,"condition_era any time prior through 0 days relative to index: Acute posthemorrhagic anemia",201,434894,0,0
+434896201,983,"condition_era any time prior through 0 days relative to index: Benign neoplasm of skin of upper limb and shoulder",201,434896,0,0
+434911201,316,"condition_era any time prior through 0 days relative to index: Recurrent major depressive episodes, severe, with psychosis",201,434911,0,0
+435041201,840,"condition_era any time prior through 0 days relative to index: Schmorl's nodes of lumbar region",201,435041,0,0
+435093201,1150,"condition_era any time prior through 0 days relative to index: Closed fracture of femur",201,435093,0,0
+435141201,792,"condition_era any time prior through 0 days relative to index: Hemorrhage AND/OR hematoma complicating procedure",201,435141,0,0
+435216201,273,"condition_era any time prior through 0 days relative to index: Disorder due to type 1 diabetes mellitus",201,435216,0,0
+435224201,1119,"condition_era any time prior through 0 days relative to index: Leukopenia",201,435224,0,0
+435226201,1134,"condition_era any time prior through 0 days relative to index: Bipolar affective disorder, current episode mixed",201,435226,0,0
+435243201,452,"condition_era any time prior through 0 days relative to index: Alcohol dependence",201,435243,0,0
+435262201,99,"condition_era any time prior through 0 days relative to index: Primary open angle glaucoma",201,435262,0,0
+435508201,261,"condition_era any time prior through 0 days relative to index: Adrenal cortical hypofunction",201,435508,0,0
+435510201,1074,"condition_era any time prior through 0 days relative to index: Hypocalcemia",201,435510,0,0
+435511201,976,"condition_era any time prior through 0 days relative to index: Hypercalcemia",201,435511,0,0
+435524201,1158,"condition_era any time prior through 0 days relative to index: Sleep disorder",201,435524,0,0
+435543201,274,"condition_era any time prior through 0 days relative to index: Primary angle-closure glaucoma",201,435543,0,0
+435754201,575,"condition_era any time prior through 0 days relative to index: Malignant tumor of ascending colon",201,435754,0,0
+435783201,324,"condition_era any time prior through 0 days relative to index: Schizophrenia",201,435783,0,0
+435789201,329,"condition_era any time prior through 0 days relative to index: Megaloblastic anemia",201,435789,0,0
+435796201,175,"condition_era any time prior through 0 days relative to index: Dehydration",201,435796,0.0032085575200034,1
+435810201,985,"condition_era any time prior through 0 days relative to index: Capsular fibrosis",201,435810,0,0
+435840201,1116,"condition_era any time prior through 0 days relative to index: Acute epiglottitis without obstruction",201,435840,0,0
+435849201,541,"condition_era any time prior through 0 days relative to index: Parietoalveolar pneumopathy",201,435849,0,0
+435853201,633,"condition_era any time prior through 0 days relative to index: Pulmonary alveolar proteinosis",201,435853,0,0
+435903201,1001,"condition_era any time prior through 0 days relative to index: Juvenile osteochondrosis of foot",201,435903,0.00268096409592796,1
+435928801,69,"observation any time prior through 0 days relative to index: Abnormal weight loss",801,435928,0.000304312133156354,1
+435950201,779,"condition_era any time prior through 0 days relative to index: Closed Colles' fracture",201,435950,0,0
+436070201,630,"condition_era any time prior through 0 days relative to index: Vitamin D deficiency",201,436070,0.00500624278518834,1
+436073201,628,"condition_era any time prior through 0 days relative to index: Psychotic disorder",201,436073,0,0
+436083201,708,"condition_era any time prior through 0 days relative to index: Protein-deficiency anemia",201,436083,0,0
+436096201,586,"condition_era any time prior through 0 days relative to index: Chronic pain",201,436096,0.00351406599083174,1
+436118201,237,"condition_era any time prior through 0 days relative to index: After-cataract with vision obscured",201,436118,0,0
+436222201,98,"condition_era any time prior through 0 days relative to index: Altered mental status",201,436222,0.00455307665151158,1
+436230201,872,"condition_era any time prior through 0 days relative to index: Blood chemistry abnormal",201,436230,0,0
+436375201,955,"condition_era any time prior through 0 days relative to index: Hypovolemia",201,436375,0,0
+436583801,25,"observation any time prior through 0 days relative to index: Fall",801,436583,0,0
+436635201,666,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of sigmoid colon",201,436635,0,0
+436659201,341,"condition_era any time prior through 0 days relative to index: Iron deficiency anemia",201,436659,0.00844097485704818,1
+436665201,315,"condition_era any time prior through 0 days relative to index: Bipolar disorder",201,436665,0,0
+436676201,398,"condition_era any time prior through 0 days relative to index: Posttraumatic stress disorder",201,436676,0,0
+436677201,483,"condition_era any time prior through 0 days relative to index: Adjustment disorder",201,436677,0,0
+436785201,146,"condition_era any time prior through 0 days relative to index: Spinal stenosis in cervical region",201,436785,0.00350857889186991,1
+436787201,871,"condition_era any time prior through 0 days relative to index: Panniculitis of neck",201,436787,0.00216014850020566,1
+436919201,844,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of unspecified site",201,436919,0,0
+436940201,646,"condition_era any time prior through 0 days relative to index: Metabolic syndrome X",201,436940,0,0
+436945201,1127,"condition_era any time prior through 0 days relative to index: Single major depressive episode, mild",201,436945,0,0
+436948201,1076,"condition_era any time prior through 0 days relative to index: Benign neoplasm of choroid",201,436948,0,0
+436962201,595,"condition_era any time prior through 0 days relative to index: Insomnia",201,436962,0,0
+436976201,812,"condition_era any time prior through 0 days relative to index: Posterior subcapsular polar cataract",201,436976,0,0
+437082201,1146,"condition_era any time prior through 0 days relative to index: Ankylosing spondylitis",201,437082,0,0
+437116201,651,"condition_era any time prior through 0 days relative to index: Closed fracture of distal end of radius",201,437116,0,0
+437175801,17,"observation any time prior through 0 days relative to index: Fall on same level from slipping, tripping or stumbling",801,437175,0,0
+437214201,953,"condition_era any time prior through 0 days relative to index: Infection by Histoplasma capsulatum",201,437214,0,0
+437233201,220,"condition_era any time prior through 0 days relative to index: Multiple myeloma",201,437233,0,0
+437240201,720,"condition_era any time prior through 0 days relative to index: Carcinoma in situ of skin of upper limb and shoulder",201,437240,0,0
+437246201,500,"condition_era any time prior through 0 days relative to index: Vitamin B deficiency",201,437246,0,0
+437247201,168,"condition_era any time prior through 0 days relative to index: Anemia of chronic disease",201,437247,0,0
+437249201,360,"condition_era any time prior through 0 days relative to index: Recurrent manic episodes",201,437249,0,0
+437264201,102,"condition_era any time prior through 0 days relative to index: Tobacco dependence syndrome",201,437264,0,0
+437273201,725,"condition_era any time prior through 0 days relative to index: Pseudoexfoliation glaucoma",201,437273,0,0
+437308201,598,"condition_era any time prior through 0 days relative to index: Basilar artery occlusion",201,437308,0,0
+437390201,158,"condition_era any time prior through 0 days relative to index: Hypoxemia",201,437390,0,0
+437474201,1025,"condition_era any time prior through 0 days relative to index: Postoperative infection",201,437474,0,0
+437528201,1075,"condition_era any time prior through 0 days relative to index: Bipolar affective disorder, currently depressed, moderate",201,437528,0,0
+437541201,711,"condition_era any time prior through 0 days relative to index: Glaucoma",201,437541,0,0
+437579201,135,"condition_era any time prior through 0 days relative to index: Paroxysmal ventricular tachycardia",201,437579,0,0
+437663201,323,"condition_era any time prior through 0 days relative to index: Fever",201,437663,0,0
+437758201,222,"condition_era any time prior through 0 days relative to index: Dependence on enabling machine or device",201,437758,0.00045998786965342,1
+437827201,221,"condition_era any time prior through 0 days relative to index: Pure hypercholesterolemia",201,437827,0.0061010985270817,1
+437828201,987,"condition_era any time prior through 0 days relative to index: Disorder of calcium metabolism",201,437828,0.00282537394861464,1
+437833201,375,"condition_era any time prior through 0 days relative to index: Hypokalemia",201,437833,0.00209838207943634,1
+437834201,165,"condition_era any time prior through 0 days relative to index: Non-autoimmune hemolytic anemia",201,437834,0,0
+437837201,753,"condition_era any time prior through 0 days relative to index: Single major depressive episode, moderate",201,437837,0.00342655403519507,1
+437851201,487,"condition_era any time prior through 0 days relative to index: Open angle with borderline intraocular pressure",201,437851,0,0
+437894201,724,"condition_era any time prior through 0 days relative to index: Ventricular fibrillation",201,437894,0,0
+437992201,1145,"condition_era any time prior through 0 days relative to index: Renal function tests abnormal",201,437992,0,0
+438112201,404,"condition_era any time prior through 0 days relative to index: Neoplastic disease",201,438112,0,0
+438168201,659,"condition_era any time prior through 0 days relative to index: Aneurysm of heart",201,438168,0,0
+438170201,216,"condition_era any time prior through 0 days relative to index: Acute myocardial infarction of inferior wall",201,438170,0,0
+438297201,359,"condition_era any time prior through 0 days relative to index: Mechanical complication of cardiac device, implant AND/OR graft",201,438297,0.00491216441543871,1
+438383201,1168,"condition_era any time prior through 0 days relative to index: Essential thrombocythemia",201,438383,0,0
+438398201,228,"condition_era any time prior through 0 days relative to index: Leukocytosis",201,438398,0,0
+438405201,1135,"condition_era any time prior through 0 days relative to index: Recurrent manic episodes, moderate",201,438405,0,0
+438438201,357,"condition_era any time prior through 0 days relative to index: Acute myocardial infarction of anterolateral wall",201,438438,0,0
+438530201,897,"condition_era any time prior through 0 days relative to index: Ossification of posterior longitudinal ligament in cervical region",201,438530,0,0
+438531201,592,"condition_era any time prior through 0 days relative to index: Chondromalacia",201,438531,0,0
+438557201,561,"condition_era any time prior through 0 days relative to index: Abnormal glucose level",201,438557,0,0
+438624201,957,"condition_era any time prior through 0 days relative to index: Complication of renal dialysis",201,438624,0,0
+438699201,287,"condition_era any time prior through 0 days relative to index: Primary malignant neoplasm of rectosigmoid junction",201,438699,0,0
+438722201,325,"condition_era any time prior through 0 days relative to index: Non megaloblastic anemia associated with nutritional deficiency",201,438722,0,0
+438749201,622,"condition_era any time prior through 0 days relative to index: Posterior subcapsular polar senile cataract",201,438749,0,0
+438867201,1098,"condition_era any time prior through 0 days relative to index: Generalized aches and pains",201,438867,0,0
+438878201,276,"condition_era any time prior through 0 days relative to index: Liver function tests abnormal",201,438878,0,0
+438998201,441,"condition_era any time prior through 0 days relative to index: Recurrent major depressive episodes, mild",201,438998,0,0
+439040201,760,"condition_era any time prior through 0 days relative to index: Subdural hemorrhage",201,439040,0,0
+439082201,245,"condition_era any time prior through 0 days relative to index: Menopausal syndrome",201,439082,0,0
+439120201,917,"condition_era any time prior through 0 days relative to index: Aseptic necrosis of head AND/OR neck of femur",201,439120,0,0
+439141801,82,"observation any time prior through 0 days relative to index: Abnormal weight gain",801,439141,0,0
+439147201,480,"condition_era any time prior through 0 days relative to index: Amnesia",201,439147,0,0
+439150201,539,"condition_era any time prior through 0 days relative to index: Hypersomnia with sleep apnea",201,439150,0,0
+439156201,179,"condition_era any time prior through 0 days relative to index: Finding of neonate",201,439156,0,0
+439221201,582,"condition_era any time prior through 0 days relative to index: Adverse effect, due to correct medicinal substance properly administered",201,439221,0,0
+439224801,93,"observation any time prior through 0 days relative to index: Drug allergy",801,439224,0,0
+439246201,1061,"condition_era any time prior through 0 days relative to index: Mixed bipolar affective disorder, severe, with psychosis",201,439246,0,0
+439276201,846,"condition_era any time prior through 0 days relative to index: Uncomplicated arteriosclerotic dementia",201,439276,0,0
+439294201,1177,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of head, neck and face",201,439294,0,0
+439295201,235,"condition_era any time prior through 0 days relative to index: Multiple and bilateral precerebral arterial occlusion",201,439295,0,0
+439297201,282,"condition_era any time prior through 0 days relative to index: Nuclear senile cataract",201,439297,0,0
+439314201,1000,"condition_era any time prior through 0 days relative to index: Thrombophlebitis of the femoral vein",201,439314,0,0
+439349201,127,"condition_era any time prior through 0 days relative to index: Cystitis associated with another disorder",201,439349,0,0
+439405201,343,"condition_era any time prior through 0 days relative to index: Walking disability",201,439405,0,0
+439502201,1114,"condition_era any time prior through 0 days relative to index: Postoperative pain",201,439502,0.021742368124788,1
+439524201,281,"condition_era any time prior through 0 days relative to index: Achilles bursitis",201,439524,0,0
+439694201,484,"condition_era any time prior through 0 days relative to index: Hypertensive heart and renal disease with both (congestive) heart failure and renal failure",201,439694,0,0
+439695201,784,"condition_era any time prior through 0 days relative to index: Hypertensive heart and renal disease with renal failure",201,439695,0,0
+439696201,454,"condition_era any time prior through 0 days relative to index: Hypertensive heart and renal disease with (congestive) heart failure",201,439696,0,0
+439697201,472,"condition_era any time prior through 0 days relative to index: Hypertensive renal disease with renal failure",201,439697,0.00453738905724337,1
+439770201,521,"condition_era any time prior through 0 days relative to index: Ketoacidosis in type 1 diabetes mellitus",201,439770,0,0
+439777201,201,"condition_era any time prior through 0 days relative to index: Anemia",201,439777,0.00805706052353739,1
+439847201,1113,"condition_era any time prior through 0 days relative to index: Intracranial hemorrhage",201,439847,0,0
+439907201,727,"condition_era any time prior through 0 days relative to index: Non-traumatic tendon rupture",201,439907,0,0
+439926201,117,"condition_era any time prior through 0 days relative to index: Malaise and fatigue",201,439926,0.00405630309091901,1
+439935201,321,"condition_era any time prior through 0 days relative to index: Abnormal posture",201,439935,0,0
+440009201,626,"condition_era any time prior through 0 days relative to index: Complication of implant",201,440009,0,0
+440029201,425,"condition_era any time prior through 0 days relative to index: Viral disease",201,440029,0,0
+440075201,1091,"condition_era any time prior through 0 days relative to index: Recurrent major depressive episodes, in full remission",201,440075,0,0
+440078201,707,"condition_era any time prior through 0 days relative to index: Bipolar affective disorder, current episode manic",201,440078,0,0
+440105201,833,"condition_era any time prior through 0 days relative to index: Aqueous humor misdirect",201,440105,0,0
+440129201,1099,"condition_era any time prior through 0 days relative to index: Hypertrophy of nasal turbinates",201,440129,0.0095407142098619,1
+440213201,400,"condition_era any time prior through 0 days relative to index: Consciousness and/or awareness finding",201,440213,0,0
+440216201,669,"condition_era any time prior through 0 days relative to index: Abnormal glucose tolerance test",201,440216,0,0
+440238201,637,"condition_era any time prior through 0 days relative to index: Closed fracture of metatarsal bone",201,440238,0,0
+440276201,581,"condition_era any time prior through 0 days relative to index: Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",201,440276,0,0
+440279801,47,"observation any time prior through 0 days relative to index: Accident",801,440279,0,0
+440320201,608,"condition_era any time prior through 0 days relative to index: Infection due to Escherichia coli",201,440320,0,0
+440372201,969,"condition_era any time prior through 0 days relative to index: Acquired thrombocytopenia",201,440372,0,0
+440417201,233,"condition_era any time prior through 0 days relative to index: Pulmonary embolism",201,440417,0.00183752050499015,1
+440530201,1096,"condition_era any time prior through 0 days relative to index: Oropharyngeal dysphagia",201,440530,0,0
+440556201,814,"condition_era any time prior through 0 days relative to index: Closed transcervical fracture of femur",201,440556,0,0
+440704201,776,"condition_era any time prior through 0 days relative to index: Chronic pain syndrome",201,440704,0,0
+440814201,1103,"condition_era any time prior through 0 days relative to index: Torticollis",201,440814,0,0
+440846201,636,"condition_era any time prior through 0 days relative to index: Blood coagulation disorder, categorized by value of screening test",201,440846,0,0
+440863201,611,"condition_era any time prior through 0 days relative to index: Open intertrochanteric fracture",201,440863,0,0
+440922801,26,"observation any time prior through 0 days relative to index: Diabetic on insulin",801,440922,0.0154414670864115,1
+440927801,23,"observation any time prior through 0 days relative to index: High risk drug monitoring status",801,440927,0,0
+440940201,916,"condition_era any time prior through 0 days relative to index: Methicillin resistant Staphylococcus aureus infection",201,440940,0,0
+440977201,1036,"condition_era any time prior through 0 days relative to index: Megaloblastic anemia due to folate deficiency",201,440977,0,0
+440979201,918,"condition_era any time prior through 0 days relative to index: Acquired hemolytic anemia",201,440979,0,0
+441006201,362,"condition_era any time prior through 0 days relative to index: Soemmerring's ring",201,441006,0,0
+441207201,771,"condition_era any time prior through 0 days relative to index: Adverse reaction to drug",201,441207,0,0
+441258201,640,"condition_era any time prior through 0 days relative to index: Anemia in neoplastic disease",201,441258,0,0
+441264201,1081,"condition_era any time prior through 0 days relative to index: Primary thrombocytopenia",201,441264,0,0
+441269201,1137,"condition_era any time prior through 0 days relative to index: Autoimmune hemolytic anemia",201,441269,0,0
+441284201,543,"condition_era any time prior through 0 days relative to index: Open-angle glaucoma",201,441284,0,0
+441408201,122,"condition_era any time prior through 0 days relative to index: Vomiting",201,441408,0.00368652198311829,1
+441488801,76,"observation any time prior through 0 days relative to index: Adverse reaction to substance",801,441488,0,0
+441523201,1161,"condition_era any time prior through 0 days relative to index: Immunoproliferative neoplasm",201,441523,0,0
+441534201,388,"condition_era any time prior through 0 days relative to index: Severe major depression, single episode, without psychotic features",201,441534,0,0
+441561201,94,"condition_era any time prior through 0 days relative to index: Low tension glaucoma",201,441561,0,0
+441589201,1033,"condition_era any time prior through 0 days relative to index: Endocarditis",201,441589,0,0
+441615201,505,"condition_era any time prior through 0 days relative to index: Trigonitis",201,441615,0,0
+441628201,726,"condition_era any time prior through 0 days relative to index: Menopausal and postmenopausal disorders",201,441628,0,0
+441655201,278,"condition_era any time prior through 0 days relative to index: Disorder of sweat gland",201,441655,0,0
+441829201,496,"condition_era any time prior through 0 days relative to index: Hyperosmolality and or hypernatremia",201,441829,0,0
+441836201,821,"condition_era any time prior through 0 days relative to index: Depressed bipolar I disorder",201,441836,0,0
+441838201,434,"condition_era any time prior through 0 days relative to index: Personality disorder",201,441838,0,0
+441846201,861,"condition_era any time prior through 0 days relative to index: After-cataract not obscuring vision",201,441846,0,0
+441872201,337,"condition_era any time prior through 0 days relative to index: Supraventricular premature beats",201,441872,0.00387684934531036,1
+441874201,409,"condition_era any time prior through 0 days relative to index: Cerebral thrombosis",201,441874,0,0
+441946201,279,"condition_era any time prior through 0 days relative to index: Calcific tendinitis of shoulder",201,441946,0,0
+442075201,688,"condition_era any time prior through 0 days relative to index: Chronic glomerulonephritis associated with another disorder",201,442075,0,0
+442077201,167,"condition_era any time prior through 0 days relative to index: Anxiety disorder",201,442077,0,0
+442256201,438,"condition_era any time prior through 0 days relative to index: Disorder of bursa of shoulder region",201,442256,0.000304179830008797,1
+442306201,1019,"condition_era any time prior through 0 days relative to index: Adjustment disorder with depressed mood",201,442306,0,0
+442425201,850,"condition_era any time prior through 0 days relative to index: Lumbar post-laminectomy syndrome",201,442425,0,0
+442426201,1064,"condition_era any time prior through 0 days relative to index: Thoracic post-laminectomy syndrome",201,442426,0,0
+442427201,229,"condition_era any time prior through 0 days relative to index: Cervical post-laminectomy syndrome",201,442427,0,0
+442555201,426,"condition_era any time prior through 0 days relative to index: Breathing painful",201,442555,0,0
+442570201,1056,"condition_era any time prior through 0 days relative to index: Severe depressed bipolar I disorder without psychotic features",201,442570,0,0
+442588201,125,"condition_era any time prior through 0 days relative to index: Obstructive sleep apnea syndrome",201,442588,0.00546669255530428,1
+442752201,272,"condition_era any time prior through 0 days relative to index: Muscle pain",201,442752,0.000941724519878919,1
+442764201,1057,"condition_era any time prior through 0 days relative to index: Anal pain",201,442764,0,0
+442775201,188,"condition_era any time prior through 0 days relative to index: Degeneration of thoracic intervertebral disc",201,442775,0,0
+442793201,577,"condition_era any time prior through 0 days relative to index: Diabetic complication",201,442793,0,0
+443076201,1002,"condition_era any time prior through 0 days relative to index: Osteitis deformans associated with another disorder",201,443076,0,0
+443111201,1063,"condition_era any time prior through 0 days relative to index: Tenosynovitis of foot",201,443111,0,0
+443211201,171,"condition_era any time prior through 0 days relative to index: Benign prostatic hypertrophy with outflow obstruction",201,443211,0.000438229417798623,1
+443239201,104,"condition_era any time prior through 0 days relative to index: Precerebral arterial occlusion",201,443239,0,0
+443344201,554,"condition_era any time prior through 0 days relative to index: Barrett's esophagus",201,443344,0,0
+443391201,589,"condition_era any time prior through 0 days relative to index: Malignant tumor of cecum",201,443391,0,0
+443406201,892,"condition_era any time prior through 0 days relative to index: Eosinophilic gastroenteritis",201,443406,0,0
+443454201,604,"condition_era any time prior through 0 days relative to index: Cerebral infarction",201,443454,0,0
+443524201,774,"condition_era any time prior through 0 days relative to index: Mixed urinary incontinence",201,443524,0,0
+443537201,471,"condition_era any time prior through 0 days relative to index: Deep venous thrombosis of lower extremity",201,443537,0,0
+443580201,550,"condition_era any time prior through 0 days relative to index: Systolic heart failure",201,443580,0,0
+443587201,700,"condition_era any time prior through 0 days relative to index: Diastolic heart failure",201,443587,0.00363664601759717,1
+443597201,145,"condition_era any time prior through 0 days relative to index: Chronic kidney disease stage 3",201,443597,0,0
+443601201,752,"condition_era any time prior through 0 days relative to index: Chronic kidney disease stage 2",201,443601,0,0
+443608201,673,"condition_era any time prior through 0 days relative to index: Bilateral sensory hearing loss",201,443608,0,0
+443611201,738,"condition_era any time prior through 0 days relative to index: Chronic kidney disease stage 5",201,443611,0,0
+443612201,231,"condition_era any time prior through 0 days relative to index: Chronic kidney disease stage 4",201,443612,0,0
+443614201,853,"condition_era any time prior through 0 days relative to index: Chronic kidney disease stage 1",201,443614,0,0
+443629201,742,"condition_era any time prior through 0 days relative to index: Generalized abdominal tenderness",201,443629,0,0
+443698201,696,"condition_era any time prior through 0 days relative to index: Abnormal anal Papanicolaou smear",201,443698,0,0
+443727201,880,"condition_era any time prior through 0 days relative to index: Diabetic ketoacidosis",201,443727,0,0
+443729201,310,"condition_era any time prior through 0 days relative to index: Peripheral circulatory disorder associated with type 2 diabetes mellitus",201,443729,0.00333279984684209,1
+443730201,468,"condition_era any time prior through 0 days relative to index: Neurologic disorder associated with diabetes mellitus",201,443730,0.010258991092759,1
+443731201,534,"condition_era any time prior through 0 days relative to index: Renal disorder due to type 2 diabetes mellitus",201,443731,0.00170700654473569,1
+443732201,155,"condition_era any time prior through 0 days relative to index: Disorder due to type 2 diabetes mellitus",201,443732,0,0
+443733201,869,"condition_era any time prior through 0 days relative to index: Diabetic oculopathy associated with type 2 diabetes mellitus",201,443733,0,0
+443734201,617,"condition_era any time prior through 0 days relative to index: Ketoacidosis in type 2 diabetes mellitus",201,443734,0,0
+443735201,215,"condition_era any time prior through 0 days relative to index: Coma associated with diabetes mellitus",201,443735,0,0
+443740201,740,"condition_era any time prior through 0 days relative to index: Corneal endothelial dystrophy",201,443740,0,0
+443767201,103,"condition_era any time prior through 0 days relative to index: Diabetic oculopathy",201,443767,0,0
+443776201,888,"condition_era any time prior through 0 days relative to index: Brachial radiculitis",201,443776,0,0
+443788201,1132,"condition_era any time prior through 0 days relative to index: Peritoneal adhesions with obstruction",201,443788,0,0
+443865201,317,"condition_era any time prior through 0 days relative to index: Noninfectious colitis",201,443865,0.00309061738783386,1
+443961201,285,"condition_era any time prior through 0 days relative to index: Anemia of chronic renal failure",201,443961,0,0
+444100201,1042,"condition_era any time prior through 0 days relative to index: Mood disorder",201,444100,0,0
+444129201,896,"condition_era any time prior through 0 days relative to index: Injury of wrist",201,444129,0,0
+444132201,811,"condition_era any time prior through 0 days relative to index: Injury of knee",201,444132,0,0
+444219201,263,"condition_era any time prior through 0 days relative to index: Osteitis deformans without bone tumor",201,444219,0,0
+444239201,97,"condition_era any time prior through 0 days relative to index: Postprocedural state finding",201,444239,0,0
+444247201,571,"condition_era any time prior through 0 days relative to index: Venous thrombosis",201,444247,0,0
+444367201,634,"condition_era any time prior through 0 days relative to index: Cholelithiasis without obstruction",201,444367,0,0
+444369201,230,"condition_era any time prior through 0 days relative to index: Hyperosmolality",201,444369,0,0
+444382201,119,"condition_era any time prior through 0 days relative to index: Thoracic radiculitis",201,444382,0,0
+444406201,417,"condition_era any time prior through 0 days relative to index: Acute subendocardial infarction",201,444406,0,0
+444434201,1122,"condition_era any time prior through 0 days relative to index: Schizophreniform disorder",201,444434,0,0
+444445201,961,"condition_era any time prior through 0 days relative to index: Benign neoplasm of skin of lower limb",201,444445,0,0
+529303401,1537,"drug_era any time prior through 0 days relative to index: diphtheria toxoid vaccine, inactivated",401,529303,0,0
+529411401,1297,"drug_era any time prior through 0 days relative to index: tetanus toxoid vaccine, inactivated",401,529411,0,0
+700299401,1359,"drug_era any time prior through 0 days relative to index: Thioridazine",401,700299,0,0
+700465401,1280,"drug_era any time prior through 0 days relative to index: Thiothixene",401,700465,0,0
+701322401,1517,"drug_era any time prior through 0 days relative to index: Memantine",401,701322,0,0
+702865401,1556,"drug_era any time prior through 0 days relative to index: Meprobamate",401,702865,0,0
+703547401,1222,"drug_era any time prior through 0 days relative to index: Trazodone",401,703547,0.00333031007181964,1
+704943401,1447,"drug_era any time prior through 0 days relative to index: Methocarbamol",401,704943,0,0
+704984401,1224,"drug_era any time prior through 0 days relative to index: Trifluoperazine",401,704984,0.0088282099221924,1
+705103401,1306,"drug_era any time prior through 0 days relative to index: lamotrigine",401,705103,0,0
+705178401,1442,"drug_era any time prior through 0 days relative to index: Trihexyphenidyl",401,705178,0.00537536237725127,1
+708298401,1214,"drug_era any time prior through 0 days relative to index: Midazolam",401,708298,0.00279477168899288,1
+710062401,1179,"drug_era any time prior through 0 days relative to index: Amitriptyline",401,710062,0.00301553245021048,1
+711584401,1438,"drug_era any time prior through 0 days relative to index: Levetiracetam",401,711584,0,0
+713823401,1282,"drug_era any time prior through 0 days relative to index: ropinirole",401,713823,0,0
+714684401,1511,"drug_era any time prior through 0 days relative to index: nefazodone",401,714684,0,0
+715233401,1501,"drug_era any time prior through 0 days relative to index: Baclofen",401,715233,0.0144738467399318,1
+715259401,1515,"drug_era any time prior through 0 days relative to index: duloxetine",401,715259,0,0
+715939401,1562,"drug_era any time prior through 0 days relative to index: Escitalopram",401,715939,0,0
+715997401,1514,"drug_era any time prior through 0 days relative to index: donepezil",401,715997,0.00314808376288192,1
+716968401,1219,"drug_era any time prior through 0 days relative to index: Desipramine",401,716968,0,0
+718122401,1341,"drug_era any time prior through 0 days relative to index: oxcarbazepine",401,718122,0,0
+719174401,1465,"drug_era any time prior through 0 days relative to index: Benztropine",401,719174,0,0
+719311401,1267,"drug_era any time prior through 0 days relative to index: Dextroamphetamine",401,719311,0,0
+720810401,1528,"drug_era any time prior through 0 days relative to index: Pramipexole",401,720810,0,0
+721724401,1426,"drug_era any time prior through 0 days relative to index: Nortriptyline",401,721724,0,0
+722031401,1198,"drug_era any time prior through 0 days relative to index: Paroxetine",401,722031,0,0
+723013401,1443,"drug_era any time prior through 0 days relative to index: Diazepam",401,723013,0.00401497499191374,1
+724394401,1291,"drug_era any time prior through 0 days relative to index: Orphenadrine",401,724394,0,0
+725131401,1391,"drug_era any time prior through 0 days relative to index: Mirtazapine",401,725131,0.00998063687583846,1
+733008401,1400,"drug_era any time prior through 0 days relative to index: Perphenazine",401,733008,0.000450557595302555,1
+733301401,1404,"drug_era any time prior through 0 days relative to index: Buspirone",401,733301,0,0
+733523401,1466,"drug_era any time prior through 0 days relative to index: rivastigmine",401,733523,0,0
+734275401,1493,"drug_era any time prior through 0 days relative to index: Phenobarbital",401,734275,0,0
+734354401,1350,"drug_era any time prior through 0 days relative to index: pregabalin",401,734354,0,0
+735951401,1451,"drug_era any time prior through 0 days relative to index: Riluzole",401,735951,0,0
+735979401,1232,"drug_era any time prior through 0 days relative to index: Risperidone",401,735979,0,0
+738156401,1273,"drug_era any time prior through 0 days relative to index: Doxepin",401,738156,0.01149811065097,1
+739138401,1392,"drug_era any time prior through 0 days relative to index: Sertraline",401,739138,0,0
+740275401,1401,"drug_era any time prior through 0 days relative to index: Carbamazepine",401,740275,0,0
+740560401,1432,"drug_era any time prior through 0 days relative to index: Carbidopa",401,740560,0,0
+740910401,1412,"drug_era any time prior through 0 days relative to index: Phenytoin",401,740910,0,0
+741530401,1526,"drug_era any time prior through 0 days relative to index: orlistat",401,741530,0.00210857793252702,1
+742185401,1454,"drug_era any time prior through 0 days relative to index: atomoxetine",401,742185,0,0
+742267401,1374,"drug_era any time prior through 0 days relative to index: topiramate",401,742267,0,0
+743670401,1371,"drug_era any time prior through 0 days relative to index: venlafaxine",401,743670,0,0
+744740401,1531,"drug_era any time prior through 0 days relative to index: zolpidem",401,744740,0,0
+744798401,1473,"drug_era any time prior through 0 days relative to index: zonisamide",401,744798,0,0
+745268401,1311,"drug_era any time prior through 0 days relative to index: ergoloid mesylates, USP",401,745268,0,0
+745466401,1430,"drug_era any time prior through 0 days relative to index: Valproate",401,745466,0,0
+749910401,1449,"drug_era any time prior through 0 days relative to index: Carisoprodol",401,749910,0,0
+750982401,1327,"drug_era any time prior through 0 days relative to index: Bupropion",401,750982,0,0
+751246401,1560,"drug_era any time prior through 0 days relative to index: Lithium Carbonate",401,751246,0,0
+751347401,1543,"drug_era any time prior through 0 days relative to index: Primidone",401,751347,0,0
+751412401,1281,"drug_era any time prior through 0 days relative to index: Fluvoxamine",401,751412,0,0
+752061401,1555,"drug_era any time prior through 0 days relative to index: Prochlorperazine",401,752061,0,0
+755695401,1328,"drug_era any time prior through 0 days relative to index: Fluoxetine",401,755695,0.00201455488251452,1
+756018401,1455,"drug_era any time prior through 0 days relative to index: Fluphenazine",401,756018,0,0
+756349401,1480,"drug_era any time prior through 0 days relative to index: Flurazepam",401,756349,0,0
+757627401,1251,"drug_era any time prior through 0 days relative to index: Galantamine",401,757627,0,0
+757688401,1398,"drug_era any time prior through 0 days relative to index: aripiprazole",401,757688,0,0
+766529401,1223,"drug_era any time prior through 0 days relative to index: Haloperidol",401,766529,0,0
+766814401,1524,"drug_era any time prior through 0 days relative to index: quetiapine",401,766814,0,0
+777221401,1228,"drug_era any time prior through 0 days relative to index: Hydroxyzine",401,777221,0.00514852360169788,1
+778268401,1486,"drug_era any time prior through 0 days relative to index: Imipramine",401,778268,0.000540749656805526,1
+778474401,1323,"drug_era any time prior through 0 days relative to index: tizanidine",401,778474,0,0
+778711401,1321,"drug_era any time prior through 0 days relative to index: cyclobenzaprine",401,778711,0,0
+780369401,1410,"drug_era any time prior through 0 days relative to index: metaxalone",401,780369,0,0
+781039401,1288,"drug_era any time prior through 0 days relative to index: Alprazolam",401,781039,0,0
+785788401,1377,"drug_era any time prior through 0 days relative to index: olanzapine",401,785788,0,0
+787787401,1534,"drug_era any time prior through 0 days relative to index: hyaluronate",401,787787,0,0
+789578401,1231,"drug_era any time prior through 0 days relative to index: Levodopa",401,789578,0,0
+790253401,1433,"drug_era any time prior through 0 days relative to index: clorazepate",401,790253,0,0
+791967401,1445,"drug_era any time prior through 0 days relative to index: Lorazepam",401,791967,0,0
+792263401,1234,"drug_era any time prior through 0 days relative to index: Loxapine",401,792263,0,0
+794852401,1316,"drug_era any time prior through 0 days relative to index: Chlorpromazine",401,794852,0,0
+797399401,1363,"drug_era any time prior through 0 days relative to index: gabapentin",401,797399,0.00559748582220358,1
+797617401,1338,"drug_era any time prior through 0 days relative to index: Citalopram",401,797617,0,0
+798834401,1539,"drug_era any time prior through 0 days relative to index: Clomipramine",401,798834,0,0
+798874401,1302,"drug_era any time prior through 0 days relative to index: Clonazepam",401,798874,0,0
+800878401,1444,"drug_era any time prior through 0 days relative to index: Clozapine",401,800878,0,0
+836715401,1472,"drug_era any time prior through 0 days relative to index: Temazepam",401,836715,0,0
+902427401,1343,"drug_era any time prior through 0 days relative to index: Timolol",401,902427,0,0
+902722401,1558,"drug_era any time prior through 0 days relative to index: Tobramycin",401,902722,0.0131651767323446,1
+903459401,1547,"drug_era any time prior through 0 days relative to index: Dolasetron",401,903459,0,0
+903643401,1563,"drug_era any time prior through 0 days relative to index: Tretinoin",401,903643,0,0
+903963401,1294,"drug_era any time prior through 0 days relative to index: Triamcinolone",401,903963,0,0
+904250401,1346,"drug_era any time prior through 0 days relative to index: Methazolamide",401,904250,0,0
+904453401,1334,"drug_era any time prior through 0 days relative to index: Esomeprazole",401,904453,0,0
+904542401,1225,"drug_era any time prior through 0 days relative to index: Triamterene",401,904542,0,0
+904639401,1242,"drug_era any time prior through 0 days relative to index: Trichlormethiazide",401,904639,0,0
+905273401,1373,"drug_era any time prior through 0 days relative to index: Methyclothiazide",401,905273,0,0
+906780401,1199,"drug_era any time prior through 0 days relative to index: Metoclopramide",401,906780,0,0
+906914401,1293,"drug_era any time prior through 0 days relative to index: Urea",401,906914,0,0
+907013401,1416,"drug_era any time prior through 0 days relative to index: Metolazone",401,907013,0,0
+911735401,1378,"drug_era any time prior through 0 days relative to index: rabeprazole",401,911735,0,0
+914335401,1259,"drug_era any time prior through 0 days relative to index: Atropine",401,914335,0,0
+915175401,1468,"drug_era any time prior through 0 days relative to index: Bacitracin",401,915175,0,0
+915542401,1381,"drug_era any time prior through 0 days relative to index: brimonidine",401,915542,0,0
+915981401,1379,"drug_era any time prior through 0 days relative to index: Neomycin",401,915981,0,0
+917006401,1453,"drug_era any time prior through 0 days relative to index: Benzocaine",401,917006,0,0
+918172401,1405,"drug_era any time prior through 0 days relative to index: Benzoyl Peroxide",401,918172,0,0
+918906401,1211,"drug_era any time prior through 0 days relative to index: oxybutynin",401,918906,0,0
+919204401,1434,"drug_era any time prior through 0 days relative to index: Amylases",401,919204,0,0
+920293401,1544,"drug_era any time prior through 0 days relative to index: Nitrofurantoin",401,920293,0,0
+920458401,1194,"drug_era any time prior through 0 days relative to index: Betamethasone",401,920458,0,0
+922570401,1507,"drug_era any time prior through 0 days relative to index: Nystatin",401,922570,0,0
+923081401,1409,"drug_era any time prior through 0 days relative to index: Ofloxacin",401,923081,0.0029831793015658,1
+923645401,1272,"drug_era any time prior through 0 days relative to index: Omeprazole",401,923645,0.0102699676117905,1
+923672401,1376,"drug_era any time prior through 0 days relative to index: Hyoscyamine",401,923672,0,0
+924566401,1304,"drug_era any time prior through 0 days relative to index: tamsulosin",401,924566,0,0
+924724401,1375,"drug_era any time prior through 0 days relative to index: Dicyclomine",401,924724,0,0
+927478401,1536,"drug_era any time prior through 0 days relative to index: pramoxine",401,927478,0,0
+929435401,1185,"drug_era any time prior through 0 days relative to index: Acetazolamide",401,929435,0,0
+929887401,1249,"drug_era any time prior through 0 days relative to index: lansoprazole",401,929887,0,0
+930916401,1548,"drug_era any time prior through 0 days relative to index: Diphenoxylate",401,930916,0,0
+931973401,1250,"drug_era any time prior through 0 days relative to index: Endopeptidases",401,931973,0,0
+932196401,1399,"drug_era any time prior through 0 days relative to index: Cisapride",401,932196,0,0
+932745401,1397,"drug_era any time prior through 0 days relative to index: Bumetanide",401,932745,0,0
+932815401,1448,"drug_era any time prior through 0 days relative to index: Levobunolol",401,932815,0,0
+933724401,1417,"drug_era any time prior through 0 days relative to index: Phenazopyridine",401,933724,0,0
+937439401,1498,"drug_era any time prior through 0 days relative to index: Bethanechol",401,937439,0,0
+938268401,1530,"drug_era any time prior through 0 days relative to index: sennosides, USP",401,938268,0,0
+939259401,1186,"drug_era any time prior through 0 days relative to index: Budesonide",401,939259,0,0
+939506401,1446,"drug_era any time prior through 0 days relative to index: Sodium Bicarbonate",401,939506,0,0
+941258401,1388,"drug_era any time prior through 0 days relative to index: Docusate",401,941258,0,0
+942350401,1476,"drug_era any time prior through 0 days relative to index: torsemide",401,942350,0,0
+945286401,1229,"drug_era any time prior through 0 days relative to index: Pilocarpine",401,945286,0,0
+948078401,1390,"drug_era any time prior through 0 days relative to index: pantoprazole",401,948078,0,0
+948582401,1248,"drug_era any time prior through 0 days relative to index: Polymyxin B",401,948582,0,0
+953076401,1303,"drug_era any time prior through 0 days relative to index: Famotidine",401,953076,0,0
+955583401,1512,"drug_era any time prior through 0 days relative to index: Fluorometholone",401,955583,0,0
+955632401,1421,"drug_era any time prior through 0 days relative to index: Fluorouracil",401,955632,0,0
+956874401,1202,"drug_era any time prior through 0 days relative to index: Furosemide",401,956874,0,0
+961047401,1469,"drug_era any time prior through 0 days relative to index: Ranitidine",401,961047,0,0
+964339401,1200,"drug_era any time prior through 0 days relative to index: Sulfasalazine",401,964339,0,0
+966991401,1313,"drug_era any time prior through 0 days relative to index: Simethicone",401,966991,0,0
+967823401,1253,"drug_era any time prior through 0 days relative to index: Sodium Chloride",401,967823,0.00231043810593244,1
+968426401,1366,"drug_era any time prior through 0 days relative to index: mesalamine",401,968426,0,0
+970250401,1305,"drug_era any time prior through 0 days relative to index: Spironolactone",401,970250,0,0
+974166401,1289,"drug_era any time prior through 0 days relative to index: Hydrochlorothiazide",401,974166,0.012090392383749,1
+975125401,1459,"drug_era any time prior through 0 days relative to index: Hydrocortisone",401,975125,0,0
+978555401,1439,"drug_era any time prior through 0 days relative to index: Indapamide",401,978555,0,0
+980867401,1450,"drug_era any time prior through 0 days relative to index: Clioquinol",401,980867,0.00369349304370009,1
+988095401,1489,"drug_era any time prior through 0 days relative to index: Ursodeoxycholate",401,988095,0,0
+988294401,1482,"drug_era any time prior through 0 days relative to index: dexpanthenol",401,988294,0,0
+989878401,1240,"drug_era any time prior through 0 days relative to index: Lidocaine",401,989878,0,0
+990009401,1522,"drug_era any time prior through 0 days relative to index: Dipivefrin",401,990009,0,0
+990678401,1235,"drug_era any time prior through 0 days relative to index: Chlordiazepoxide",401,990678,0,0
+990760401,1496,"drug_era any time prior through 0 days relative to index: Lipase",401,990760,0,0
+991382401,1203,"drug_era any time prior through 0 days relative to index: Amiloride",401,991382,0,0
+991876401,1554,"drug_era any time prior through 0 days relative to index: Loperamide",401,991876,0,0
+992590401,1331,"drug_era any time prior through 0 days relative to index: Chlorothiazide",401,992590,0,0
+994341401,1358,"drug_era any time prior through 0 days relative to index: Meclizine",401,994341,0,0
+996416401,1452,"drug_era any time prior through 0 days relative to index: Finasteride",401,996416,0,0
+997276401,1475,"drug_era any time prior through 0 days relative to index: Cimetidine",401,997276,0,0
+997881401,1292,"drug_era any time prior through 0 days relative to index: Clindamycin",401,997881,0,0
+998415401,1461,"drug_era any time prior through 0 days relative to index: Clobetasol",401,998415,0,0
+1000560401,1357,"drug_era any time prior through 0 days relative to index: Ondansetron",401,1000560,0,0
+1000632401,1483,"drug_era any time prior through 0 days relative to index: Clotrimazole",401,1000632,0.00452727096126573,1
+1000772401,1463,"drug_era any time prior through 0 days relative to index: Granisetron",401,1000772,0,0
+1036252401,1300,"drug_era any time prior through 0 days relative to index: Sulfacetamide",401,1036252,0,0
+1101554401,1518,"drug_era any time prior through 0 days relative to index: Colchicine",401,1101554,0,0
+1102527401,1495,"drug_era any time prior through 0 days relative to index: Meperidine",401,1102527,0,0
+1103314401,1383,"drug_era any time prior through 0 days relative to index: Tramadol",401,1103314,0,0
+1103518401,1561,"drug_era any time prior through 0 days relative to index: isometheptene",401,1103518,0,0
+1103640401,1542,"drug_era any time prior through 0 days relative to index: Methadone",401,1103640,0,0
+1105775401,1278,"drug_era any time prior through 0 days relative to index: Aminophylline",401,1105775,0.00217045479934495,1
+1107830401,1368,"drug_era any time prior through 0 days relative to index: Loratadine",401,1107830,0,0
+1110410401,1220,"drug_era any time prior through 0 days relative to index: Morphine",401,1110410,0.000551758671346975,1
+1112807401,1218,"drug_era any time prior through 0 days relative to index: Aspirin",401,1112807,0,0
+1112921401,1361,"drug_era any time prior through 0 days relative to index: Ipratropium",401,1112921,0,0
+1113648401,1299,"drug_era any time prior through 0 days relative to index: nabumetone",401,1113648,0,0
+1114220401,1479,"drug_era any time prior through 0 days relative to index: Naloxone",401,1114220,0.00336961803329116,1
+1115008401,1182,"drug_era any time prior through 0 days relative to index: Naproxen",401,1115008,0,0
+1115572401,1497,"drug_era any time prior through 0 days relative to index: Beclomethasone",401,1115572,0,0
+1118045401,1566,"drug_era any time prior through 0 days relative to index: oxaprozin",401,1118045,0,0
+1118084401,1519,"drug_era any time prior through 0 days relative to index: celecoxib",401,1118084,0,0
+1119510401,1221,"drug_era any time prior through 0 days relative to index: Dextromethorphan",401,1119510,0,0
+1123995401,1329,"drug_era any time prior through 0 days relative to index: metaproterenol",401,1123995,0,0
+1124300401,1268,"drug_era any time prior through 0 days relative to index: Diclofenac",401,1124300,0,0
+1124957401,1295,"drug_era any time prior through 0 days relative to index: Oxycodone",401,1124957,0,0
+1125315401,1254,"drug_era any time prior through 0 days relative to index: Acetaminophen",401,1125315,0.00130960705816963,1
+1126658401,1257,"drug_era any time prior through 0 days relative to index: Hydromorphone",401,1126658,0,0
+1129625401,1213,"drug_era any time prior through 0 days relative to index: Diphenhydramine",401,1129625,0.000515772602062795,1
+1130863401,1470,"drug_era any time prior through 0 days relative to index: Brompheniramine",401,1130863,0,0
+1133201401,1509,"drug_era any time prior through 0 days relative to index: Buprenorphine",401,1133201,0,0
+1134439401,1262,"drug_era any time prior through 0 days relative to index: Caffeine",401,1134439,0,0
+1135766401,1239,"drug_era any time prior through 0 days relative to index: Phenylephrine",401,1135766,0,0
+1136980401,1457,"drug_era any time prior through 0 days relative to index: Ketorolac",401,1136980,0,0
+1137460401,1436,"drug_era any time prior through 0 days relative to index: Salsalate",401,1137460,0,0
+1139699401,1419,"drug_era any time prior through 0 days relative to index: butalbital",401,1139699,0,0
+1139993401,1422,"drug_era any time prior through 0 days relative to index: Phenylpropanolamine",401,1139993,0,0
+1140088401,1364,"drug_era any time prior through 0 days relative to index: Dyphylline",401,1140088,0,0
+1140643401,1246,"drug_era any time prior through 0 days relative to index: Sumatriptan",401,1140643,0,0
+1143374401,1481,"drug_era any time prior through 0 days relative to index: Ephedrine",401,1143374,0,0
+1146810401,1362,"drug_era any time prior through 0 days relative to index: Piroxicam",401,1146810,0,0
+1149196401,1532,"drug_era any time prior through 0 days relative to index: Cetirizine",401,1149196,0,0
+1149380401,1270,"drug_era any time prior through 0 days relative to index: fluticasone",401,1149380,0,0
+1150345401,1508,"drug_era any time prior through 0 days relative to index: meloxicam",401,1150345,0,0
+1150871401,1382,"drug_era any time prior through 0 days relative to index: Misoprostol",401,1150871,0,0
+1151422401,1485,"drug_era any time prior through 0 days relative to index: Probenecid",401,1151422,0,0
+1152631401,1503,"drug_era any time prior through 0 days relative to index: Cromolyn",401,1152631,0,0
+1153013401,1425,"drug_era any time prior through 0 days relative to index: Promethazine",401,1153013,0,0
+1153428401,1296,"drug_era any time prior through 0 days relative to index: fexofenadine",401,1153428,0,0
+1153664401,1187,"drug_era any time prior through 0 days relative to index: Propoxyphene",401,1153664,0,0
+1154029401,1236,"drug_era any time prior through 0 days relative to index: Fentanyl",401,1154029,0.0101323475798476,1
+1154161401,1325,"drug_era any time prior through 0 days relative to index: montelukast",401,1154161,0,0
+1154332401,1319,"drug_era any time prior through 0 days relative to index: Pseudoephedrine",401,1154332,0,0
+1154343401,1308,"drug_era any time prior through 0 days relative to index: Albuterol",401,1154343,0.00490653650260053,1
+1159811401,1427,"drug_era any time prior through 0 days relative to index: Pyrilamine",401,1159811,0,0
+1163944401,1205,"drug_era any time prior through 0 days relative to index: Guaifenesin",401,1163944,0.00774849554051944,1
+1167322401,1345,"drug_era any time prior through 0 days relative to index: Allopurinol",401,1167322,0,0
+1168079401,1411,"drug_era any time prior through 0 days relative to index: Magnesium Salicylate",401,1168079,0,0
+1174888401,1192,"drug_era any time prior through 0 days relative to index: Hydrocodone",401,1174888,0,0
+1177480401,1332,"drug_era any time prior through 0 days relative to index: Ibuprofen",401,1177480,0,0
+1178663401,1181,"drug_era any time prior through 0 days relative to index: Indomethacin",401,1178663,0,0
+1189490401,1502,"drug_era any time prior through 0 days relative to index: dichloralphenazone",401,1189490,0,0
+1192218401,1336,"drug_era any time prior through 0 days relative to index: Levalbuterol",401,1192218,0,0
+1192710401,1396,"drug_era any time prior through 0 days relative to index: Chlorpheniramine",401,1192710,0,0
+1195334401,1255,"drug_era any time prior through 0 days relative to index: Choline",401,1195334,0,0
+1195492401,1230,"drug_era any time prior through 0 days relative to index: Etodolac",401,1195492,0,0
+1196514401,1527,"drug_era any time prior through 0 days relative to index: flunisolide",401,1196514,0,0
+1201620401,1322,"drug_era any time prior through 0 days relative to index: Codeine",401,1201620,0,0
+1236744401,1314,"drug_era any time prior through 0 days relative to index: Terbutaline",401,1236744,0,0
+1237049401,1216,"drug_era any time prior through 0 days relative to index: Theophylline",401,1237049,0,0
+1301025401,1546,"drug_era any time prior through 0 days relative to index: Enoxaparin",401,1301025,0,0
+1301125401,1260,"drug_era any time prior through 0 days relative to index: Epoetin Alfa",401,1301125,0,0
+1302398401,1310,"drug_era any time prior through 0 days relative to index: Ticlopidine",401,1302398,0,0
+1304643401,1274,"drug_era any time prior through 0 days relative to index: darbepoetin alfa",401,1304643,0,0
+1304850401,1309,"drug_era any time prior through 0 days relative to index: Filgrastim",401,1304850,0,0
+1305058401,1462,"drug_era any time prior through 0 days relative to index: Methotrexate",401,1305058,0.00798654294588954,1
+1305447401,1212,"drug_era any time prior through 0 days relative to index: Methyldopa",401,1305447,0,0
+1307046401,1283,"drug_era any time prior through 0 days relative to index: Metoprolol",401,1307046,0.0042380582149628,1
+1307863401,1370,"drug_era any time prior through 0 days relative to index: Verapamil",401,1307863,0.000413699563168687,1
+1308216401,1197,"drug_era any time prior through 0 days relative to index: Lisinopril",401,1308216,0.005816473450448,1
+1308738401,1372,"drug_era any time prior through 0 days relative to index: Vitamin B 12",401,1308738,0,0
+1308842401,1312,"drug_era any time prior through 0 days relative to index: valsartan",401,1308842,0,0
+1309068401,1389,"drug_era any time prior through 0 days relative to index: Minoxidil",401,1309068,0,0
+1309944401,1557,"drug_era any time prior through 0 days relative to index: Amiodarone",401,1309944,0,0
+1310149401,1342,"drug_era any time prior through 0 days relative to index: Warfarin",401,1310149,0.000801945519138804,1
+1313200401,1478,"drug_era any time prior through 0 days relative to index: Nadolol",401,1313200,0,0
+1314002401,1347,"drug_era any time prior through 0 days relative to index: Atenolol",401,1314002,0,0
+1314273401,1441,"drug_era any time prior through 0 days relative to index: rituximab",401,1314273,0,0
+1314924401,1541,"drug_era any time prior through 0 days relative to index: gemcitabine",401,1314924,0,0
+1315942401,1552,"drug_era any time prior through 0 days relative to index: docetaxel",401,1315942,0,0
+1317640401,1340,"drug_era any time prior through 0 days relative to index: telmisartan",401,1317640,0,0
+1317967401,1538,"drug_era any time prior through 0 days relative to index: aliskiren",401,1317967,0,0
+1318137401,1365,"drug_era any time prior through 0 days relative to index: Nicardipine",401,1318137,0,0
+1318853401,1335,"drug_era any time prior through 0 days relative to index: Nifedipine",401,1318853,0.00273687745639746,1
+1322081401,1403,"drug_era any time prior through 0 days relative to index: Betaxolol",401,1322081,0,0
+1322184401,1330,"drug_era any time prior through 0 days relative to index: clopidogrel",401,1322184,0,0
+1326303401,1244,"drug_era any time prior through 0 days relative to index: Digoxin",401,1326303,0,0
+1328165401,1243,"drug_era any time prior through 0 days relative to index: Diltiazem",401,1328165,0.0044945220637323,1
+1331235401,1238,"drug_era any time prior through 0 days relative to index: quinapril",401,1331235,0,0
+1331270401,1286,"drug_era any time prior through 0 days relative to index: Dipyridamole",401,1331270,0.00554612744246773,1
+1332418401,1184,"drug_era any time prior through 0 days relative to index: Amlodipine",401,1332418,0,0
+1334456401,1247,"drug_era any time prior through 0 days relative to index: Ramipril",401,1334456,0,0
+1335471401,1277,"drug_era any time prior through 0 days relative to index: benazepril",401,1335471,0,0
+1335606401,1208,"drug_era any time prior through 0 days relative to index: Disopyramide",401,1335606,0,0
+1338005401,1384,"drug_era any time prior through 0 days relative to index: Bisoprolol",401,1338005,0,0
+1340128401,1207,"drug_era any time prior through 0 days relative to index: Captopril",401,1340128,0.00783330727402176,1
+1341238401,1349,"drug_era any time prior through 0 days relative to index: Terazosin",401,1341238,0,0
+1341927401,1237,"drug_era any time prior through 0 days relative to index: Enalapril",401,1341927,0.00235254203523721,1
+1342439401,1265,"drug_era any time prior through 0 days relative to index: trandolapril",401,1342439,0,0
+1343916401,1344,"drug_era any time prior through 0 days relative to index: Epinephrine",401,1343916,0,0
+1344905401,1549,"drug_era any time prior through 0 days relative to index: Carboplatin",401,1344905,0,0
+1345858401,1506,"drug_era any time prior through 0 days relative to index: Pindolol",401,1345858,0,0
+1346686401,1435,"drug_era any time prior through 0 days relative to index: eprosartan",401,1346686,0,0
+1346823401,1301,"drug_era any time prior through 0 days relative to index: carvedilol",401,1346823,0,0
+1347384401,1266,"drug_era any time prior through 0 days relative to index: irbesartan",401,1347384,0,0
+1350489401,1279,"drug_era any time prior through 0 days relative to index: Prazosin",401,1350489,0,0
+1351461401,1431,"drug_era any time prior through 0 days relative to index: Procainamide",401,1351461,0,0
+1351541401,1500,"drug_era any time prior through 0 days relative to index: Leuprolide",401,1351541,0,0
+1351557401,1226,"drug_era any time prior through 0 days relative to index: candesartan",401,1351557,0,0
+1353766401,1284,"drug_era any time prior through 0 days relative to index: Propranolol",401,1353766,0,0
+1353776401,1414,"drug_era any time prior through 0 days relative to index: Felodipine",401,1353776,0,0
+1360421401,1488,"drug_era any time prior through 0 days relative to index: Quinidine",401,1360421,0,0
+1361711401,1353,"drug_era any time prior through 0 days relative to index: Nitroglycerin",401,1361711,0.00218390619962353,1
+1362225401,1510,"drug_era any time prior through 0 days relative to index: Reserpine",401,1362225,0,0
+1363053401,1428,"drug_era any time prior through 0 days relative to index: Doxazosin",401,1363053,0,0
+1363749401,1491,"drug_era any time prior through 0 days relative to index: Fosinopril",401,1363749,0,0
+1367500401,1217,"drug_era any time prior through 0 days relative to index: Losartan",401,1367500,0,0
+1367571401,1356,"drug_era any time prior through 0 days relative to index: heparin",401,1367571,0,0
+1370109401,1188,"drug_era any time prior through 0 days relative to index: Sotalol",401,1370109,0,0
+1373928401,1258,"drug_era any time prior through 0 days relative to index: Hydralazine",401,1373928,0,0
+1378382401,1477,"drug_era any time prior through 0 days relative to index: Paclitaxel",401,1378382,0,0
+1383815401,1418,"drug_era any time prior through 0 days relative to index: Isosorbide",401,1383815,0,0
+1383925401,1261,"drug_era any time prior through 0 days relative to index: Isosorbide Dinitrate",401,1383925,0,0
+1386957401,1209,"drug_era any time prior through 0 days relative to index: Labetalol",401,1386957,0.00352957253868751,1
+1388796401,1553,"drug_era any time prior through 0 days relative to index: Leucovorin",401,1388796,0,0
+1395058401,1333,"drug_era any time prior through 0 days relative to index: Chlorthalidone",401,1395058,0,0
+1396012401,1352,"drug_era any time prior through 0 days relative to index: ferrous gluconate",401,1396012,0,0
+1396131401,1191,"drug_era any time prior through 0 days relative to index: ferrous sulfate",401,1396131,0.0031570447865954,1
+1397141401,1535,"drug_era any time prior through 0 days relative to index: bevacizumab",401,1397141,0,0
+1398937401,1324,"drug_era any time prior through 0 days relative to index: Clonidine",401,1398937,0,0
+1500211401,1499,"drug_era any time prior through 0 days relative to index: Medroxyprogesterone",401,1500211,0,0
+1501309401,1275,"drug_era any time prior through 0 days relative to index: thyroid (USP)",401,1501309,0,0
+1501700401,1189,"drug_era any time prior through 0 days relative to index: levothyroxine",401,1501700,0,0
+1502809401,1474,"drug_era any time prior through 0 days relative to index: Tolazamide",401,1502809,0,0
+1502855401,1406,"drug_era any time prior through 0 days relative to index: Tolbutamide",401,1502855,0,0
+1503297401,1201,"drug_era any time prior through 0 days relative to index: Metformin",401,1503297,0,0
+1504620401,1420,"drug_era any time prior through 0 days relative to index: Methimazole",401,1504620,0,0
+1505346401,1395,"drug_era any time prior through 0 days relative to index: liothyronine",401,1505346,0,0
+1506270401,1206,"drug_era any time prior through 0 days relative to index: Methylprednisolone",401,1506270,0,0
+1506602401,1424,"drug_era any time prior through 0 days relative to index: Methyltestosterone",401,1506602,0,0
+1510813401,1387,"drug_era any time prior through 0 days relative to index: rosuvastatin",401,1510813,0,0
+1512446401,1551,"drug_era any time prior through 0 days relative to index: Doxercalciferol",401,1512446,0,0
+1513103401,1559,"drug_era any time prior through 0 days relative to index: Raloxifene",401,1513103,0,0
+1517740401,1525,"drug_era any time prior through 0 days relative to index: paricalcitol",401,1517740,0,0
+1517824401,1487,"drug_era any time prior through 0 days relative to index: Niacin",401,1517824,0,0
+1518148401,1386,"drug_era any time prior through 0 days relative to index: colesevelam",401,1518148,0.00684441397407963,1
+1518254401,1337,"drug_era any time prior through 0 days relative to index: Dexamethasone",401,1518254,0.00396394272783108,1
+1525215401,1351,"drug_era any time prior through 0 days relative to index: pioglitazone",401,1525215,0,0
+1526475401,1504,"drug_era any time prior through 0 days relative to index: ezetimibe",401,1526475,0.00292406764790207,1
+1539403401,1196,"drug_era any time prior through 0 days relative to index: Simvastatin",401,1539403,0.00300273076670477,1
+1545958401,1285,"drug_era any time prior through 0 days relative to index: atorvastatin",401,1545958,0,0
+1547504401,1227,"drug_era any time prior through 0 days relative to index: rosiglitazone",401,1547504,0,0
+1548195401,1271,"drug_era any time prior through 0 days relative to index: Estradiol",401,1548195,0.00327080189556455,1
+1549080401,1307,"drug_era any time prior through 0 days relative to index: Estrogens, Conjugated (USP)",401,1549080,0,0
+1549686401,1320,"drug_era any time prior through 0 days relative to index: fluvastatin",401,1549686,0,0
+1550557401,1348,"drug_era any time prior through 0 days relative to index: prednisolone",401,1550557,0,0
+1551099401,1245,"drug_era any time prior through 0 days relative to index: Prednisone",401,1551099,0,0
+1551673401,1456,"drug_era any time prior through 0 days relative to index: Estrogens, Esterified (USP)",401,1551673,0,0
+1551803401,1204,"drug_era any time prior through 0 days relative to index: Fenofibrate",401,1551803,0,0
+1551860401,1354,"drug_era any time prior through 0 days relative to index: Pravastatin",401,1551860,0,0
+1554072401,1568,"drug_era any time prior through 0 days relative to index: Propylthiouracil",401,1554072,0,0
+1557272401,1190,"drug_era any time prior through 0 days relative to index: Alendronate",401,1557272,0,0
+1558242401,1408,"drug_era any time prior through 0 days relative to index: Gemfibrozil",401,1558242,0,0
+1559684401,1180,"drug_era any time prior through 0 days relative to index: Glyburide",401,1559684,0,0
+1560171401,1233,"drug_era any time prior through 0 days relative to index: Glipizide",401,1560171,0,0
+1560305401,1565,"drug_era any time prior through 0 days relative to index: Omega-3 Acid Ethyl Esters (USP)",401,1560305,0,0
+1560524401,1393,"drug_era any time prior through 0 days relative to index: Glucose",401,1560524,0,0
+1580747401,1520,"drug_era any time prior through 0 days relative to index: sitagliptin",401,1580747,0,0
+1592085401,1252,"drug_era any time prior through 0 days relative to index: Lovastatin",401,1592085,0.00554678238173327,1
+1594973401,1183,"drug_era any time prior through 0 days relative to index: Chlorpropamide",401,1594973,0,0
+1596977401,1269,"drug_era any time prior through 0 days relative to index: Regular Insulin, Human",401,1596977,0,0
+1597756401,1380,"drug_era any time prior through 0 days relative to index: glimepiride",401,1597756,0,0
+1598658401,1429,"drug_era any time prior through 0 days relative to index: Clofibrate",401,1598658,0,0
+1636780401,1385,"drug_era any time prior through 0 days relative to index: Testosterone",401,1636780,0,0
+1703687401,1513,"drug_era any time prior through 0 days relative to index: Acyclovir",401,1703687,0,0
+1704183401,1460,"drug_era any time prior through 0 days relative to index: Lamivudine",401,1704183,0.00413831943686506,1
+1705674401,1326,"drug_era any time prior through 0 days relative to index: Trimethoprim",401,1705674,0,0
+1707164401,1195,"drug_era any time prior through 0 days relative to index: Metronidazole",401,1707164,0,0
+1707687401,1516,"drug_era any time prior through 0 days relative to index: Vancomycin",401,1707687,0,0
+1710612401,1402,"drug_era any time prior through 0 days relative to index: Zidovudine",401,1710612,0,0
+1713332401,1215,"drug_era any time prior through 0 days relative to index: Amoxicillin",401,1713332,0,0
+1717327401,1437,"drug_era any time prior through 0 days relative to index: Ampicillin",401,1717327,0,0
+1717704401,1494,"drug_era any time prior through 0 days relative to index: valacyclovir",401,1717704,0,0
+1734104401,1276,"drug_era any time prior through 0 days relative to index: Azithromycin",401,1734104,0,0
+1738366401,1458,"drug_era any time prior through 0 days relative to index: cefprozil",401,1738366,0.00414381233859652,1
+1738521401,1367,"drug_era any time prior through 0 days relative to index: Doxycycline",401,1738521,0,0
+1741309401,1471,"drug_era any time prior through 0 days relative to index: terbinafine",401,1741309,0,0
+1742253401,1318,"drug_era any time prior through 0 days relative to index: Levofloxacin",401,1742253,0,0
+1746940401,1492,"drug_era any time prior through 0 days relative to index: Erythromycin",401,1746940,0,0
+1750500401,1298,"drug_era any time prior through 0 days relative to index: Clarithromycin",401,1750500,0,0
+1754994401,1533,"drug_era any time prior through 0 days relative to index: Fluconazole",401,1754994,0,0
+1759842401,1339,"drug_era any time prior through 0 days relative to index: Clavulanate",401,1759842,0,0
+1760616401,1241,"drug_era any time prior through 0 days relative to index: Quinine",401,1760616,0,0
+1768849401,1415,"drug_era any time prior through 0 days relative to index: Cefaclor",401,1768849,0,0
+1769535401,1545,"drug_era any time prior through 0 days relative to index: Cefadroxil",401,1769535,0,0
+1771162401,1407,"drug_era any time prior through 0 days relative to index: Cefazolin",401,1771162,0,0
+1777806401,1369,"drug_era any time prior through 0 days relative to index: Ceftriaxone",401,1777806,0,0
+1778162401,1529,"drug_era any time prior through 0 days relative to index: Cefuroxime",401,1778162,0,0
+1786621401,1540,"drug_era any time prior through 0 days relative to index: Cephalexin",401,1786621,0,0
+1790812401,1484,"drug_era any time prior through 0 days relative to index: Chlorhexidine",401,1790812,0,0
+1797513401,1210,"drug_era any time prior through 0 days relative to index: Ciprofloxacin",401,1797513,0,0
+1836430401,1355,"drug_era any time prior through 0 days relative to index: Sulfamethoxazole",401,1836430,0,0
+1836503401,1567,"drug_era any time prior through 0 days relative to index: Sulfisoxazole",401,1836503,0,0
+1836948401,1263,"drug_era any time prior through 0 days relative to index: Tetracycline",401,1836948,0,0
+2101868801,21,"observation any time prior through 0 days relative to index: ",801,2101868,0.00403709321548557,1
+2101897801,22,"observation any time prior through 0 days relative to index: ",801,2101897,0.00549996563636093,1
+2101922801,63,"observation any time prior through 0 days relative to index: ",801,2101922,0,0
+2101941801,85,"observation any time prior through 0 days relative to index: ",801,2101941,0,0
+2102832801,90,"observation any time prior through 0 days relative to index: ",801,2102832,0.00764260582661423,1
+2102833801,71,"observation any time prior through 0 days relative to index: ",801,2102833,0,0
+2102836801,44,"observation any time prior through 0 days relative to index: ",801,2102836,0,0
+2102841801,86,"observation any time prior through 0 days relative to index: ",801,2102841,0,0
+2102854801,79,"observation any time prior through 0 days relative to index: ",801,2102854,0,0
+2102861801,12,"observation any time prior through 0 days relative to index: ",801,2102861,0,0
+2106182801,46,"observation any time prior through 0 days relative to index: ",801,2106182,0,0
+2106213801,38,"observation any time prior through 0 days relative to index: ",801,2106213,0,0
+2106236801,88,"observation any time prior through 0 days relative to index: ",801,2106236,0,0
+2106254801,40,"observation any time prior through 0 days relative to index: ",801,2106254,0,0
+2106281801,65,"observation any time prior through 0 days relative to index: ",801,2106281,0,0
+2106285801,74,"observation any time prior through 0 days relative to index: ",801,2106285,0,0
+2106386801,2,"observation any time prior through 0 days relative to index: ",801,2106386,0,0
+2108533801,53,"observation any time prior through 0 days relative to index: ",801,2108533,0,0
+2108546801,29,"observation any time prior through 0 days relative to index: ",801,2108546,0,0
+2108553801,18,"observation any time prior through 0 days relative to index: ",801,2108553,0,0
+2108554801,84,"observation any time prior through 0 days relative to index: ",801,2108554,0,0
+2213587801,83,"observation any time prior through 0 days relative to index: ",801,2213587,0,0
+2314342801,62,"observation any time prior through 0 days relative to index: ",801,2314342,0,0
+2514490801,1,"observation any time prior through 0 days relative to index: ",801,2514490,0,0
+2514491801,54,"observation any time prior through 0 days relative to index: ",801,2514491,0,0
+2514492801,33,"observation any time prior through 0 days relative to index: ",801,2514492,0,0
+2614664801,77,"observation any time prior through 0 days relative to index: Ambulance (als or bls) oxygen and oxygen supplies, life sustaining situation",801,2614664,0,0
+2614666801,19,"observation any time prior through 0 days relative to index: Ground mileage, per statute mile",801,2614666,0.00349462129665396,1
+2614667801,72,"observation any time prior through 0 days relative to index: Ambulance service, advanced life support, non-emergency transport, level 1 (als 1)",801,2614667,0,0
+2614668801,51,"observation any time prior through 0 days relative to index: Ambulance service, advanced life support, emergency transport, level 1 (als 1 - emergency)",801,2614668,0,0
+2614669801,15,"observation any time prior through 0 days relative to index: Ambulance service, basic life support, non-emergency transport, (bls)",801,2614669,0.00288111419312352,1
+2614670801,6,"observation any time prior through 0 days relative to index: Ambulance service, basic life support, emergency transport (bls-emergency)",801,2614670,0,0
+2617254801,81,"observation any time prior through 0 days relative to index: External counterpulsation, per treatment session",801,2617254,0,0
+2617267801,24,"observation any time prior through 0 days relative to index: Md recertification hha pt",801,2617267,0,0
+2617268801,61,"observation any time prior through 0 days relative to index: Md certification hha patient",801,2617268,0,0
+2617269801,37,"observation any time prior through 0 days relative to index: Home health care supervision",801,2617269,0,0
+2617452801,48,"observation any time prior through 0 days relative to index: Hospital observation service, per hour",801,2617452,0,0
+2617827801,59,"observation any time prior through 0 days relative to index: Eligible clinician attests to documenting in the medical record they obtained, updated, or reviewed the patient's current medications",801,2617827,0.00279620845475319,1
+2720581801,56,"observation any time prior through 0 days relative to index: Set-up portable x-ray equipment",801,2720581,0,0
+2720869801,49,"observation any time prior through 0 days relative to index: Low osmolar contrast material, 200-299 mg/ml iodine concentration, per ml",801,2720869,0,0
+2720870801,3,"observation any time prior through 0 days relative to index: Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",801,2720870,0,0
+2720895801,41,"observation any time prior through 0 days relative to index: Transportation of portable x-ray equipment and personnel to home or nursing home, per trip to facility or location, one patient seen",801,2720895,0,0
+2720896801,70,"observation any time prior through 0 days relative to index: Transportation of portable x-ray equipment and personnel to home or nursing home, per trip to facility or location, more than one patient seen",801,2720896,0,0
+4000609201,654,"condition_era any time prior through 0 days relative to index: Disorder of upper gastrointestinal tract",201,4000609,0,0
+4002650201,775,"condition_era any time prior through 0 days relative to index: Plantar fasciitis",201,4002650,0,0
+4007453201,1111,"condition_era any time prior through 0 days relative to index: Gammopathy",201,4007453,0,0
+4011950801,92,"observation any time prior through 0 days relative to index: Patient need for",801,4011950,0,0
+4012368201,252,"condition_era any time prior through 0 days relative to index: Increased frequency of urination",201,4012368,0,0
+4014023801,73,"observation any time prior through 0 days relative to index: Palliative care",801,4014023,0,0
+4015724801,13,"observation any time prior through 0 days relative to index: Vaccination required",801,4015724,0.00630347940234857,1
+4017388201,121,"condition_era any time prior through 0 days relative to index: Closed dislocation lumbar spine",201,4017388,0,0
+4021200801,75,"observation any time prior through 0 days relative to index: Care of patient states",801,4021200,0,0
+4022071201,209,"condition_era any time prior through 0 days relative to index: Convalescence",201,4022071,0,0
+4027396201,446,"condition_era any time prior through 0 days relative to index: Peripheral neuritis",201,4027396,0,0
+4028057201,1088,"condition_era any time prior through 0 days relative to index: Deep venous thrombosis of upper extremity",201,4028057,0.00227063207340104,1
+4029488201,1124,"condition_era any time prior through 0 days relative to index: Hepatic encephalopathy",201,4029488,0,0
+4032376801,20,"observation any time prior through 0 days relative to index: Physical rehabilitation therapy procedure",801,4032376,0,0
+4035441201,949,"condition_era any time prior through 0 days relative to index: Osteoarthritis of wrist",201,4035441,0,0
+4043731201,402,"condition_era any time prior through 0 days relative to index: Infarction - precerebral",201,4043731,0,0
+4046550801,7,"observation any time prior through 0 days relative to index: Postoperative care",801,4046550,0.0069478456347697,1
+4058419801,52,"observation any time prior through 0 days relative to index: H/O: surgery",801,4058419,0,0
+4058429801,68,"observation any time prior through 0 days relative to index: H/O: heart valve recipient",801,4058429,0,0
+4058431801,9,"observation any time prior through 0 days relative to index: H/O: artificial joint",801,4058431,0.00373253098295818,1
+4058860801,64,"observation any time prior through 0 days relative to index: H/O: heart recipient",801,4058860,0,0
+4059320801,67,"observation any time prior through 0 days relative to index: H/O: respiratory disease",801,4059320,0,0
+4059356801,34,"observation any time prior through 0 days relative to index: History of renal transplant",801,4059356,0.00385657253396768,1
+4059464801,87,"observation any time prior through 0 days relative to index: H/O: liver recipient",801,4059464,0,0
+4059465801,10,"observation any time prior through 0 days relative to index: H/O: lung recipient",801,4059465,0,0
+4059467801,27,"observation any time prior through 0 days relative to index: H/O: artificial eye lens",801,4059467,0,0
+4060089801,55,"observation any time prior through 0 days relative to index: H/O: artificial heart valve",801,4060089,0,0
+4060094801,91,"observation any time prior through 0 days relative to index: H/O: respirator dependence",801,4060094,0,0
+4060705801,58,"observation any time prior through 0 days relative to index: Body mass index 25-29 - overweight",801,4060705,0.00376613520873503,1
+4060985801,80,"observation any time prior through 0 days relative to index: Body mass index 30+ - obesity",801,4060985,0,0
+4061946801,31,"observation any time prior through 0 days relative to index: Follow-up risk drug assessment",801,4061946,0,0
+4066371201,443,"condition_era any time prior through 0 days relative to index: Cellulitis and abscess of lower leg",201,4066371,0,0
+4068379201,1159,"condition_era any time prior through 0 days relative to index: Inflammatory spondylopathy associated with another disorder",201,4068379,0,0
+4070679201,876,"condition_era any time prior through 0 days relative to index: Postthrombotic syndrome",201,4070679,0,0
+4076788801,60,"observation any time prior through 0 days relative to index: Stoma care procedure",801,4076788,0,0
+4079936201,348,"condition_era any time prior through 0 days relative to index: Convalescence after chemotherapy",201,4079936,0.00588827653499448,1
+4081759801,50,"observation any time prior through 0 days relative to index: Transplant follow-up",801,4081759,0,0
+4083043201,765,"condition_era any time prior through 0 days relative to index: Convalescence after surgery",201,4083043,0,0
+4083695201,1169,"condition_era any time prior through 0 days relative to index: Osteoarthritis of elbow",201,4083695,0,0
+4085075201,427,"condition_era any time prior through 0 days relative to index: At risk - finding",201,4085075,0,0
+4088290201,968,"condition_era any time prior through 0 days relative to index: Absence of breast",201,4088290,0,0
+4090651801,66,"observation any time prior through 0 days relative to index: Dialysis finding",801,4090651,0,0
+4091464201,658,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of nipple and areola of female breast",201,4091464,0,0
+4091467201,856,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of axillary tail of female breast",201,4091467,0.0023151429915482,1
+4091469201,333,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of nipple and areola of male breast",201,4091469,0,0
+4092161201,686,"condition_era any time prior through 0 days relative to index: Perforated diverticulum of small intestine",201,4092161,0,0
+4092217201,435,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of middle lobe, bronchus or lung",201,4092217,0,0
+4093228201,1139,"condition_era any time prior through 0 days relative to index: Disorder of soft tissue of lower limb",201,4093228,0,0
+4093672201,399,"condition_era any time prior through 0 days relative to index: Knee stiff",201,4093672,0,0
+4093960201,848,"condition_era any time prior through 0 days relative to index: Carcinoma in situ of bronchus and lung",201,4093960,0,0
+4094876201,339,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of lower lobe, bronchus or lung",201,4094876,0,0
+4096347201,947,"condition_era any time prior through 0 days relative to index: Gouty arthropathy",201,4096347,0,0
+4100425201,381,"condition_era any time prior through 0 days relative to index: Merkel cell carcinoma",201,4100425,0,0
+4100540201,253,"condition_era any time prior through 0 days relative to index: Carcinoid bronchial adenoma",201,4100540,0.000365571005008725,1
+4101660201,714,"condition_era any time prior through 0 days relative to index: Amputated below knee",201,4101660,0,0
+4102183201,590,"condition_era any time prior through 0 days relative to index: Borderline glaucoma",201,4102183,0,0
+4103372201,744,"condition_era any time prior through 0 days relative to index: Primary localized osteoarthrosis of multiple sites",201,4103372,0,0
+4108356201,112,"condition_era any time prior through 0 days relative to index: Cerebral infarction due to embolism of cerebral arteries",201,4108356,0,0
+4110192201,537,"condition_era any time prior through 0 days relative to index: Cerebral infarction due to thrombosis of cerebral arteries",201,4110192,0,0
+4110815201,306,"condition_era any time prior through 0 days relative to index: Sensorineural hearing loss, bilateral",201,4110815,0,0
+4115044201,412,"condition_era any time prior through 0 days relative to index: Acute infective exacerbation of chronic obstructive airways disease",201,4115044,0,0
+4115367201,613,"condition_era any time prior through 0 days relative to index: Wrist joint pain",201,4115367,0.00370051207384417,1
+4115991201,270,"condition_era any time prior through 0 days relative to index: Knee joint effusion",201,4115991,0.00306617283391748,1
+4116485201,1115,"condition_era any time prior through 0 days relative to index: Skin ulcer of calf",201,4116485,0,0
+4116950201,810,"condition_era any time prior through 0 days relative to index: Tenderness of central region",201,4116950,0,0
+4119158201,370,"condition_era any time prior through 0 days relative to index: Neutropenic disorder",201,4119158,0,0
+4120621201,971,"condition_era any time prior through 0 days relative to index: Immune thrombocytopenic purpura",201,4120621,0,0
+4125629201,905,"condition_era any time prior through 0 days relative to index: Erythrocyte enzyme deficiency",201,4125629,0,0
+4149299801,57,"observation any time prior through 0 days relative to index: Follow-up orthopedic assessment",801,4149299,0,0
+4150253801,16,"observation any time prior through 0 days relative to index: Immunization consent not given",801,4150253,0,0
+4161462201,506,"condition_era any time prior through 0 days relative to index: Patient post percutaneous transluminal coronary angioplasty",201,4161462,0.00572570420679253,1
+4162993201,808,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of skin of lower limb",201,4162993,0,0
+4163280201,431,"condition_era any time prior through 0 days relative to index: Tinea of perianal region",201,4163280,0,0
+4164707201,903,"condition_era any time prior through 0 days relative to index: Canceled operative procedure",201,4164707,0,0
+4166231201,1079,"condition_era any time prior through 0 days relative to index: Genetic predisposition",201,4166231,0,0
+4167217801,5,"observation any time prior through 0 days relative to index: Family history of clinical finding",801,4167217,0,0
+4168222201,365,"condition_era any time prior through 0 days relative to index: Intra-abdominal and pelvic swelling, mass and lump",201,4168222,0,0
+4171556201,394,"condition_era any time prior through 0 days relative to index: Ankle ulcer",201,4171556,0.00533509502453431,1
+4173243201,965,"condition_era any time prior through 0 days relative to index: Diverticulosis of colon with perforation",201,4173243,0,0
+4175447201,745,"condition_era any time prior through 0 days relative to index: Complex regional pain syndrome, type I",201,4175447,0,0
+4176605801,89,"observation any time prior through 0 days relative to index: History of mastectomy",801,4176605,0,0
+4180641201,574,"condition_era any time prior through 0 days relative to index: Complication of respiratory therapy procedure",201,4180641,0,0
+4185117201,783,"condition_era any time prior through 0 days relative to index: Vertebral artery obstruction",201,4185117,0,0
+4185932201,148,"condition_era any time prior through 0 days relative to index: Ischemic heart disease",201,4185932,0,0
+4186037801,14,"observation any time prior through 0 days relative to index: Aftercare",801,4186037,0,0
+4188191201,825,"condition_era any time prior through 0 days relative to index: Disorder of skin pigmentation",201,4188191,0,0
+4192270801,35,"observation any time prior through 0 days relative to index: H/O: hip fracture",801,4192270,0,0
+4197476201,1020,"condition_era any time prior through 0 days relative to index: Localized, primary osteoarthritis of the wrist",201,4197476,0,0
+4197477201,671,"condition_era any time prior through 0 days relative to index: Localized, primary osteoarthritis of elbow",201,4197477,0,0
+4199550201,820,"condition_era any time prior through 0 days relative to index: Unable to mobilize",201,4199550,0,0
+4201388201,743,"condition_era any time prior through 0 days relative to index: Gastrostomy present",201,4201388,0,0
+4206591201,842,"condition_era any time prior through 0 days relative to index: Mass of trunk",201,4206591,0.00407654508564391,1
+4211231201,831,"condition_era any time prior through 0 days relative to index: Panic disorder without agoraphobia",201,4211231,0,0
+4214956801,4,"observation any time prior through 0 days relative to index: History of clinical finding in subject",801,4214956,0.00527551644134104,1
+4215685801,45,"observation any time prior through 0 days relative to index: Past history of procedure",801,4215685,0,0
+4219481201,594,"condition_era any time prior through 0 days relative to index: Degenerative joint disease of ankle AND/OR foot",201,4219481,0,0
+4219847801,32,"observation any time prior through 0 days relative to index: Disease suspected",801,4219847,0,0
+4222781201,687,"condition_era any time prior through 0 days relative to index: Inguinal hernia without obstruction AND without gangrene",201,4222781,0,0
+4228800201,1023,"condition_era any time prior through 0 days relative to index: Non-healing surgical wound",201,4228800,0,0
+4229909201,198,"condition_era any time prior through 0 days relative to index: Disorder of the nose",201,4229909,0,0
+4230641201,958,"condition_era any time prior through 0 days relative to index: Chronic pansinusitis",201,4230641,0.00219089176712941,1
+4232302201,793,"condition_era any time prior through 0 days relative to index: Catarrhal bronchitis",201,4232302,0,0
+4236312201,1052,"condition_era any time prior through 0 days relative to index: Complex partial epileptic seizure",201,4236312,0,0
+4236905201,1083,"condition_era any time prior through 0 days relative to index: Thrombosis of arteries of lower extremity",201,4236905,0,0
+4239682201,1062,"condition_era any time prior through 0 days relative to index: Chronic phototoxic dermatitis",201,4239682,0,0
+4242416201,894,"condition_era any time prior through 0 days relative to index: Cutis laxa",201,4242416,0.00300778188424176,1
+4245252201,756,"condition_era any time prior through 0 days relative to index: Raised prostate specific antigen",201,4245252,0,0
+4246127201,206,"condition_era any time prior through 0 days relative to index: Malignant neoplasm of liver",201,4246127,0,0
+4263370201,766,"condition_era any time prior through 0 days relative to index: R.I.N.D. syndrome",201,4263370,0,0
+4266169201,836,"condition_era any time prior through 0 days relative to index: Disorder of body cavity",201,4266169,0,0
+4280828201,1154,"condition_era any time prior through 0 days relative to index: Infectious disease carrier",201,4280828,0,0
+4288310201,227,"condition_era any time prior through 0 days relative to index: Carotid artery obstruction",201,4288310,0,0
+4295261201,885,"condition_era any time prior through 0 days relative to index: Postmenopausal state",201,4295261,0,0
+4295287201,488,"condition_era any time prior through 0 days relative to index: Hypercoagulability state",201,4295287,0,0
+4305080201,852,"condition_era any time prior through 0 days relative to index: Abnormal breathing",201,4305080,0,0
+4307024801,30,"observation any time prior through 0 days relative to index: Follow-up encounter",801,4307024,0,0
+4308509201,297,"condition_era any time prior through 0 days relative to index: Impaired fasting glycaemia",201,4308509,0,0
+4309371801,42,"observation any time prior through 0 days relative to index: Occupational therapy",801,4309371,0,0
+4311159201,1104,"condition_era any time prior through 0 days relative to index: Midline cystocele",201,4311159,0,0
+4311591201,943,"condition_era any time prior through 0 days relative to index: Cramp in limb",201,4311591,0,0
+4313767201,469,"condition_era any time prior through 0 days relative to index: Chronic peripheral venous hypertension",201,4313767,0,0
+4316083201,475,"condition_era any time prior through 0 days relative to index: Skin lesion",201,4316083,0,0
+4319325201,832,"condition_era any time prior through 0 days relative to index: Acquired deformity of trunk",201,4319325,0,0
+4323686201,1080,"condition_era any time prior through 0 days relative to index: Bilious vomiting",201,4323686,0,0
+4323908801,43,"observation any time prior through 0 days relative to index: History of cosmetic plastic surgery",801,4323908,0,0
+4324765201,106,"condition_era any time prior through 0 days relative to index: Arthropathy of knee joint",201,4324765,0,0
+4345578201,904,"condition_era any time prior through 0 days relative to index: Rhabdomyolysis",201,4345578,0,0
+19010309401,1521,"drug_era any time prior through 0 days relative to index: Water",401,19010309,0,0
+19011035401,1440,"drug_era any time prior through 0 days relative to index: Lactate",401,19011035,0,0
+19015230401,1264,"drug_era any time prior through 0 days relative to index: Adenosine Triphosphate",401,19015230,0,0
+19020477401,1467,"drug_era any time prior through 0 days relative to index: Nitrogen",401,19020477,0,0
+19025274401,1193,"drug_era any time prior through 0 days relative to index: Oxygen",401,19025274,0.00291916991690895,1
+19028106401,1550,"drug_era any time prior through 0 days relative to index: Isopropyl Alcohol",401,19028106,0,0
+19035704401,1290,"drug_era any time prior through 0 days relative to index: Calcium Carbonate",401,19035704,0,0
+19036781401,1423,"drug_era any time prior through 0 days relative to index: Calcium Chloride",401,19036781,0,0
+19037038401,1564,"drug_era any time prior through 0 days relative to index: Calcium Gluconate",401,19037038,0,0
+19046180401,1505,"drug_era any time prior through 0 days relative to index: Carbon Dioxide",401,19046180,0,0
+19049105401,1315,"drug_era any time prior through 0 days relative to index: Potassium Chloride",401,19049105,0,0
+19067073401,1523,"drug_era any time prior through 0 days relative to index: Helium",401,19067073,0,0
+19069022401,1360,"drug_era any time prior through 0 days relative to index: Sodium Fluoride",401,19069022,0,0
+19093848401,1464,"drug_era any time prior through 0 days relative to index: Magnesium Sulfate",401,19093848,0,0
+19095164401,1413,"drug_era any time prior through 0 days relative to index: Cholecalciferol",401,19095164,0,0
+19095309401,1317,"drug_era any time prior through 0 days relative to index: Cholestyramine Resin",401,19095309,0,0
+19117912401,1394,"drug_era any time prior through 0 days relative to index: Immunoglobulin G",401,19117912,0,0
+37396891801,36,"observation any time prior through 0 days relative to index: Antineoplastic chemotherapy regimen",801,37396891,0.00250739184419031,1
+40226742401,1256,"drug_era any time prior through 0 days relative to index: olmesartan",401,40226742,0,0
+40304526201,311,"condition_era any time prior through 0 days relative to index: Nocturia",201,40304526,0,0
+40479192201,737,"condition_era any time prior through 0 days relative to index: Chronic systolic heart failure",201,40479192,0.00411379074278905,1
+40479553801,8,"observation any time prior through 0 days relative to index: Cardiac pacemaker in situ",801,40479553,0,0
+40479576201,406,"condition_era any time prior through 0 days relative to index: Chronic diastolic heart failure",201,40479576,0,0
+40480002201,777,"condition_era any time prior through 0 days relative to index: Aphasia as late effect of cerebrovascular disease",201,40480002,0,0
+40480033201,1130,"condition_era any time prior through 0 days relative to index: Pneumonia due to Staphylococcus aureus",201,40480033,0,0
+40480232201,979,"condition_era any time prior through 0 days relative to index: Male urinary stress incontinence",201,40480232,0,0
+40480461201,1123,"condition_era any time prior through 0 days relative to index: Infarction of lung due to iatrogenic pulmonary embolism",201,40480461,0,0
+40480555201,509,"condition_era any time prior through 0 days relative to index: Deep venous thrombosis of peroneal vein",201,40480555,0,0
+40480602201,596,"condition_era any time prior through 0 days relative to index: Acute on chronic systolic heart failure",201,40480602,0.00294881820120359,1
+40480603201,826,"condition_era any time prior through 0 days relative to index: Acute systolic heart failure",201,40480603,0,0
+40481022801,11,"observation any time prior through 0 days relative to index: Automatic implantable cardiac defibrillator in situ",801,40481022,0,0
+40481042201,149,"condition_era any time prior through 0 days relative to index: Acute diastolic heart failure",201,40481042,0,0
+40481043201,490,"condition_era any time prior through 0 days relative to index: Acute on chronic diastolic heart failure",201,40481043,0,0
+40481547201,862,"condition_era any time prior through 0 days relative to index: Dependence on ventilator",201,40481547,0,0
+40481762201,578,"condition_era any time prior through 0 days relative to index: Hemiplegia as late effect of cerebrovascular disease",201,40481762,0,0
+40481763201,413,"condition_era any time prior through 0 days relative to index: Acute exacerbation of chronic asthmatic bronchitis",201,40481763,0,0
+40481816201,1138,"condition_era any time prior through 0 days relative to index: Infection by methicillin sensitive Staphylococcus aureus",201,40481816,0,0
+40481919201,327,"condition_era any time prior through 0 days relative to index: Coronary atherosclerosis",201,40481919,0,0
+40481920201,1039,"condition_era any time prior through 0 days relative to index: Periumbilical pain",201,40481920,0,0
+40482301201,749,"condition_era any time prior through 0 days relative to index: Residual cognitive deficit as late effect of cerebrovascular accident",201,40482301,0.00634320477638212,1
+40482507201,757,"condition_era any time prior through 0 days relative to index: Incipient senile cataract",201,40482507,0,0
+40482638201,304,"condition_era any time prior through 0 days relative to index: Arteriosclerosis of autologous vein coronary artery bypass graft",201,40482638,0,0
+40482727201,372,"condition_era any time prior through 0 days relative to index: Combined systolic and diastolic dysfunction",201,40482727,0,0
+40482801201,340,"condition_era any time prior through 0 days relative to index: Type II diabetes mellitus uncontrolled",201,40482801,0.0227789114478213,1
+40483107201,663,"condition_era any time prior through 0 days relative to index: Inflamed seborrheic keratosis",201,40483107,0,0
+40483189201,732,"condition_era any time prior through 0 days relative to index: Arteriosclerosis of arterial coronary artery bypass graft",201,40483189,0,0
+40483287201,160,"condition_era any time prior through 0 days relative to index: Disorder of kidney and/or ureter",201,40483287,0,0
+40483794201,183,"condition_era any time prior through 0 days relative to index: Degenerative joint disease of pelvis",201,40483794,0,0
+40484167201,552,"condition_era any time prior through 0 days relative to index: Arteriosclerosis of artery of extremity",201,40484167,0,0
+40484648201,683,"condition_era any time prior through 0 days relative to index: Type 1 diabetes mellitus uncontrolled",201,40484648,0,0
+40485017801,28,"observation any time prior through 0 days relative to index: Exposure to communicable disease",801,40485017,0,0
+40487059201,635,"condition_era any time prior through 0 days relative to index: Sepsis due to Staphylococcus",201,40487059,0,0
+40488954201,982,"condition_era any time prior through 0 days relative to index: Tenderness of right upper quadrant of abdomen",201,40488954,0,0
+40489907201,796,"condition_era any time prior through 0 days relative to index: Sepsis due to Staphylococcus aureus",201,40489907,0,0
+40490984201,529,"condition_era any time prior through 0 days relative to index: Tenderness of left upper quadrant of abdomen",201,40490984,0,0
+40490986201,544,"condition_era any time prior through 0 days relative to index: Tenderness of right lower quadrant of abdomen",201,40490986,0.00927128620003705,1
+40493038201,1157,"condition_era any time prior through 0 days relative to index: Sepsis due to Gram negative bacteria",201,40493038,0,0
+42872402201,138,"condition_era any time prior through 0 days relative to index: Coronary arteriosclerosis in native artery",201,42872402,0,0
+42873170201,271,"condition_era any time prior through 0 days relative to index: Dependence on supplemental oxygen",201,42873170,0.00657575889316945,1
+43020432201,262,"condition_era any time prior through 0 days relative to index: Atherosclerosis of native arteries of the extremities",201,43020432,0.00074109646789153,1
+43020455201,841,"condition_era any time prior through 0 days relative to index: Malignant hypertensive end stage renal disease",201,43020455,0,0
+43021821201,655,"condition_era any time prior through 0 days relative to index: Coronary arteriosclerosis in native artery of transplanted heart",201,43021821,0,0
+43021852201,1100,"condition_era any time prior through 0 days relative to index: Malignant hypertensive chronic kidney disease",201,43021852,0,0
+43530634801,39,"observation any time prior through 0 days relative to index: History of tobacco use",801,43530634,0,0
+43531027201,1174,"condition_era any time prior through 0 days relative to index: Mononeuropathy of upper limb",201,43531027,0.00390442217233411,1
+43531028201,991,"condition_era any time prior through 0 days relative to index: Mononeuropathy of lower limb",201,43531028,0.0024892164091562,1
+44782446201,878,"condition_era any time prior through 0 days relative to index: Pressure ulcer of ankle",201,44782446,0,0
+44782447201,703,"condition_era any time prior through 0 days relative to index: Pressure ulcer of hip",201,44782447,0,0
+44782549201,855,"condition_era any time prior through 0 days relative to index: Disorder of vertebral column",201,44782549,0,0
+44782718201,838,"condition_era any time prior through 0 days relative to index: Acute combined systolic and diastolic heart failure",201,44782718,0,0
+44782719201,350,"condition_era any time prior through 0 days relative to index: Chronic combined systolic and diastolic heart failure",201,44782719,0,0
+44782733201,299,"condition_era any time prior through 0 days relative to index: Acute on chronic combined systolic and diastolic heart failure",201,44782733,0,0
+44783027201,620,"condition_era any time prior through 0 days relative to index: Injury of face and neck",201,44783027,0,0
+44783163201,234,"condition_era any time prior through 0 days relative to index: Pressure ulcer of lower back",201,44783163,0,0
+44783618201,615,"condition_era any time prior through 0 days relative to index: Heritable pulmonary arterial hypertension",201,44783618,0,0
+45769438201,1151,"condition_era any time prior through 0 days relative to index: Status asthmaticus",201,45769438,0,0
+45769441201,931,"condition_era any time prior through 0 days relative to index: Acute exacerbation of allergic asthma",201,45769441,0,0
+45773005201,1165,"condition_era any time prior through 0 days relative to index: Acute exacerbation of intrinsic asthma",201,45773005,0,0
+45892419401,1490,"drug_era any time prior through 0 days relative to index: Gentamicin",401,45892419,0,0
+46221581401,1287,"drug_era any time prior through 0 days relative to index: insulin, isophane",401,46221581,0,0
+46271022201,159,"condition_era any time prior through 0 days relative to index: Chronic kidney disease",201,46271022,0,0

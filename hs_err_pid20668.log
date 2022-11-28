@@ -1,0 +1,328 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 130023424 bytes for Failed to commit area from 0x00000000e0000000 to 0x00000000e7c00000 of length 130023424.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (c:/cygwin64/tmp/openjdk-jdk11u-windows-x64-hotspot/workspace/build/src/src/hotspot/os/windows/os_windows.cpp:3281), pid=20668, tid=3028
+#
+# JRE version:  (11.0.4+11) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.4+11, mixed mode, aot, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dr.arch=/x64 -Xmx512m -Xrs -Xss2m 
+
+Host: Intel(R) Core(TM) i7-5600U CPU @ 2.60GHz, 4 cores, 7G,  Windows 10 , 64 bit Build 19041 (10.0.19041.1889)
+Time: Mon Oct 10 13:26:00 2022 Mitteleuropäische Sommerzeit elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002195748c800):  JavaThread "Unknown thread" [_thread_in_vm, id=3028, stack(0x0000002e49600000,0x0000002e4a600000)]
+
+Stack: [0x0000002e49600000,0x0000002e4a600000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x5d700a]
+V  [jvm.dll+0x70bbce]
+V  [jvm.dll+0x70d25b]
+V  [jvm.dll+0x70d923]
+V  [jvm.dll+0x23f5f8]
+V  [jvm.dll+0x5d454a]
+V  [jvm.dll+0x5c9285]
+V  [jvm.dll+0x2f3e8c]
+V  [jvm.dll+0x2f3d12]
+V  [jvm.dll+0x2f89c6]
+V  [jvm.dll+0x339e9f]
+V  [jvm.dll+0x3398d0]
+V  [jvm.dll+0x2d1d08]
+V  [jvm.dll+0x2d2e56]
+V  [jvm.dll+0x6e7d17]
+V  [jvm.dll+0x6e949f]
+V  [jvm.dll+0x346d79]
+V  [jvm.dll+0x6ceb50]
+V  [jvm.dll+0x3adfef]
+V  [jvm.dll+0x3b0371]
+C  [rJava.dll+0x7a01]
+C  [R.dll+0xa0a30]
+C  [R.dll+0xebdc4]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10715b]
+C  [R.dll+0x107670]
+C  [R.dll+0xf3f15]
+C  [R.dll+0x105071]
+C  [R.dll+0x10715b]
+C  [R.dll+0x107670]
+C  [R.dll+0xf3f15]
+C  [R.dll+0x105071]
+C  [R.dll+0x10715b]
+C  [R.dll+0x107670]
+C  [R.dll+0xf3f15]
+C  [R.dll+0x105071]
+C  [R.dll+0x10715b]
+C  [R.dll+0x107670]
+C  [R.dll+0xf3f15]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10715b]
+C  [R.dll+0x107670]
+C  [R.dll+0xf3f15]
+C  [R.dll+0x105071]
+C  [R.dll+0x10715b]
+C  [R.dll+0x107670]
+C  [R.dll+0xf3f15]
+C  [R.dll+0x105071]
+C  [R.dll+0x10715b]
+C  [R.dll+0x107670]
+C  [R.dll+0xf3f15]
+C  [R.dll+0x105071]
+C  [R.dll+0x10715b]
+C  [R.dll+0x107670]
+C  [R.dll+0xf3f15]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+C  [R.dll+0x105071]
+C  [R.dll+0x10a6ec]
+C  [R.dll+0x10bafa]
+C  [R.dll+0xf9964]
+...<more frames>...
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x0000021916d13350, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000002193d96e000 GCTaskThread "GC Thread#0" [stack: 0x0000002e58600000,0x0000002e59600000] [id=28580]
+  0x000002194384e000 ConcurrentGCThread "G1 Main Marker" [stack: 0x0000002e59600000,0x0000002e5a600000] [id=10424]
+  0x000002194778e000 ConcurrentGCThread "G1 Conc#0" [stack: 0x0000002e5a600000,0x0000002e5b600000] [id=17100]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffb76a70927]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x0000021915ac89f0] Heap_lock - owner thread: 0x000002195748c800
+
+Heap address: 0x00000000e0000000, size: 512 MB, Compressed Oops mode: Non-zero based: 0x00000000e0000000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff7b1800000 - 0x00007ff7b3153000 	C:\Program Files\RStudio\bin\rsession-utf8.exe
+0x00007ffbd9430000 - 0x00007ffbd9628000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffbd7540000 - 0x00007ffbd75fd000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffbd6fc0000 - 0x00007ffbd728e000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffbd4380000 - 0x00007ffbd4410000 	C:\WINDOWS\SYSTEM32\apphelp.dll
+0x00007ffbd9340000 - 0x00007ffbd93ee000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffbd8050000 - 0x00007ffbd80ee000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffbd8150000 - 0x00007ffbd81ec000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffbd8d60000 - 0x00007ffbd8e85000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffbd91b0000 - 0x00007ffbd921b000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffbd7600000 - 0x00007ffbd7655000 	C:\WINDOWS\System32\SHLWAPI.dll
+0x00007ffbd6b50000 - 0x00007ffbd6ca6000 	C:\WINDOWS\System32\CRYPT32.dll
+0x00007ffbd6ec0000 - 0x00007ffbd6fc0000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffbd7680000 - 0x00007ffbd7820000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffbd6e20000 - 0x00007ffbd6e42000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffbd7490000 - 0x00007ffbd74ba000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffbd7330000 - 0x00007ffbd743b000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffbd7290000 - 0x00007ffbd732d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffbd81f0000 - 0x00007ffbd8933000 	C:\WINDOWS\System32\SHELL32.dll
+0x00007ffbd8b60000 - 0x00007ffbd8c8a000 	C:\WINDOWS\System32\ole32.dll
+0x00007ffbd7880000 - 0x00007ffbd7bd4000 	C:\WINDOWS\System32\combase.dll
+0x00007ffbd6d40000 - 0x00007ffbd6d67000 	C:\WINDOWS\System32\bcrypt.dll
+0x00007ffbd7820000 - 0x00007ffbd7876000 	C:\WINDOWS\System32\WLDAP32.dll
+0x00007ffbcf1c0000 - 0x00007ffbcf232000 	C:\Program Files\R\R-4.2.1\bin\x64\Rgraphapp.dll
+0x00007ffbd8e90000 - 0x00007ffbd8f6a000 	C:\WINDOWS\System32\comdlg32.dll
+0x00007ffbd8fa0000 - 0x00007ffbd904d000 	C:\WINDOWS\System32\shcore.dll
+0x00007ffbd8f70000 - 0x00007ffbd8fa0000 	C:\WINDOWS\System32\IMM32.dll
+0x00007ffb53f30000 - 0x00007ffb562c9000 	C:\Program Files\R\R-4.2.1\bin\x64\R.dll
+0x00007ffbd6310000 - 0x00007ffbd637a000 	C:\WINDOWS\SYSTEM32\MSWSOCK.dll
+0x00007ffbc5c40000 - 0x00007ffbc5c4c000 	C:\WINDOWS\SYSTEM32\Secur32.dll
+0x00007ffbc47a0000 - 0x00007ffbc4850000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_792d1c772443f647\COMCTL32.dll
+0x00007ffbc4b90000 - 0x00007ffbc4b97000 	C:\WINDOWS\SYSTEM32\MSIMG32.dll
+0x00007ffbcf760000 - 0x00007ffbcf7ab000 	C:\Program Files\R\R-4.2.1\bin\x64\Rblas.dll
+0x00007ffbcf2b0000 - 0x00007ffbcf2d7000 	C:\Program Files\R\R-4.2.1\bin\x64\Riconv.dll
+0x00007ffbcc250000 - 0x00007ffbcc25a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffbc4730000 - 0x00007ffbc4757000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffbd3dd0000 - 0x00007ffbd3ddc000 	C:\Program Files\RStudio\bin\VCRUNTIME140_1.dll
+0x00007ffbcece0000 - 0x00007ffbced6d000 	C:\Program Files\RStudio\bin\MSVCP140.dll
+0x00007ffbd1810000 - 0x00007ffbd182b000 	C:\Program Files\RStudio\bin\VCRUNTIME140.dll
+0x00007ffbd6520000 - 0x00007ffbd652c000 	C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+0x00007ffbd6a10000 - 0x00007ffbd6a42000 	C:\WINDOWS\SYSTEM32\SSPICLI.DLL
+0x00007ffbd4c40000 - 0x00007ffbd53d5000 	C:\WINDOWS\SYSTEM32\windows.storage.dll
+0x00007ffbd65b0000 - 0x00007ffbd65e0000 	C:\WINDOWS\SYSTEM32\Wldp.dll
+0x00007ffb568b0000 - 0x00007ffb568c7000 	C:\WINDOWS\system32\napinsp.dll
+0x00007ffb56890000 - 0x00007ffb568ab000 	C:\WINDOWS\system32\pnrpnsp.dll
+0x00007ffbd1d70000 - 0x00007ffbd1d85000 	C:\WINDOWS\system32\wshbth.dll
+0x00007ffbd2520000 - 0x00007ffbd253d000 	C:\WINDOWS\system32\NLAapi.dll
+0x00007ffbd5fb0000 - 0x00007ffbd5feb000 	C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+0x00007ffbd6000000 - 0x00007ffbd60ca000 	C:\WINDOWS\SYSTEM32\DNSAPI.dll
+0x00007ffbd8c90000 - 0x00007ffbd8c98000 	C:\WINDOWS\System32\NSI.dll
+0x00007ffb56870000 - 0x00007ffb56882000 	C:\WINDOWS\System32\winrnr.dll
+0x00007ffbd6a90000 - 0x00007ffbd6aaf000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007ffbd6cb0000 - 0x00007ffbd6d32000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffbd4a40000 - 0x00007ffbd4a52000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x00007ffbd4510000 - 0x00007ffbd45ae000 	C:\WINDOWS\system32\uxtheme.dll
+0x00007ffbd0e70000 - 0x00007ffbd0e84000 	C:\Program Files\R\R-4.2.1\library\methods\libs\x64\methods.dll
+0x00007ffbcf130000 - 0x00007ffbcf15d000 	C:\Program Files\R\R-4.2.1\library\utils\libs\x64\utils.dll
+0x00007ffbd0df0000 - 0x00007ffbd0e10000 	C:\Program Files\R\R-4.2.1\library\tools\libs\x64\tools.dll
+0x00007ffba5010000 - 0x00007ffba5271000 	C:\Program Files\R\R-4.2.1\library\grDevices\libs\x64\grDevices.dll
+0x00007ffbcefb0000 - 0x00007ffbcf005000 	C:\Program Files\R\R-4.2.1\library\graphics\libs\x64\graphics.dll
+0x00007ffbaa980000 - 0x00007ffbaaa21000 	C:\Program Files\R\R-4.2.1\library\stats\libs\x64\stats.dll
+0x00007ffb9d6e0000 - 0x00007ffb9d957000 	C:\Program Files\R\R-4.2.1\bin\x64\Rlapack.dll
+0x00007ffb1cd30000 - 0x00007ffb21d94000 	C:\Program Files\RStudio\bin\rsclang\x86_64\libclang.dll
+0x00007ffbd90e0000 - 0x00007ffbd91ad000 	C:\WINDOWS\System32\OLEAUT32.dll
+0x00007ffb78af0000 - 0x00007ffb79a4d000 	C:\PROGRA~1\R\R-42~1.1\modules\x64\internet.dll
+0x00007ffbcfb50000 - 0x00007ffbd0026000 	C:\WINDOWS\SYSTEM32\WININET.dll
+0x00007ffbc6e60000 - 0x00007ffbc6e79000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\checkmate\2.1.0\147e4db6909d8814bb30f671b49d7e06\checkmate\libs\x64\checkmate.dll
+0x00007ffbc7340000 - 0x00007ffbc734d000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\backports\1.4.1\c39fbec8a30d23e721980b8afb31984c\backports\libs\x64\backports.dll
+0x00007ffba9580000 - 0x00007ffba964b000 	C:\Users\win10\Documents\Studium\Bachelorarbeit\ML3Bachelor\renv\library\R-4.2\x86_64-w64-mingw32\data.table\libs\x64\datatable.dll
+0x00007ffbcbe40000 - 0x00007ffbcbe63000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\digest\0.6.29\cf6b206a045a684728c3267ef7596190\digest\libs\x64\digest.dll
+0x00007ffbcdb90000 - 0x00007ffbcdb9d000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\mlr3misc\0.10.0\7ce6022ad93ce89eb71982a01f414779\mlr3misc\libs\x64\mlr3misc.dll
+0x00007ffbcdb80000 - 0x00007ffbcdb8e000 	C:\Program Files\R\R-4.2.1\library\parallel\libs\x64\parallel.dll
+0x00007ffbccbd0000 - 0x00007ffbccbe2000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\uuid\1.1-0\f1cb46c157d080b729159d407be83496\uuid\libs\x64\uuid.dll
+0x00007ffbccdd0000 - 0x00007ffbccddd000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\bbotk\0.5.4\78c4c1c462ae99883207cc9c5d948024\bbotk\libs\x64\bbotk.dll
+0x00007ffbcf6e0000 - 0x00007ffbcf6f8000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\rJava\1.0-6\0415819f6baa75d86d52483f7292b623\rJava\libs\x64\rJava.dll
+0x00007ffb76790000 - 0x00007ffb77246000 	C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin\server\jvm.dll
+0x00007ffbd8940000 - 0x00007ffbd8948000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffbc2ab0000 - 0x00007ffbc2ab9000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffbcef00000 - 0x00007ffbcef1f000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\bit\4.0.4\f36715f14d94678eea9933af927bc15d\bit\libs\x64\bit.dll
+0x00007ffbced90000 - 0x00007ffbcedb6000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\bit64\4.0.5\9fe98599ca456d6552421db0d6772d8f\bit64\libs\x64\bit64.dll
+0x00007ffba9f80000 - 0x00007ffba9fdb000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\rlang\1.0.4\6539dd8c651e67e3b55b5ffea106362b\rlang\libs\x64\rlang.dll
+0x00007ffbb2240000 - 0x00007ffbb2279000 	C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\cli\3.3.0\23abf173c2b783dcc43379ab9bba00ee\cli\libs\x64\cli.dll
+0x00007ffbcf2f0000 - 0x00007ffbcf300000 	C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin\verify.dll
+0x00007ffbcc890000 - 0x00007ffbcca74000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007ffbc0070000 - 0x00007ffbc009c000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ffbcec90000 - 0x00007ffbcecb8000 	C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin\java.dll
+0x00007ffbcec70000 - 0x00007ffbcec86000 	C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin\zip.dll
+0x00007ffbcf290000 - 0x00007ffbcf29a000 	C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin\jimage.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\RStudio\bin;C:\WINDOWS\SYSTEM32;C:\Program Files\R\R-4.2.1\bin\x64;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_792d1c772443f647;C:\Program Files\R\R-4.2.1\library\methods\libs\x64;C:\Program Files\R\R-4.2.1\library\utils\libs\x64;C:\Program Files\R\R-4.2.1\library\tools\libs\x64;C:\Program Files\R\R-4.2.1\library\grDevices\libs\x64;C:\Program Files\R\R-4.2.1\library\graphics\libs\x64;C:\Program Files\R\R-4.2.1\library\stats\libs\x64;C:\Program Files\RStudio\bin\rsclang\x86_64;C:\PROGRA~1\R\R-42~1.1\modules\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\checkmate\2.1.0\147e4db6909d8814bb30f671b49d7e06\checkmate\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\backports\1.4.1\c39fbec8a30d23e721980b8afb31984c\backports\libs\x64;C:\Users\win10\Documents\Studium\Bachelorarbeit\ML3Bachelor\renv\library\R-4.2\x86_64-w64-mingw32\data.table\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\digest\0.6.29\cf6b206a045a684728c3267ef7596190\digest\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\mlr3misc\0.10.0\7ce6022ad93ce89eb71982a01f414779\mlr3misc\libs\x64;C:\Program Files\R\R-4.2.1\library\parallel\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\uuid\1.1-0\f1cb46c157d080b729159d407be83496\uuid\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\bbotk\0.5.4\78c4c1c462ae99883207cc9c5d948024\bbotk\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\rJava\1.0-6\0415819f6baa75d86d52483f7292b623\rJava\libs\x64;C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin\server;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\bit\4.0.4\f36715f14d94678eea9933af927bc15d\bit\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\bit64\4.0.5\9fe98599ca456d6552421db0d6772d8f\bit64\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\rlang\1.0.4\6539dd8c651e67e3b55b5ffea106362b\rlang\libs\x64;C:\Users\win10\AppData\Local\R\cache\R\renv\cache\v5\R-4.2\x86_64-w64-mingw32\cli\3.3.0\23abf173c2b783dcc43379ab9bba00ee\cli\libs\x64;C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin
+
+VM Arguments:
+jvm_args: -Dr.arch=/x64 -Xmx512m -Xrs -Xss2m 
+java_command: <unknown>
+java_class_path (initial): C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/renv/library/R-4.2/x86_64-w64-mingw32/rJava/java/boot
+Launcher Type: generic
+
+[Global flags]
+     intx CICompilerCount                          = 3                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 1                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 4                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 130023424                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 536870912                                 {product} {command line}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5830092                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122914074                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122914074                              {pd product} {ergonomic}
+     bool ReduceSignalUsage                        = true                                      {product} {command line}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     intx ThreadStackSize                          = 2048                                   {pd product} {command line}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot
+CLASSPATH=C:\Program Files\axis-1_4\lib\axis.jar;C:\Program Files\axis-1_4\lib\jaxrpc.jar; C:\Program Files\axis-1_4\lib\saaj.jar;C:\Program Files\axis-1_4\lib\commons-discovery-0.2.jar;C:\Program Files\axis-1_4\lib\commons-discovery-1.0.4.jar;C:\Program Files\axis-1_4\lib\wsdl4j-1.5.1.jar;C:\Program Files\axis-1_4
+PATH=C:\rtools42/x86_64-w64-mingw32.static.posix/bin;C:\rtools42/usr/bin;C:\Program Files\R\R-4.2.1\bin\x64;C:\Program Files\AdoptOpenJDK\jdk-11.0.4.11-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.6.5\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.6.5\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\cygwin64;C:\apache-ant-1.10.5\bin\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Haskell Platform\8.6.5\mingw\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\win10\AppData\Local\Programs\Python\Python37\Scripts;C:\Users\win10\AppData\Local\Programs\Python\Python37;C:\Ruby26-x64\bin;C:\Users\win10\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;C:\Users\win10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2020.2.3\bin;C:\Users\win10\Desktop\mosquitto;C:\Users\win10\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\win10\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\win10\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\apache-tomcat-9.0.41\bin;C:/Program Files/RStudio/bin/quarto/bin
+USERNAME=win10
+DISPLAY=:0
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 19041 (10.0.19041.1889)
+
+CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 61 stepping 4, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx, fma
+
+Memory: 4k page, system-wide physical 7888M (288M free)
+TotalPageFile size 32464M (AvailPageFile size 42M)
+current process WorkingSet (physical memory assigned to process): 1652M, peak: 1674M
+current process commit charge ("private bytes"): 1981M, peak: 2105M
+
+vm_info: OpenJDK 64-Bit Server VM (11.0.4+11) for windows-amd64 JRE (11.0.4+11), built on Jul 18 2019 06:43:34 by "" with MS VC++ 15.8 (VS2017)
+
+END.

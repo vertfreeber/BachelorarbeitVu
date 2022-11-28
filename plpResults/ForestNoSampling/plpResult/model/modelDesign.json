@@ -1,0 +1,205 @@
+{
+  "targetId": 2,
+  "outcomeId": 3,
+  "restrictPlpDataSettings": {
+    "studyStartDate": "",
+    "studyEndDate": "",
+    "firstExposureOnly": false,
+    "washoutPeriod": 0,
+    "sampleSize": null,
+    "attr_class": "restrictPlpDataSettings"
+  },
+  "covariateSettings": {
+    "temporal": false,
+    "temporalSequence": false,
+    "DemographicsGender": true,
+    "ConditionEraAnyTimePrior": true,
+    "DrugEraAnyTimePrior": true,
+    "ObservationAnyTimePrior": true,
+    "longTermStartDays": -365,
+    "mediumTermStartDays": -180,
+    "shortTermStartDays": -30,
+    "endDays": 0,
+    "includedCovariateConceptIds": [],
+    "addDescendantsToInclude": false,
+    "excludedCovariateConceptIds": [],
+    "addDescendantsToExclude": false,
+    "includedCovariateIds": [],
+    "attr_class": "covariateSettings",
+    "attr_fun": "getDbDefaultCovariateData"
+  },
+  "populationSettings": {
+    "binary": true,
+    "includeAllOutcomes": true,
+    "firstExposureOnly": true,
+    "washoutPeriod": 0,
+    "removeSubjectsWithPriorOutcome": false,
+    "priorOutcomeLookback": 999999,
+    "requireTimeAtRisk": false,
+    "minTimeAtRisk": 365,
+    "riskWindowStart": 1,
+    "startAnchor": "cohort start",
+    "riskWindowEnd": 1825,
+    "endAnchor": "cohort start",
+    "restrictTarToCohortEnd": false,
+    "attr_class": "populationSettings"
+  },
+  "sampleSettings": [
+    {
+      "numberOutcomestoNonOutcomes": 1,
+      "sampleSeed": 1,
+      "attr_class": "sampleSettings",
+      "attr_fun": "sameData"
+    }
+  ],
+  "featureEngineeringSettings": [
+    {
+      "attr_class": "featureEngineeringSettings",
+      "attr_fun": "sameData"
+    }
+  ],
+  "preprocessSettings": {
+    "minFraction": 0,
+    "normalize": true,
+    "removeRedundancy": true,
+    "attr_class": "preprocessSettings"
+  },
+  "modelSettings": {
+    "fitFunction": "fitSklearn",
+    "param": {
+      "1": {
+        "ntrees": 500,
+        "criterion": "gini",
+        "maxDepth": 17,
+        "minSamplesSplit": 5,
+        "minSamplesLeaf": 10,
+        "minWeightFractionLeaf": 0,
+        "mtries": "sqrt",
+        "maxLeafNodes": null,
+        "minImpurityDecrease": 0,
+        "bootstrap": true,
+        "oobScore": false,
+        "nJobs": null,
+        "seed": 4273,
+        "classWeight": "balanced_subsample",
+        "maxSamples": null
+      },
+      "2": {
+        "ntrees": 750,
+        "criterion": "gini",
+        "maxDepth": 17,
+        "minSamplesSplit": 5,
+        "minSamplesLeaf": 10,
+        "minWeightFractionLeaf": 0,
+        "mtries": "sqrt",
+        "maxLeafNodes": null,
+        "minImpurityDecrease": 0,
+        "bootstrap": true,
+        "oobScore": false,
+        "nJobs": null,
+        "seed": 4273,
+        "classWeight": "balanced_subsample",
+        "maxSamples": null
+      },
+      "3": {
+        "ntrees": 1000,
+        "criterion": "gini",
+        "maxDepth": 17,
+        "minSamplesSplit": 5,
+        "minSamplesLeaf": 10,
+        "minWeightFractionLeaf": 0,
+        "mtries": "sqrt",
+        "maxLeafNodes": null,
+        "minImpurityDecrease": 0,
+        "bootstrap": true,
+        "oobScore": false,
+        "nJobs": null,
+        "seed": 4273,
+        "classWeight": "balanced_subsample",
+        "maxSamples": null
+      },
+      "4": {
+        "ntrees": 1250,
+        "criterion": "gini",
+        "maxDepth": 17,
+        "minSamplesSplit": 5,
+        "minSamplesLeaf": 10,
+        "minWeightFractionLeaf": 0,
+        "mtries": "sqrt",
+        "maxLeafNodes": null,
+        "minImpurityDecrease": 0,
+        "bootstrap": true,
+        "oobScore": false,
+        "nJobs": null,
+        "seed": 4273,
+        "classWeight": "balanced_subsample",
+        "maxSamples": null
+      },
+      "5": {
+        "ntrees": 1500,
+        "criterion": "gini",
+        "maxDepth": 17,
+        "minSamplesSplit": 5,
+        "minSamplesLeaf": 10,
+        "minWeightFractionLeaf": 0,
+        "mtries": "sqrt",
+        "maxLeafNodes": null,
+        "minImpurityDecrease": 0,
+        "bootstrap": true,
+        "oobScore": false,
+        "nJobs": null,
+        "seed": 4273,
+        "classWeight": "balanced_subsample",
+        "maxSamples": null
+      },
+      "6": {
+        "ntrees": 2000,
+        "criterion": "gini",
+        "maxDepth": 17,
+        "minSamplesSplit": 5,
+        "minSamplesLeaf": 10,
+        "minWeightFractionLeaf": 0,
+        "mtries": "sqrt",
+        "maxLeafNodes": null,
+        "minImpurityDecrease": 0,
+        "bootstrap": true,
+        "oobScore": false,
+        "nJobs": null,
+        "seed": 4273,
+        "classWeight": "balanced_subsample",
+        "maxSamples": null
+      },
+      "attr_settings": {
+        "modelType": "randomForest",
+        "seed": 4273,
+        "paramNames": ["ntrees", "criterion", "maxDepth", "minSamplesSplit", "minSamplesLeaf", "minWeightFractionLeaf", "mtries", "maxLeafNodes", "minImpurityDecrease", "bootstrap", "oobScore", "nJobs", "seed", "classWeight", "maxSamples"],
+        "requiresDenseMatrix": false,
+        "name": "Random forest",
+        "pythonImport": "sklearn",
+        "pythonImportSecond": "ensemble",
+        "pythonClassifier": "RandomForestClassifier"
+      },
+      "attr_saveToJson": false,
+      "attr_saveType": "file"
+    },
+    "attr_class": "modelSettings"
+  },
+  "splitSettings": {
+    "test": 0.25,
+    "train": 0.75,
+    "seed": 1234,
+    "nfold": 3,
+    "attr_class": "splitSettings",
+    "attr_fun": "randomSplitter"
+  },
+  "executeSettings": {
+    "runSplitData": true,
+    "runSampleData": true,
+    "runfeatureEngineering": false,
+    "runPreprocessData": true,
+    "runModelDevelopment": true,
+    "runCovariateSummary": true,
+    "attr_class": "executeSettings"
+  },
+  "attr_class": "modelDesign"
+}

@@ -1,0 +1,748 @@
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0.01normalize : TRUEremoveRedundancy : TRUE
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitCyclopsModelparam : laplace-FALSE-0.01-0-20-0.01
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-04 19:46:03	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-04 19:46:03	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-04 19:46:03
+2022-11-04 19:46:03	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         LogiRegNoSampling
+2022-11-04 19:46:03	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-04 19:46:03	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-04 19:46:03	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-04 19:46:03	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-04 19:46:03	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10260
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-04 19:46:03	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-04 19:46:07	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-04 19:46:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-04 19:46:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-04 19:46:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-04 19:46:12	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-04 19:46:12	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-04 19:46:12	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10002 covariates in train data
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-04 19:46:23	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10002 covariates in train data
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-04 19:46:24	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-04 19:46:25	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10002 covariates in train data
+2022-11-04 19:46:25	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-04 19:46:25	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-04 19:46:25	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0.01
+2022-11-04 19:46:25	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-04 19:46:25	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-04 19:46:37	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-04 19:46:37	[Main thread]	INFO	FeatureExtraction		Removing 8472 infrequent covariates
+2022-11-04 19:46:37	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-04 19:46:47	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 21.7 secs
+2022-11-04 19:46:47	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-04 19:46:47	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-04 19:46:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	1529 covariates in train data
+2022-11-04 19:46:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-04 19:46:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-04 19:46:48	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-04 19:46:53	[Main thread]	INFO	PatientLevelPrediction		Running Cyclops
+2022-11-04 19:46:58	[Main thread]	INFO	PatientLevelPrediction		Done.
+2022-11-04 19:46:58	[Main thread]	INFO	PatientLevelPrediction	createCyclopsModel	GLM fit status:  OK
+2022-11-04 19:46:59	[Main thread]	INFO	PatientLevelPrediction	getVariableImportance	Creating variable importance data frame
+2022-11-04 19:47:01	[Main thread]	INFO	PatientLevelPrediction	predictCyclops	Prediction took 1.73 secs
+2022-11-04 19:47:01	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-04 19:47:02	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction		Prediction took 1.58 secs
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 49.96
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      45.22
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      54.70
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.41
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.0014
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.6852 - gradient:-0.002
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.26 intercept:         0.02
+2022-11-04 19:47:06	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.02
+2022-11-04 19:47:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-04 19:47:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-04 19:47:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 59.06
+2022-11-04 19:47:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      56.37
+2022-11-04 19:47:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      61.74
+2022-11-04 19:47:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              3.23
+2022-11-04 19:47:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-04 19:47:08	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-04 19:47:08	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0247 : observed risk 0.0247
+2022-11-04 19:47:09	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0
+2022-11-04 19:47:09	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 10.1718 - gradient:3.7757
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 3.43 intercept:         -0.06
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 51.84
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      49.06
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      54.62
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.56
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-04 19:47:10	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-04 19:47:12	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 6e-04
+2022-11-04 19:47:12	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 4.4676 - gradient:2.2148
+2022-11-04 19:47:13	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 2.49 intercept:         -0.04
+2022-11-04 19:47:13	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-04 19:47:18	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-04 19:47:18
+2022-11-04 19:47:18	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-04 19:47:18	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-04 19:47:18	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-04 19:47:19	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-04 19:47:20	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-04 19:47:20	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-04 19:47:20	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-04 19:47:20	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-04 19:47:20	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-04 19:47:31	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-04 19:47:31	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-04 19:47:41	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-04 19:47:41	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-04 19:47:50	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-04 19:47:50	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-04 19:47:58	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-04 19:48:04	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-04 19:48:04
+2022-11-04 19:48:04	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-04 19:48:04	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-04 19:48:04	[Main thread]	INFO	PatientLevelPrediction	savePlpModel	Creating directory to save model
+2022-11-04 19:48:05	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/LogiRegNoSampling\plpResult
+2022-11-23 16:19:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 16:19:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-23 16:19:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-23 16:19:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 16:19:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0.01normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 16:19:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitCyclopsModelparam : laplace-FALSE-0.01-0-20-0.01
+2022-11-23 16:19:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 16:19:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 16:19:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 16:19:00
+2022-11-23 16:19:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         LogiRegNoSampling
+2022-11-23 16:19:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 16:19:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 16:19:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 16:19:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 16:19:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 16:19:01	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 16:19:01	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 16:19:02	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:19:06	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 16:19:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 16:19:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 16:19:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 16:19:09	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-23 16:19:09	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 16:19:09	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:19:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:19:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:19:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0.01
+2022-11-23 16:19:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 16:19:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 16:19:33	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-23 16:19:33	[Main thread]	INFO	FeatureExtraction		Removing 8472 infrequent covariates
+2022-11-23 16:19:33	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-23 16:19:41	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 20.9 secs
+2022-11-23 16:19:42	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:19:42	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:19:43	[Main thread]	INFO	PatientLevelPrediction	dataSummary	1527 covariates in train data
+2022-11-23 16:19:43	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:19:43	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:19:43	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-23 16:19:49	[Main thread]	INFO	PatientLevelPrediction		Running Cyclops
+2022-11-23 16:19:52	[Main thread]	INFO	PatientLevelPrediction		Done.
+2022-11-23 16:19:52	[Main thread]	INFO	PatientLevelPrediction	createCyclopsModel	GLM fit status:  OK
+2022-11-23 16:19:54	[Main thread]	INFO	PatientLevelPrediction	getVariableImportance	Creating variable importance data frame
+2022-11-23 16:19:55	[Main thread]	INFO	PatientLevelPrediction	predictCyclops	Prediction took 1.43 secs
+2022-11-23 16:19:55	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:19:56	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction		Prediction took 1.56 secs
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 50.01
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      45.27
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      54.74
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.41
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-23 16:20:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.0014
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.6141 - gradient:0.0173
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.28 intercept:         0.02
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.02
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 59.06
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      56.38
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      61.74
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              3.23
+2022-11-23 16:20:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:20:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:20:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0247 : observed risk 0.0247
+2022-11-23 16:20:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0
+2022-11-23 16:20:04	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 9.887 - gradient:3.6982
+2022-11-23 16:20:04	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 3.37 intercept:         -0.06
+2022-11-23 16:20:04	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 52.03
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      49.20
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      54.86
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.59
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:20:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-23 16:20:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 6e-04
+2022-11-23 16:20:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 4.323 - gradient:2.1755
+2022-11-23 16:20:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 2.79 intercept:         -0.04
+2022-11-23 16:20:07	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 16:20:10	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-23 16:20:10
+2022-11-23 16:20:10	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-23 16:20:10	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-23 16:20:10	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-23 16:20:10	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-23 16:20:11	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-23 16:20:11	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-23 16:20:12	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-23 16:20:12	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:20:13	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-23 16:20:24	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:20:24	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-23 16:20:38	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:20:38	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-23 16:20:49	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:20:49	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-23 16:21:00	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-23 16:21:08	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-23 16:21:08
+2022-11-23 16:21:09	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-23 16:21:09	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-23 16:21:11	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/LogiRegNoSampling\plpResult
+2022-11-23 16:21:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 16:21:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-23 16:21:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-23 16:21:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 16:21:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 16:21:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitCyclopsModelparam : laplace-FALSE-0.01-0-20-0.01
+2022-11-23 16:21:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 16:21:28	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 16:21:28	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 16:21:28
+2022-11-23 16:21:28	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         LogiRegNoSampling
+2022-11-23 16:21:28	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 16:21:28	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 16:21:28	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 16:21:28	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 16:21:30	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 16:21:30	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:21:35	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 16:21:39	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 16:21:39	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 16:21:39	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 16:21:39	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-23 16:21:39	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 16:21:39	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:21:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:21:57	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:21:58	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:21:58	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:21:58	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:21:58	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0
+2022-11-23 16:21:58	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 16:21:58	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 16:22:13	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-23 16:22:13	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-23 16:22:23	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 25 secs
+2022-11-23 16:22:23	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:22:23	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:22:25	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 16:22:25	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:22:25	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:22:25	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-23 16:22:30	[Main thread]	INFO	PatientLevelPrediction		Running Cyclops
+2022-11-23 16:22:33	[Main thread]	INFO	PatientLevelPrediction		Done.
+2022-11-23 16:22:33	[Main thread]	INFO	PatientLevelPrediction	createCyclopsModel	GLM fit status:  OK
+2022-11-23 16:22:34	[Main thread]	INFO	PatientLevelPrediction	getVariableImportance	Creating variable importance data frame
+2022-11-23 16:22:36	[Main thread]	INFO	PatientLevelPrediction	predictCyclops	Prediction took 1.6 secs
+2022-11-23 16:22:36	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:22:37	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction		Prediction took 2.19 secs
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 49.96
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      45.22
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      54.70
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.41
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:22:42	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.0014
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.6411 - gradient:0.0099
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.26 intercept:         0.02
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.02
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 59.06
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      56.37
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      61.74
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              3.23
+2022-11-23 16:22:43	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:22:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:22:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0247 : observed risk 0.0247
+2022-11-23 16:22:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0
+2022-11-23 16:22:44	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 9.9968 - gradient:3.7281
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 3.39 intercept:         -0.06
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 52.56
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      49.75
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      55.36
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.60
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-23 16:22:45	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 6e-04
+2022-11-23 16:22:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 4.3835 - gradient:2.1919
+2022-11-23 16:22:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 2.38 intercept:         -0.03
+2022-11-23 16:22:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 16:22:48	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-23 16:22:48
+2022-11-23 16:22:48	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-23 16:22:48	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-23 16:22:48	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-23 16:22:48	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-23 16:22:48	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-23 16:22:49	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-23 16:22:49	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-23 16:22:49	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:22:49	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-23 16:22:58	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:22:58	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-23 16:23:07	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:23:07	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-23 16:23:15	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:23:15	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-23 16:23:24	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-23 16:23:29	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-23 16:23:29
+2022-11-23 16:23:29	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-23 16:23:29	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-23 16:23:32	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/LogiRegNoSampling\plpResult
+2022-11-23 16:29:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 16:29:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-23 16:29:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-23 16:29:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 16:29:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 16:29:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitSklearnparam : 500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-750-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-500-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-750-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1000-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1250-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-1500-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-2000-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-750-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-1000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-1250-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-1500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-2000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-750-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-1000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-1250-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-1500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-2000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-750-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-1000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-1250-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-1500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-2000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-750-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-1000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-1250-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-1500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-2000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-750-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-1000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-1250-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-1500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-2000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-750-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-1000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-1250-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-1500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-2000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-750-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-1000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-1250-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-1500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-2000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-750-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-1000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-1250-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-1500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-2000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-750-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-1000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-1250-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-1500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-2000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-750-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-1000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-1250-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-1500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-2000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-750-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-1000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-1250-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-1500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-2000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-750-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-1000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-1250-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-1500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-2000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-500-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-750-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-1000-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-1250-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-1500-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-2000-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-500-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-750-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-1000-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-1250-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-1500-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-2000-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-500-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-750-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-1000-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-1250-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-1500-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-2000-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-500-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-750-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-1000-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-1250-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-1500-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-2000-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-500-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-750-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-1000-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-1250-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-1500-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-2000-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-500-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-750-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-1000-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-1250-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-1500-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-2000-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-500-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-750-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-1000-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-1250-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-1500-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-2000-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-500-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-750-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-1000-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-1250-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-1500-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-2000-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-500-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-750-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-1000-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-1250-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-1500-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-2000-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-500-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-750-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-1000-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-1250-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-1500-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-2000-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-500-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-750-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-1000-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-1250-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-1500-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-2000-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-500-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-750-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-1000-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-1250-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-1500-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-2000-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-750-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1000-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1250-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-1500-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-2000-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-balanced_subsample-0.9-500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-750-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1250-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-1500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-2000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-88448-0.9-500-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-4-2-1-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-10-2-1-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-17-2-1-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-4-5-1-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-10-5-1-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-17-5-1-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-4-2-10-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-10-2-10-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-17-2-10-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-4-5-10-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-10-5-10-0-log2-0-TRUE-FALSE-88448-0.9-500-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-0.9-750-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1000-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1250-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-0.9-1500-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-0.9-2000-gini-17-5-10-0-log2-0-TRUE-FALSE-88448-0.9
+2022-11-23 16:29:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 16:29:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 16:29:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 16:29:42
+2022-11-23 16:29:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         LogiRegNoSampling
+2022-11-23 16:29:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 16:29:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 16:29:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 16:29:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 16:29:43	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 16:29:43	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 16:29:43	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 16:29:43	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 16:29:43	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 16:29:44	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 16:29:44	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 16:29:44	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 16:29:44	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 16:29:44	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 16:29:44	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:29:44	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 16:29:44	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 16:29:45	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 16:29:47	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 16:29:47	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:29:51	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 16:29:54	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 16:29:54	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 16:29:54	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 16:29:54	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-23 16:29:54	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 16:29:55	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 16:30:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:30:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 16:30:05	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:30:06	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:30:06	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:30:06	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:30:06	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:30:06	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0
+2022-11-23 16:30:06	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 16:30:06	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 16:30:20	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-23 16:30:20	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-23 16:30:32	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 26 secs
+2022-11-23 16:30:32	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:30:32	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:30:34	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 16:30:34	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:30:34	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:30:34	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-23 16:30:34	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	classifier seed: 88448
+2022-11-23 16:30:34	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	requiresDenseMatrix: FALSE
+2022-11-23 16:30:34	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	name: Random forest
+2022-11-23 16:30:34	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	pythonImport: sklearn
+2022-11-23 16:30:34	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	pythonImportSecond: ensemble
+2022-11-23 16:30:34	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	pythonClassifier: RandomForestClassifier
+2022-11-23 16:30:34	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-23 16:30:34	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46272970201
+2022-11-23 16:30:34	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-23 16:30:43	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-23 16:30:43	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 9999
+2022-11-23 16:30:43	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 9999
+2022-11-23 16:30:43	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 16669
+2022-11-23 16:30:43	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-23 16:30:43	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 2.07% of available RAM (0GBs)
+2022-11-23 16:30:47	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 16669,9999
+2022-11-23 16:30:47	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-23 16:30:48	[Main thread]	INFO	PatientLevelPrediction		Rnning CV for Random forest model
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitSklearnparam : 500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-750-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-500-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-750-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1000-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1250-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-1500-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-2000-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-750-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-1000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-1250-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-1500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-2000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-750-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-1000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-1250-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-1500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-2000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-750-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-1000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-1250-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-1500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-2000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-750-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-1000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-1250-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-1500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-2000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-750-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-1000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-1250-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-1500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-2000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-750-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-1000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-1250-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-1500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-2000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-750-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-1000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-1250-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-1500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-2000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-750-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-1000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-1250-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-1500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-2000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-750-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-1000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-1250-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-1500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-2000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-750-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-1000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-1250-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-1500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-2000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-750-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-1000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-1250-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-1500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-2000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-750-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-1000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-1250-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-1500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-2000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-500-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-750-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-1000-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-1250-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-1500-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-2000-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-500-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-750-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-1000-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-1250-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-1500-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-2000-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-500-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-750-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-1000-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-1250-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-1500-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-2000-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-500-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-750-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-1000-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-1250-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-1500-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-2000-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-500-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-750-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-1000-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-1250-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-1500-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-2000-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-500-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-750-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-1000-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-1250-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-1500-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-2000-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-500-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-750-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-1000-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-1250-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-1500-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-2000-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-500-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-750-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-1000-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-1250-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-1500-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-2000-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-500-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-750-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-1000-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-1250-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-1500-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-2000-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-500-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-750-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-1000-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-1250-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-1500-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-2000-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-500-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-750-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-1000-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-1250-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-1500-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-2000-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-500-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-750-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-1000-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-1250-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-1500-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-2000-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-750-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1000-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1250-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-1500-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-2000-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-balanced_subsample-0.9-500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-4-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-10-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-17-2-1-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-4-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-10-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-17-5-1-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-4-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-10-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-17-2-10-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-4-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-10-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-750-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1250-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-1500-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-2000-gini-17-5-10-0-sqrt-0-TRUE-FALSE-11819-0.9-500-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-4-2-1-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-10-2-1-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-17-2-1-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-4-5-1-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-10-5-1-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-17-5-1-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-4-2-10-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-10-2-10-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-17-2-10-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-4-5-10-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-10-5-10-0-log2-0-TRUE-FALSE-11819-0.9-500-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-0.9-750-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1000-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1250-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-0.9-1500-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-0.9-2000-gini-17-5-10-0-log2-0-TRUE-FALSE-11819-0.9
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 16:34:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 16:34:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 16:34:01
+2022-11-23 16:34:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         LogiRegNoSampling
+2022-11-23 16:34:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 16:34:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 16:34:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 16:34:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 16:34:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 16:34:01	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:34:05	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 16:34:08	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 16:34:08	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 16:34:08	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 16:34:08	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-23 16:34:08	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 16:34:08	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:34:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:34:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:34:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:34:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:34:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:34:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0
+2022-11-23 16:34:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 16:34:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 16:34:31	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-23 16:34:31	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-23 16:34:41	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 21.5 secs
+2022-11-23 16:34:41	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:34:41	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:34:43	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 16:34:43	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:34:43	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:34:43	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-23 16:34:43	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	classifier seed: 11819
+2022-11-23 16:34:43	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	requiresDenseMatrix: FALSE
+2022-11-23 16:34:43	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	name: Random forest
+2022-11-23 16:34:43	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	pythonImport: sklearn
+2022-11-23 16:34:43	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	pythonImportSecond: ensemble
+2022-11-23 16:34:43	[Main thread]	DEBUG	PatientLevelPrediction	checkPySettings	pythonClassifier: RandomForestClassifier
+2022-11-23 16:34:43	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-23 16:34:43	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46272970201
+2022-11-23 16:34:43	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-23 16:34:52	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-23 16:34:52	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 9999
+2022-11-23 16:34:52	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 9999
+2022-11-23 16:34:52	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 16669
+2022-11-23 16:34:52	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-23 16:34:52	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 1.59% of available RAM (0GBs)
+2022-11-23 16:34:57	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 16669,9999
+2022-11-23 16:34:57	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-23 16:34:58	[Main thread]	INFO	PatientLevelPrediction		Rnning CV for Random forest model
+2022-11-23 16:35:08	[Main thread]	INFO	PatientLevelPrediction		Max fold: 3
+2022-11-23 16:35:08	[Main thread]	INFO	PatientLevelPrediction		Fold 1
+2022-11-23 16:35:08	[Main thread]	INFO	PatientLevelPrediction	fitPythonModel	data X dim: 11112x9999
+2022-11-23 16:35:08	[Main thread]	INFO	PatientLevelPrediction	fitPythonModel	data Y length: 11112 with 274 outcomes
+2022-11-23 16:35:08	[Main thread]	INFO	PatientLevelPrediction	fitPythonModel	ntrees:500    criterion:gini    maxDepth:4    minSamplesSplit:2    minSamplesLeaf:1    minWeightFractionLeaf:0    mtries:sqrt    maxLeafNodes:null    minImpurityDecrease:0    bootstrap:TRUE    oobScore:FALSE    nJobs:null    seed:11819    classWeight:balanced_subsample    maxSamples:null
+2022-11-23 16:35:26	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 16:35:26	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-23 16:35:26	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-23 16:35:26	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 16:35:26	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 16:35:26	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitCyclopsModelparam : laplace-FALSE-0.01-0-20-0.01
+2022-11-23 16:35:26	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 16:35:26	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 16:35:26	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 16:35:26
+2022-11-23 16:35:27	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         LogiRegNoSampling
+2022-11-23 16:35:27	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 16:35:27	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 16:35:27	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 16:35:27	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 16:35:28	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 16:35:28	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:35:34	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 16:35:37	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 16:35:37	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 16:35:37	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 16:35:37	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-23 16:35:37	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 16:35:38	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 16:35:47	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:35:47	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:35:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:35:49	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:35:49	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0
+2022-11-23 16:35:49	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 16:35:49	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 16:36:01	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-23 16:36:01	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-23 16:36:11	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 21.4 secs
+2022-11-23 16:36:11	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:36:11	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:36:12	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 16:36:12	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:36:12	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:36:12	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-23 16:36:17	[Main thread]	INFO	PatientLevelPrediction		Running Cyclops
+2022-11-23 16:36:21	[Main thread]	INFO	PatientLevelPrediction		Done.
+2022-11-23 16:36:21	[Main thread]	INFO	PatientLevelPrediction	createCyclopsModel	GLM fit status:  OK
+2022-11-23 16:36:22	[Main thread]	INFO	PatientLevelPrediction	getVariableImportance	Creating variable importance data frame
+2022-11-23 16:36:24	[Main thread]	INFO	PatientLevelPrediction	predictCyclops	Prediction took 1.46 secs
+2022-11-23 16:36:24	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:36:25	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction		Prediction took 2.22 secs
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 50.00
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      45.25
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      54.74
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.41
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.0015
+2022-11-23 16:36:30	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.4294 - gradient:0.0674
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.27 intercept:         0.02
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.02
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 59.03
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      56.35
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      61.72
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              3.23
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:36:31	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0247 : observed risk 0.0247
+2022-11-23 16:36:32	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0
+2022-11-23 16:36:32	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 9.0535 - gradient:3.4715
+2022-11-23 16:36:32	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 3.14 intercept:         -0.05
+2022-11-23 16:36:32	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 52.41
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      49.62
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      55.21
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.58
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-23 16:36:33	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-23 16:36:34	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 7e-04
+2022-11-23 16:36:34	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 3.7689 - gradient:2.0249
+2022-11-23 16:36:34	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 2.28 intercept:         -0.03
+2022-11-23 16:36:34	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 16:36:36	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-23 16:36:36
+2022-11-23 16:36:36	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-23 16:36:36	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-23 16:36:36	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-23 16:36:36	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-23 16:36:36	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-23 16:36:37	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-23 16:36:37	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-23 16:36:37	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:36:37	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-23 16:36:46	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:36:46	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-23 16:36:56	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:36:56	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-23 16:37:04	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:37:04	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-23 16:37:13	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-23 16:37:19	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-23 16:37:19
+2022-11-23 16:37:19	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-23 16:37:19	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-23 16:37:21	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/LogiRegNoSampling\plpResult

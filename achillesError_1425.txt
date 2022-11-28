@@ -1,0 +1,41 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: FEHLER: Spalte »payer_source_concept_id« existiert nicht
+  Position: 113
+
+SQL:
+--HINT DISTRIBUTE_ON_KEY(stratum_1)
+CREATE TEMP TABLE s_tmpach_1425 
+AS
+SELECT
+1425 as analysis_id,
+       cast(payer_source_concept_id AS varchar(255)) AS stratum_1,
+       cast(null AS varchar(255)) AS stratum_2,
+       cast(null as varchar(255)) as stratum_3,
+       cast(null as varchar(255)) as stratum_4,
+       cast(null as varchar(255)) as stratum_5,
+       COUNT(*) AS count_value
+FROM
+omop.cmd.payer_plan_period
+ group by payer_source_concept_id
+
+R version:
+R version 4.2.1 (2022-06-23 ucrt)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- Achilles (1.7)
+- DatabaseConnector (5.1.0)

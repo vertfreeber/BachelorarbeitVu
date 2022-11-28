@@ -1,0 +1,1047 @@
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 364riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1056endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 2
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 7sampleSeed : 1234
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0.1normalize : TRUEremoveRedundancy : TRUE
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitRclassifierparam : 100-25-4-1-0.05-1-0-1-300-25-4-1-0.05-1-0-1-100-25-6-1-0.05-1-0-1-300-25-6-1-0.05-1-0-1-100-25-8-1-0.05-1-0-1-300-25-8-1-0.05-1-0-1-100-25-4-1-0.1-1-0-1-300-25-4-1-0.1-1-0-1-100-25-6-1-0.1-1-0-1-300-25-6-1-0.1-1-0-1-100-25-8-1-0.1-1-0-1-300-25-8-1-0.1-1-0-1-100-25-4-1-0.3-1-0-1-300-25-4-1-0.3-1-0-1-100-25-6-1-0.3-1-0-1-300-25-6-1-0.3-1-0-1-100-25-8-1-0.3-1-0-1-300-25-8-1-0.3-1-0-1
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-03 22:28:50	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-03 22:28:50	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-03 22:28:50
+2022-11-03 22:28:50	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         GradientNoSampling
+2022-11-03 22:28:50	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-03 22:28:50	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-03 22:28:50	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-03 22:28:50	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-03 22:28:50	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 364
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1056
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-03 22:28:50	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-03 22:28:54	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1095endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0.1normalize : TRUEremoveRedundancy : TRUE
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitRclassifierparam : 100-25-4-1-0.05-1-0-1-300-25-4-1-0.05-1-0-1-100-25-6-1-0.05-1-0-1-300-25-6-1-0.05-1-0-1-100-25-8-1-0.05-1-0-1-300-25-8-1-0.05-1-0-1-100-25-4-1-0.1-1-0-1-300-25-4-1-0.1-1-0-1-100-25-6-1-0.1-1-0-1-300-25-6-1-0.1-1-0-1-100-25-8-1-0.1-1-0-1-300-25-8-1-0.1-1-0-1-100-25-4-1-0.3-1-0-1-300-25-4-1-0.3-1-0-1-100-25-6-1-0.3-1-0-1-300-25-6-1-0.3-1-0-1-100-25-8-1-0.3-1-0-1-300-25-8-1-0.3-1-0-1
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-03 22:29:40	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-03 22:29:40	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-03 22:29:40
+2022-11-03 22:29:40	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         GradientNoSampling
+2022-11-03 22:29:40	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-03 22:29:40	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-03 22:29:40	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-03 22:29:40	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-03 22:29:40	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1095
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-03 22:29:40	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-03 22:29:45	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-03 22:29:49	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-03 22:29:49	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-03 22:29:49	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-03 22:29:49	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-03 22:29:49	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-03 22:29:49	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-03 22:29:59	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-03 22:29:59	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-03 22:30:00	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-03 22:30:01	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-03 22:30:01	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0.1
+2022-11-03 22:30:01	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-03 22:30:01	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-03 22:30:14	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-03 22:30:14	[Main thread]	INFO	FeatureExtraction		Removing 9827 infrequent covariates
+2022-11-03 22:30:14	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-03 22:30:19	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 17.4 secs
+2022-11-03 22:30:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-03 22:30:19	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-03 22:30:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	172 covariates in train data
+2022-11-03 22:30:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-03 22:30:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-03 22:30:20	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-03 22:30:20	[Main thread]	INFO	PatientLevelPrediction		Training Gradient Boosting Machine
+2022-11-03 22:30:20	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-03 22:30:20	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46271022201
+2022-11-03 22:30:20	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-03 22:30:23	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-03 22:30:23	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 172
+2022-11-03 22:30:23	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 172
+2022-11-03 22:30:24	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 16669
+2022-11-03 22:30:24	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-03 22:30:24	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.91% of available RAM (0GBs)
+2022-11-03 22:30:26	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 16669,172
+2022-11-03 22:30:26	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-03 22:31:44	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-03 22:31:44	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-03 22:31:46	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-03 22:31:46	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46271022201
+2022-11-03 22:31:46	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-03 22:31:48	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-03 22:31:48	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 172
+2022-11-03 22:31:48	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 172
+2022-11-03 22:31:48	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 5556
+2022-11-03 22:31:48	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-03 22:31:48	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.36% of available RAM (0GBs)
+2022-11-03 22:31:49	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 5556,172
+2022-11-03 22:31:49	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-03 22:31:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-03 22:31:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-03 22:31:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 48.84
+2022-11-03 22:31:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      44.16
+2022-11-03 22:31:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      53.52
+2022-11-03 22:31:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.28
+2022-11-03 22:31:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-03 22:31:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.01
+2022-11-03 22:31:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0255 : observed risk 0.0247
+2022-11-03 22:31:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -0.0366
+2022-11-03 22:31:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -4.1396 - gradient:-0.1228
+2022-11-03 22:31:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: -0.09 intercept:         0.03
+2022-11-03 22:31:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.02
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 82.80
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      80.81
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      84.80
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              24.82
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.02
+2022-11-03 22:31:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0257 : observed risk 0.0247
+2022-11-03 22:31:53	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -0.0424
+2022-11-03 22:31:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 6.2699 - gradient:2.8901
+2022-11-03 22:31:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 2.72 intercept:         -0.05
+2022-11-03 22:31:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.25
+2022-11-03 22:31:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-03 22:31:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-03 22:31:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 53.75
+2022-11-03 22:31:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      50.96
+2022-11-03 22:31:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      56.53
+2022-11-03 22:31:55	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.82
+2022-11-03 22:31:55	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-03 22:31:55	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.01
+2022-11-03 22:31:55	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0253 : observed risk 0.0247
+2022-11-03 22:31:56	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -0.0249
+2022-11-03 22:31:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -2.7549 - gradient:0.245
+2022-11-03 22:31:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.18 intercept:         0.02
+2022-11-03 22:31:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-03 22:32:02	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-03 22:32:02
+2022-11-03 22:32:02	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-03 22:32:02	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-03 22:32:02	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-03 22:32:02	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-03 22:32:03	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-03 22:32:03	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-03 22:32:03	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-03 22:32:03	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-03 22:32:03	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-03 22:32:13	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-03 22:32:13	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-03 22:32:22	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-03 22:32:23	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-03 22:32:30	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-03 22:32:30	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-03 22:32:39	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-03 22:32:45	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-03 22:32:45
+2022-11-03 22:32:45	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-03 22:32:45	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-03 22:32:45	[Main thread]	INFO	PatientLevelPrediction	savePlpModel	Creating directory to save model
+2022-11-03 22:32:47	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/GradientNoSampling\plpResult
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0.01normalize : TRUEremoveRedundancy : TRUE
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitRclassifierparam : 100-25-4-1-0.05-1-0-1-300-25-4-1-0.05-1-0-1-100-25-6-1-0.05-1-0-1-300-25-6-1-0.05-1-0-1-100-25-8-1-0.05-1-0-1-300-25-8-1-0.05-1-0-1-100-25-4-1-0.1-1-0-1-300-25-4-1-0.1-1-0-1-100-25-6-1-0.1-1-0-1-300-25-6-1-0.1-1-0-1-100-25-8-1-0.1-1-0-1-300-25-8-1-0.1-1-0-1-100-25-4-1-0.3-1-0-1-300-25-4-1-0.3-1-0-1-100-25-6-1-0.3-1-0-1-300-25-6-1-0.3-1-0-1-100-25-8-1-0.3-1-0-1-300-25-8-1-0.3-1-0-1
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-04 14:42:09	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-04 14:42:09	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-04 14:42:09
+2022-11-04 14:42:09	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         GradientNoSampling
+2022-11-04 14:42:09	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-04 14:42:09	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-04 14:42:09	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-04 14:42:09	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-04 14:42:09	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10260
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-04 14:42:09	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-04 14:42:20	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-04 14:42:25	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-04 14:42:25	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-04 14:42:25	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-04 14:42:25	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-04 14:42:25	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-04 14:42:25	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-04 14:42:35	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10002 covariates in train data
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-04 14:42:36	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10002 covariates in train data
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-04 14:42:37	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-04 14:42:38	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10002 covariates in train data
+2022-11-04 14:42:38	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-04 14:42:38	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-04 14:42:38	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0.01
+2022-11-04 14:42:38	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-04 14:42:38	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-04 14:42:51	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-04 14:42:51	[Main thread]	INFO	FeatureExtraction		Removing 8472 infrequent covariates
+2022-11-04 14:42:51	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-04 14:43:00	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 21.9 secs
+2022-11-04 14:43:00	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-04 14:43:00	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-04 14:43:02	[Main thread]	INFO	PatientLevelPrediction	dataSummary	1529 covariates in train data
+2022-11-04 14:43:02	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-04 14:43:02	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-04 14:43:02	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-04 14:43:02	[Main thread]	INFO	PatientLevelPrediction		Training Gradient Boosting Machine
+2022-11-04 14:43:02	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-04 14:43:02	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46271022201
+2022-11-04 14:43:02	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-04 14:43:11	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-04 14:43:11	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 1529
+2022-11-04 14:43:11	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 1529
+2022-11-04 14:43:11	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 16669
+2022-11-04 14:43:11	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-04 14:43:11	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 2.9% of available RAM (0GBs)
+2022-11-04 14:43:16	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 16669,1529
+2022-11-04 14:43:16	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-04 14:45:40	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-04 14:45:40	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-04 14:45:43	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-04 14:45:44	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46271022201
+2022-11-04 14:45:44	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-04 14:45:47	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-04 14:45:47	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 1529
+2022-11-04 14:45:48	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 1529
+2022-11-04 14:45:48	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 5556
+2022-11-04 14:45:48	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-04 14:45:49	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.62% of available RAM (0GBs)
+2022-11-04 14:45:50	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 5556,1529
+2022-11-04 14:45:50	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-04 14:45:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-04 14:45:50	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 49.71
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      45.07
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      54.35
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.40
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0245 : observed risk 0.0247
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.005
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.3214 - gradient:0.0964
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: -0.07 intercept:         0.03
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.02
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 77.39
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      75.22
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      79.56
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              15.90
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.02
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0246 : observed risk 0.0247
+2022-11-04 14:45:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.0025
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 19.9102 - gradient:6.5384
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 6.13 intercept:         -0.12
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.16
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 53.20
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      50.45
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      55.95
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.66
+2022-11-04 14:45:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-04 14:45:53	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.00
+2022-11-04 14:45:53	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0242 : observed risk 0.0247
+2022-11-04 14:45:53	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.0197
+2022-11-04 14:45:53	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -2.7826 - gradient:0.2388
+2022-11-04 14:45:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.24 intercept:         0.02
+2022-11-04 14:45:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-04 14:45:59
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-04 14:45:59	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-04 14:46:09	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-04 14:46:09	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-04 14:46:20	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-04 14:46:20	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-04 14:46:28	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-04 14:46:28	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-04 14:46:37	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-04 14:46:42	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-04 14:46:42
+2022-11-04 14:46:42	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-04 14:46:42	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-04 14:46:43	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/GradientNoSampling\plpResult
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 408nfold : 3
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitRclassifierparam : 100-25-4-1-0.05-1-0-1-300-25-4-1-0.05-1-0-1-100-25-6-1-0.05-1-0-1-300-25-6-1-0.05-1-0-1-100-25-8-1-0.05-1-0-1-300-25-8-1-0.05-1-0-1-100-25-4-1-0.1-1-0-1-300-25-4-1-0.1-1-0-1-100-25-6-1-0.1-1-0-1-300-25-6-1-0.1-1-0-1-100-25-8-1-0.1-1-0-1-300-25-8-1-0.1-1-0-1-100-25-4-1-0.3-1-0-1-300-25-4-1-0.3-1-0-1-100-25-6-1-0.3-1-0-1-300-25-6-1-0.3-1-0-1-100-25-8-1-0.3-1-0-1-300-25-8-1-0.3-1-0-1
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 16:39:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 16:39:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 16:39:42
+2022-11-23 16:39:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         GradientNoSampling
+2022-11-23 16:39:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 16:39:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 16:39:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 16:39:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 16:39:42	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 16:39:42	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:39:48	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 16:39:53	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 16:39:53	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 16:39:53	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 16:39:53	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 408
+2022-11-23 16:39:53	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 16:39:53	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:40:03	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	10000 covariates in train data
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:40:04	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:40:04	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0
+2022-11-23 16:40:04	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 16:40:04	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 16:40:16	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-23 16:40:16	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-23 16:40:26	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 21.4 secs
+2022-11-23 16:40:26	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:40:26	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:40:28	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 16:40:28	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:40:28	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:40:28	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-23 16:40:28	[Main thread]	INFO	PatientLevelPrediction		Training Gradient Boosting Machine
+2022-11-23 16:40:28	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-23 16:40:28	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46272970201
+2022-11-23 16:40:28	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-23 16:40:36	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-23 16:40:36	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 9999
+2022-11-23 16:40:36	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 9999
+2022-11-23 16:40:36	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 16669
+2022-11-23 16:40:36	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-23 16:40:37	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 2.14% of available RAM (0GBs)
+2022-11-23 16:40:41	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 16669,9999
+2022-11-23 16:40:41	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-23 16:42:48	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:42:49	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-23 16:42:52	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-23 16:42:52	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46272970201
+2022-11-23 16:42:52	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-23 16:42:56	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-23 16:42:56	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 9999
+2022-11-23 16:42:56	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 9999
+2022-11-23 16:42:56	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 5556
+2022-11-23 16:42:56	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-23 16:42:56	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.62% of available RAM (0GBs)
+2022-11-23 16:42:57	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 5556,9999
+2022-11-23 16:42:57	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 48.72
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      44.01
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      53.43
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.28
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.01
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0221 : observed risk 0.0247
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.1148
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.8179 - gradient:-0.0338
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: -0.08 intercept:         0.03
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.02
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-23 16:42:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:42:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 92.75
+2022-11-23 16:42:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      91.40
+2022-11-23 16:42:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      94.11
+2022-11-23 16:42:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              60.99
+2022-11-23 16:42:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:43:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.02
+2022-11-23 16:43:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0248 : observed risk 0.0247
+2022-11-23 16:43:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -0.0054
+2022-11-23 16:43:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 5.4795 - gradient:2.793
+2022-11-23 16:43:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 2.12 intercept:         -0.03
+2022-11-23 16:43:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.61
+2022-11-23 16:43:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-23 16:43:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 16:43:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 54.45
+2022-11-23 16:43:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      51.82
+2022-11-23 16:43:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      57.07
+2022-11-23 16:43:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.65
+2022-11-23 16:43:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 16:43:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.01
+2022-11-23 16:43:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0225 : observed risk 0.0247
+2022-11-23 16:43:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.0971
+2022-11-23 16:43:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -2.8209 - gradient:0.2157
+2022-11-23 16:43:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.19 intercept:         0.02
+2022-11-23 16:43:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 16:43:05	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-23 16:43:05
+2022-11-23 16:43:05	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-23 16:43:05	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-23 16:43:05	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-23 16:43:05	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-23 16:43:05	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-23 16:43:05	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-23 16:43:05	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-23 16:43:06	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:43:06	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-23 16:43:15	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:43:15	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-23 16:43:24	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:43:24	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-23 16:43:32	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 16:43:32	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-23 16:43:39	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-23 16:43:44	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-23 16:43:44
+2022-11-23 16:43:44	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-23 16:43:44	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-23 16:43:47	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/GradientNoSampling\plpResult
+2022-11-23 16:58:56	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 16:58:56	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 1234nfold : 3
+2022-11-23 16:58:56	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 0.05sampleSeed : 1234
+2022-11-23 16:58:56	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 16:58:56	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0.1normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 16:59:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitRclassifierparam : 100-25-4-1-0.05-1-0-1-300-25-4-1-0.05-1-0-1-100-25-6-1-0.05-1-0-1-300-25-6-1-0.05-1-0-1-100-25-8-1-0.05-1-0-1-300-25-8-1-0.05-1-0-1-100-25-4-1-0.1-1-0-1-300-25-4-1-0.1-1-0-1-100-25-6-1-0.1-1-0-1-300-25-6-1-0.1-1-0-1-100-25-8-1-0.1-1-0-1-300-25-8-1-0.1-1-0-1-100-25-4-1-0.3-1-0-1-300-25-4-1-0.3-1-0-1-100-25-6-1-0.3-1-0-1-300-25-6-1-0.3-1-0-1-100-25-8-1-0.3-1-0-1-300-25-8-1-0.3-1-0-1
+2022-11-23 16:59:00	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 16:59:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 16:59:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 16:59:00
+2022-11-23 16:59:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         GradientNoSampling
+2022-11-23 16:59:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 16:59:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 16:59:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 16:59:00	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 16:59:01	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 16:59:01	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 16:59:02	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 16:59:18	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 16:59:25	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 16:59:25	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 16:59:25	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 16:59:25	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 1234
+2022-11-23 16:59:25	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 16:59:26	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 16:59:44	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:59:44	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying underSampleData
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction		sampleSeed: 1234
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction		numberOutcomestoNonOutcomes: 0.05
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction		Starting undersampling with seed 1234
+2022-11-23 16:59:46	[Main thread]	INFO	PatientLevelPrediction		Initial train data has 411 outcomes to 16258 non-outcomes
+2022-11-23 16:59:52	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 16:59:52	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:59:52	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 2877 patients with 137 outcomes - Fold 2 2877 patients with 137 outcomes - Fold 3 2877 patients with 137 outcomes
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9339 covariates in train data
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 16:59:54	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 2877 patients with 137 outcomes - Fold 2 2877 patients with 137 outcomes - Fold 3 2877 patients with 137 outcomes
+2022-11-23 16:59:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9339 covariates in train data
+2022-11-23 16:59:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 16:59:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 16:59:56	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0.1
+2022-11-23 16:59:56	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 16:59:56	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 17:00:02	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-23 17:00:02	[Main thread]	INFO	FeatureExtraction		Removing 9168 infrequent covariates
+2022-11-23 17:00:02	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-23 17:00:07	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 9.76 secs
+2022-11-23 17:00:08	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 17:00:08	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 2877 patients with 137 outcomes - Fold 2 2877 patients with 137 outcomes - Fold 3 2877 patients with 137 outcomes
+2022-11-23 17:00:10	[Main thread]	INFO	PatientLevelPrediction	dataSummary	170 covariates in train data
+2022-11-23 17:00:10	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 17:00:10	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 17:00:10	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-23 17:00:10	[Main thread]	INFO	PatientLevelPrediction		Training Gradient Boosting Machine
+2022-11-23 17:00:10	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-23 17:00:10	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46271022201
+2022-11-23 17:00:10	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-23 17:00:14	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-23 17:00:15	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 170
+2022-11-23 17:00:17	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 170
+2022-11-23 17:00:17	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 8631
+2022-11-23 17:00:18	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-23 17:00:18	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.78% of available RAM (0GBs)
+2022-11-23 17:00:21	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 8631,170
+2022-11-23 17:00:21	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-23 17:01:31	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 17:01:32	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-23 17:01:36	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-23 17:01:36	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46271022201
+2022-11-23 17:01:36	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-23 17:01:40	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-23 17:01:42	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 170
+2022-11-23 17:01:42	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 170
+2022-11-23 17:01:42	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 5556
+2022-11-23 17:01:42	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-23 17:01:43	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.78% of available RAM (0GBs)
+2022-11-23 17:01:45	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 5556,170
+2022-11-23 17:01:45	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-23 17:01:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-23 17:01:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 17:01:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 52.26
+2022-11-23 17:01:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      47.51
+2022-11-23 17:01:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      57.01
+2022-11-23 17:01:46	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.60
+2022-11-23 17:01:47	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.02
+2022-11-23 17:01:47	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.02
+2022-11-23 17:01:47	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0476 : observed risk 0.0247
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -0.6819
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 3.6801 - gradient:2.4567
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.50 intercept:         0.00
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 70.28
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      68.14
+2022-11-23 17:01:48	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      72.41
+2022-11-23 17:01:49	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              10.44
+2022-11-23 17:01:49	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.05
+2022-11-23 17:01:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.03
+2022-11-23 17:01:51	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0476 : observed risk 0.0476
+2022-11-23 17:01:52	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -6e-04
+2022-11-23 17:01:53	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 52.8567 - gradient:18.7114
+2022-11-23 17:01:53	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 23.71 intercept:         -1.08
+2022-11-23 17:01:53	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.10
+2022-11-23 17:01:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-23 17:01:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 17:01:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 52.16
+2022-11-23 17:01:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      49.28
+2022-11-23 17:01:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      55.04
+2022-11-23 17:01:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              5.09
+2022-11-23 17:01:54	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.05
+2022-11-23 17:01:56	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.01
+2022-11-23 17:01:56	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.0465 : observed risk 0.0476
+2022-11-23 17:01:56	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept 0.0248
+2022-11-23 17:01:56	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -2.615 - gradient:0.124
+2022-11-23 17:01:56	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.26 intercept:         0.03
+2022-11-23 17:01:56	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.05
+2022-11-23 17:02:00	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-23 17:02:00
+2022-11-23 17:02:00	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-23 17:02:00	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-23 17:02:00	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-23 17:02:00	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-23 17:02:01	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-23 17:02:02	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-23 17:02:02	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-23 17:02:02	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 17:02:02	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-23 17:02:19	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 17:02:20	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-23 17:02:41	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 17:02:41	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-23 17:03:06	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 17:03:06	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-23 17:03:24	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-23 17:03:34	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-23 17:03:34
+2022-11-23 17:03:34	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-23 17:03:34	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-23 17:03:38	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/GradientNoSampling\plpResult
+2022-11-23 17:07:32	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 17:07:32	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 1234nfold : 3
+2022-11-23 17:07:32	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 0.05sampleSeed : 1234
+2022-11-23 17:07:32	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 17:07:32	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0.1normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 17:07:32	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitRclassifierparam : 100-25-4-1-0.05-1-0-40-300-25-4-1-0.05-1-0-40-100-25-6-1-0.05-1-0-40-300-25-6-1-0.05-1-0-40-100-25-8-1-0.05-1-0-40-300-25-8-1-0.05-1-0-40-100-25-4-1-0.1-1-0-40-300-25-4-1-0.1-1-0-40-100-25-6-1-0.1-1-0-40-300-25-6-1-0.1-1-0-40-100-25-8-1-0.1-1-0-40-300-25-8-1-0.1-1-0-40-100-25-4-1-0.3-1-0-40-300-25-4-1-0.3-1-0-40-100-25-6-1-0.3-1-0-40-300-25-6-1-0.3-1-0-40-100-25-8-1-0.3-1-0-40-300-25-8-1-0.3-1-0-40
+2022-11-23 17:07:32	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 17:07:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 17:07:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 17:07:32
+2022-11-23 17:07:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         GradientNoSampling
+2022-11-23 17:07:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 17:07:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 17:07:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 17:07:32	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 17:07:33	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 17:07:33	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 17:07:41	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 17:07:48	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 17:07:48	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 17:07:48	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 17:07:48	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 1234
+2022-11-23 17:07:48	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 17:07:48	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 17:08:08	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 17:08:08	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying underSampleData
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction		sampleSeed: 1234
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction		numberOutcomestoNonOutcomes: 0.05
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction		Starting undersampling with seed 1234
+2022-11-23 17:08:09	[Main thread]	INFO	PatientLevelPrediction		Initial train data has 411 outcomes to 16258 non-outcomes
+2022-11-23 17:08:16	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 17:08:16	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 17:08:16	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 2877 patients with 137 outcomes - Fold 2 2877 patients with 137 outcomes - Fold 3 2877 patients with 137 outcomes
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9339 covariates in train data
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 17:08:18	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 2877 patients with 137 outcomes - Fold 2 2877 patients with 137 outcomes - Fold 3 2877 patients with 137 outcomes
+2022-11-23 17:08:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9339 covariates in train data
+2022-11-23 17:08:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 17:08:20	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 17:08:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0.1
+2022-11-23 17:08:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 17:08:20	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 17:08:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-23 17:08:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 1234nfold : 3
+2022-11-23 17:08:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-23 17:08:28	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-23 17:08:29	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0.1normalize : TRUEremoveRedundancy : TRUE
+2022-11-23 17:08:29	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitRclassifierparam : 100-25-4-1-0.05-1-0-40-300-25-4-1-0.05-1-0-40-100-25-6-1-0.05-1-0-40-300-25-6-1-0.05-1-0-40-100-25-8-1-0.05-1-0-40-300-25-8-1-0.05-1-0-40-100-25-4-1-0.1-1-0-40-300-25-4-1-0.1-1-0-40-100-25-6-1-0.1-1-0-40-300-25-6-1-0.1-1-0-40-100-25-8-1-0.1-1-0-40-300-25-8-1-0.1-1-0-40-100-25-4-1-0.3-1-0-40-300-25-4-1-0.3-1-0-40-100-25-6-1-0.3-1-0-40-300-25-6-1-0.3-1-0-40-100-25-8-1-0.3-1-0-40-300-25-8-1-0.3-1-0-40
+2022-11-23 17:08:29	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-23 17:08:29	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-23 17:08:29	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-23 17:08:29
+2022-11-23 17:08:29	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         GradientNoSampling
+2022-11-23 17:08:29	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-23 17:08:29	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-23 17:08:29	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-23 17:08:29	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-23 17:08:31	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-23 17:08:31	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-23 17:08:41	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-23 17:08:48	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-23 17:08:48	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-23 17:08:48	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-23 17:08:48	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 1234
+2022-11-23 17:08:48	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-23 17:08:48	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-23 17:09:07	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 17:09:07	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 17:09:08	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 17:09:08	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 17:09:08	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 17:09:08	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-23 17:09:08	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-23 17:09:08	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 17:09:09	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-23 17:09:09	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 17:09:09	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 17:09:10	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 17:09:11	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-23 17:09:11	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 17:09:11	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 17:09:11	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0.1
+2022-11-23 17:09:11	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-23 17:09:11	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-23 17:09:36	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-23 17:09:36	[Main thread]	INFO	FeatureExtraction		Removing 9827 infrequent covariates
+2022-11-23 17:09:37	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-23 17:09:46	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 34.1 secs
+2022-11-23 17:09:46	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-23 17:09:46	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-23 17:09:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	171 covariates in train data
+2022-11-23 17:09:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-23 17:09:48	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-23 17:09:48	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-23 17:09:48	[Main thread]	INFO	PatientLevelPrediction		Training Gradient Boosting Machine
+2022-11-23 17:09:48	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-23 17:09:48	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46271022201
+2022-11-23 17:09:48	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-23 17:09:57	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-23 17:09:57	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 171
+2022-11-23 17:09:57	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 171
+2022-11-23 17:09:58	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 16669
+2022-11-23 17:09:58	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-23 17:09:58	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 1.2% of available RAM (0GBs)
+2022-11-23 17:10:02	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 16669,171
+2022-11-23 17:10:02	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-23 17:11:49	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-23 17:11:50	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-23 17:11:52	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-23 17:11:52	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46271022201
+2022-11-23 17:11:52	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-23 17:11:55	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-23 17:11:55	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 171
+2022-11-23 17:11:55	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 171
+2022-11-23 17:11:55	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 5556
+2022-11-23 17:11:55	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-23 17:11:55	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.32% of available RAM (0GBs)
+2022-11-23 17:11:57	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 5556,171
+2022-11-23 17:11:57	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-23 17:11:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-23 17:11:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 17:11:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 55.72
+2022-11-23 17:11:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      51.04
+2022-11-23 17:11:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      60.39
+2022-11-23 17:11:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.96
+2022-11-23 17:11:57	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.12
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.23
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.2571 : observed risk 0.0247
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -2.8962
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.4786 - gradient:0.135
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.02 intercept:         0.02
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 94.49
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      93.01
+2022-11-23 17:11:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      95.97
+2022-11-23 17:11:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              73.87
+2022-11-23 17:11:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.10
+2022-11-23 17:12:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.23
+2022-11-23 17:12:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.2563 : observed risk 0.0247
+2022-11-23 17:12:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -2.985
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.5726 - gradient:3.4535
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.19 intercept:         -0.02
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.74
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 55.24
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      52.51
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      57.96
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.79
+2022-11-23 17:12:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.09
+2022-11-23 17:12:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.20
+2022-11-23 17:12:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.2201 : observed risk 0.0247
+2022-11-23 17:12:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -2.6168
+2022-11-23 17:12:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.4579 - gradient:0.1387
+2022-11-23 17:12:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.02 intercept:         0.02
+2022-11-23 17:12:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-23 17:12:06	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-23 17:12:06
+2022-11-23 17:12:06	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-23 17:12:06	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-23 17:12:06	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-23 17:12:06	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-23 17:12:06	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-23 17:12:06	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-23 17:12:06	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-23 17:12:07	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 17:12:07	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-23 17:12:20	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 17:12:20	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-23 17:12:32	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 17:12:32	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-23 17:12:43	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-23 17:12:43	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-23 17:12:56	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-23 17:13:06	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-23 17:13:06
+2022-11-23 17:13:06	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-23 17:13:06	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-23 17:13:09	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/GradientNoSampling\plpResult
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	binary : TRUEincludeAllOutcomes : TRUEfirstExposureOnly : TRUEwashoutPeriod : 0removeSubjectsWithPriorOutcome : FALSEpriorOutcomeLookback : 999999requireTimeAtRisk : FALSEminTimeAtRisk : 365riskWindowStart : 1startAnchor : cohort startriskWindowEnd : 1825endAnchor : cohort startrestrictTarToCohortEnd : FALSE
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	test : 0.25train : 0.75seed : 1234nfold : 3
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	numberOutcomestoNonOutcomes : 1sampleSeed : 1
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	 : 
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	minFraction : 0normalize : TRUEremoveRedundancy : TRUE
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	fitFunction : fitRclassifierparam : 100-25-4-1-0.05-1-0-40-300-25-4-1-0.05-1-0-40-100-25-6-1-0.05-1-0-40-300-25-6-1-0.05-1-0-40-100-25-8-1-0.05-1-0-40-300-25-8-1-0.05-1-0-40-100-25-4-1-0.1-1-0-40-300-25-4-1-0.1-1-0-40-100-25-6-1-0.1-1-0-40-300-25-6-1-0.1-1-0-40-100-25-8-1-0.1-1-0-40-300-25-8-1-0.1-1-0-40-100-25-4-1-0.3-1-0-40-300-25-4-1-0.3-1-0-40-100-25-6-1-0.3-1-0-40-300-25-6-1-0.3-1-0-40-100-25-8-1-0.3-1-0-40-300-25-8-1-0.3-1-0-40
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction	checkInputs	runSplitData : TRUErunSampleData : TRUErunfeatureEngineering : TRUErunPreprocessData : TRUErunModelDevelopment : TRUErunCovariateSummary : TRUE
+2022-11-24 16:27:12	[Main thread]	INFO	PatientLevelPrediction	printHeader	Patient-Level Prediction Package version 6.0.8
+2022-11-24 16:27:12	[Main thread]	INFO	PatientLevelPrediction	printHeader	Study started at: 2022-11-24 16:27:12
+2022-11-24 16:27:12	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisID:         GradientNoSampling
+2022-11-24 16:27:12	[Main thread]	INFO	PatientLevelPrediction	printHeader	AnalysisName:       Demonstration of runPlp for training single PLP models
+2022-11-24 16:27:12	[Main thread]	INFO	PatientLevelPrediction	printHeader	TargetID:           2
+2022-11-24 16:27:12	[Main thread]	INFO	PatientLevelPrediction	printHeader	OutcomeID:          3
+2022-11-24 16:27:12	[Main thread]	INFO	PatientLevelPrediction	printHeader	Cohort size:        22242
+2022-11-24 16:27:12	[Main thread]	INFO	PatientLevelPrediction	printHeader	Covariates:         10258
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		outcomeId: 3
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		binary: TRUE
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		includeAllOutcomes: TRUE
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		firstExposureOnly: TRUE
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		washoutPeriod: 0
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		removeSubjectsWithPriorOutcome: FALSE
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		priorOutcomeLookback: 999999
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		requireTimeAtRisk: FALSE
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		minTimeAtRisk: 365
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowStart: 1
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		startAnchor: cohort start
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		riskWindowEnd: 1825
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		endAnchor: cohort start
+2022-11-24 16:27:12	[Main thread]	DEBUG	PatientLevelPrediction		restrictTarToCohortEnd: FALSE
+2022-11-24 16:27:17	[Main thread]	INFO	PatientLevelPrediction		Outcome is 0 or 1
+2022-11-24 16:27:20	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	test: 0.25
+2022-11-24 16:27:20	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	train: 0.75
+2022-11-24 16:27:20	[Main thread]	DEBUG	PatientLevelPrediction	checkInputsSplit	nfold: 3
+2022-11-24 16:27:20	[Main thread]	INFO	PatientLevelPrediction	checkInputsSplit	seed: 1234
+2022-11-24 16:27:20	[Main thread]	INFO	PatientLevelPrediction		Creating a 25% test and 75% train (into 3 folds) random stratified split by class
+2022-11-24 16:27:20	[Main thread]	INFO	PatientLevelPrediction		Data split into 5556 test cases and 16669 train cases (5557, 5556, 5556)
+2022-11-24 16:27:30	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-24 16:27:30	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	sampleData	Starting data sampling
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	sampleData	Applying sameData
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	sampleData	Finished data sampling
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Starting Feature Engineering
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Applying sameData
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	featureEngineer	Done Feature Engineering
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-24 16:27:31	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-24 16:27:32	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9999 covariates in train data
+2022-11-24 16:27:32	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-24 16:27:32	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-24 16:27:32	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	minFraction: 0
+2022-11-24 16:27:32	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	normalize: TRUE
+2022-11-24 16:27:32	[Main thread]	DEBUG	PatientLevelPrediction	preprocessData	removeRedundancy: TRUE
+2022-11-24 16:27:44	[Main thread]	INFO	FeatureExtraction		Removing 1 redundant covariates
+2022-11-24 16:27:45	[Main thread]	INFO	FeatureExtraction		Normalizing covariates
+2022-11-24 16:27:55	[Main thread]	INFO	FeatureExtraction		Tidying covariates took 23.4 secs
+2022-11-24 16:27:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Train Set:
+2022-11-24 16:27:56	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Fold 1 5557 patients with 137 outcomes - Fold 2 5556 patients with 137 outcomes - Fold 3 5556 patients with 137 outcomes
+2022-11-24 16:27:58	[Main thread]	INFO	PatientLevelPrediction	dataSummary	9998 covariates in train data
+2022-11-24 16:27:58	[Main thread]	INFO	PatientLevelPrediction	dataSummary	Test Set:
+2022-11-24 16:27:58	[Main thread]	INFO	PatientLevelPrediction	dataSummary	5556 patients with 137 outcomes
+2022-11-24 16:27:58	[Main thread]	INFO	PatientLevelPrediction	runPlp	
+2022-11-24 16:27:58	[Main thread]	INFO	PatientLevelPrediction		Training Gradient Boosting Machine
+2022-11-24 16:27:58	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-24 16:27:58	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46272970201
+2022-11-24 16:27:58	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-24 16:28:08	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-24 16:28:08	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 9998
+2022-11-24 16:28:08	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 9998
+2022-11-24 16:28:09	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 16669
+2022-11-24 16:28:09	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-24 16:28:09	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 1.46% of available RAM (0GBs)
+2022-11-24 16:28:14	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 16669,9998
+2022-11-24 16:28:14	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-24 16:30:48	[Main thread]	INFO	PatientLevelPrediction		No sampling - returning same data
+2022-11-24 16:30:48	[Main thread]	INFO	PatientLevelPrediction		Removing infrequent and redundant covariates and normalizing
+2022-11-24 16:30:52	[Main thread]	INFO	PatientLevelPrediction	toSparseM	starting toSparseM
+2022-11-24 16:30:52	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max covariateId in original covariates: 46272970201
+2022-11-24 16:30:52	[Main thread]	INFO	PatientLevelPrediction	MapIds	starting to map the columns and rows
+2022-11-24 16:30:55	[Main thread]	INFO	PatientLevelPrediction	MapIds	finished MapCovariates
+2022-11-24 16:30:56	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	# covariates in mapped covariateRef: 9998
+2022-11-24 16:30:56	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max newCovariateId in mapping: 9998
+2022-11-24 16:30:56	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Max rowId in new : 5556
+2022-11-24 16:30:56	[Main thread]	INFO	PatientLevelPrediction	toSparseM	toSparseM non temporal used
+2022-11-24 16:30:56	[Main thread]	INFO	PatientLevelPrediction	checkRam	plpData size estimated to use 0.48% of available RAM (0GBs)
+2022-11-24 16:30:57	[Main thread]	DEBUG	PatientLevelPrediction	toSparseM	Sparse matrix with dimensionality: 5556,9998
+2022-11-24 16:30:57	[Main thread]	INFO	PatientLevelPrediction	toSparseM	finishing toSparseM
+2022-11-24 16:30:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Test
+2022-11-24 16:30:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-24 16:30:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 52.07
+2022-11-24 16:30:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      47.67
+2022-11-24 16:30:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      56.46
+2022-11-24 16:30:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.53
+2022-11-24 16:30:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.07
+2022-11-24 16:30:58	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.20
+2022-11-24 16:30:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.2284 : observed risk 0.0247
+2022-11-24 16:30:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -2.484
+2022-11-24 16:30:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.5357 - gradient:0.1126
+2022-11-24 16:30:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: -0.07 intercept:         0.03
+2022-11-24 16:30:59	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for Train
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 71.97
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      70.44
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      73.49
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              9.88
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.07
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.20
+2022-11-24 16:31:00	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.2279 : observed risk 0.0247
+2022-11-24 16:31:01	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -2.4818
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: 3.2731 - gradient:6.5581
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.76 intercept:         -0.11
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.10
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calculating Performance for CV
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	=============
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUC                 56.12
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% lower AUC:      53.36
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	95% upper AUC:      58.88
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	AUPRC:              2.89
+2022-11-24 16:31:02	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Brier:              0.17
+2022-11-24 16:31:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Eavg:               0.36
+2022-11-24 16:31:03	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Mean predicted risk 0.3813 : observed risk 0.0247
+2022-11-24 16:31:04	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Calibration in large- Intercept -3.3283
+2022-11-24 16:31:04	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Weak calibration intercept: -3.5334 - gradient:0.2865
+2022-11-24 16:31:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Hosmer-Lemeshow calibration gradient: 0.03 intercept:         0.01
+2022-11-24 16:31:05	[Main thread]	INFO	PatientLevelPrediction	getEvaluationStatistics_binary	Average Precision:  0.03
+2022-11-24 16:31:07	[Main thread]	INFO	PatientLevelPrediction		Calculating covariate summary @ 2022-11-24 16:31:07
+2022-11-24 16:31:07	[Main thread]	INFO	PatientLevelPrediction		This can take a while...
+2022-11-24 16:31:07	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Creating binary labels
+2022-11-24 16:31:07	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	Joining with strata
+2022-11-24 16:31:08	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 1
+2022-11-24 16:31:08	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 2
+2022-11-24 16:31:08	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 3
+2022-11-24 16:31:09	[Main thread]	INFO	PatientLevelPrediction	createCovariateSubsets	calculating subset of strata 4
+2022-11-24 16:31:09	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-24 16:31:10	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithNoOutcome
+2022-11-24 16:31:22	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-24 16:31:22	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithNoOutcome
+2022-11-24 16:31:32	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-24 16:31:32	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TrainWithOutcome
+2022-11-24 16:31:41	[Main thread]	INFO	PatientLevelPrediction		Restricting to subgroup
+2022-11-24 16:31:41	[Main thread]	INFO	PatientLevelPrediction		Calculating summary for subgroup TestWithOutcome
+2022-11-24 16:31:51	[Main thread]	INFO	PatientLevelPrediction	aggregateCovariateSummaries	Aggregating with labels and strata
+2022-11-24 16:31:58	[Main thread]	INFO	PatientLevelPrediction		Finished covariate summary @ 2022-11-24 16:31:58
+2022-11-24 16:31:58	[Main thread]	INFO	PatientLevelPrediction	runPlp	Run finished successfully.
+2022-11-24 16:31:58	[Main thread]	INFO	PatientLevelPrediction	runPlp	Saving PlpResult
+2022-11-24 16:32:02	[Main thread]	INFO	PatientLevelPrediction	runPlp	plpResult saved to ..\C:/Users/win10/Documents/Studium/Bachelorarbeit/ML3Bachelor/plpResults/GradientNoSampling\plpResult

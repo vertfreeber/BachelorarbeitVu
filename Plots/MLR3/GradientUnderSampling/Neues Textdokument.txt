@@ -1,0 +1,9 @@
+AUC(ROC) = 0,0.55227
+AUC(PRC) = 0.03183369
+classif.xgboost.fselector.nrounds classif.xgboost.fselector.eta classif.xgboost.fselector.max_depth classif.xgboost.fselector.colsample_bytree
+1:                              3459                     -8.851718                                   6                                  0.2202799
+   classif.xgboost.fselector.colsample_bylevel classif.xgboost.fselector.lambda classif.xgboost.fselector.alpha classif.xgboost.fselector.subsample
+1:                                   0.5110834                         1.325677                       -5.067862                           0.5400266
+   undersample.ratio classif.prauc
+1:         0.3693838    0.02965728
+

@@ -1,0 +1,23 @@
+{
+  "analysisId": "LassoNoSampling",
+  "analysisSource": "",
+  "developmentDatabase": "cmd",
+  "attrition": {
+    "outcomeId": [3, 3, 3, 3],
+    "description": ["Original cohorts", "Initial plpData cohort or population", "First Exposure", "Removing subjects with no time at risk (if any))"],
+    "targetCount": [22242, 22242, 22242, 22225],
+    "uniquePeople": [22242, 22242, 22242, 22225],
+    "outcomes": [550, 548, 548, 548],
+    "attr_class": "data.frame",
+    "attr_row.names": [1, 2, 3, 4]
+  },
+  "trainingTime": "10.2587208747864 secs",
+  "trainingDate": "2022-11-24",
+  "modelName": "logistic",
+  "finalModelParameters": {
+    "variance": 0.0035,
+    "log_likelihood": -1922.715
+  },
+  "hyperParamSearch": [0.5557, 0.4887, 0.5464],
+  "developmentDatabaseId": "cmd"
+}

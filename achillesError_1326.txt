@@ -1,0 +1,117 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: FEHLER: Spalte vd.visit_occurrence_id existiert nicht
+  Hinweis: Vielleicht wurde beabsichtigt, auf die Spalte »de.visit_occurrence_id« zu verweisen.
+  Position: 551
+
+SQL:
+CREATE TEMP TABLE s_tmpach_1326
+AS
+SELECT
+1326 AS analysis_id,
+	CAST(v.visit_detail_concept_id AS VARCHAR(255)) AS stratum_1,
+	v.cdm_table AS stratum_2,
+	CAST(NULL AS VARCHAR(255)) AS stratum_3,
+	CAST(NULL AS VARCHAR(255)) AS stratum_4,
+	CAST(NULL AS VARCHAR(255)) AS stratum_5,
+	v.record_count AS count_value
+FROM
+(
+	SELECT 'drug_exposure' cdm_table,
+		COALESCE(vd.visit_detail_concept_id, 0) visit_detail_concept_id,
+		COUNT(*) record_count
+	FROM 
+		omop.cmd.drug_exposure de
+	LEFT JOIN 
+		omop.cmd.visit_detail vd 
+	ON 
+		de.visit_occurrence_id = vd.visit_occurrence_id
+	GROUP BY 
+		vd.visit_detail_concept_id
+	UNION
+	SELECT 
+		'condition_occurrence' cdm_table,
+		COALESCE(vd.visit_detail_concept_id, 0) visit_detail_concept_id,
+		COUNT(*) record_count
+	FROM 
+		omop.cmd.condition_occurrence co
+	LEFT JOIN 
+		omop.cmd.visit_detail vd 
+	ON 
+		co.visit_occurrence_id = vd.visit_occurrence_id
+	GROUP BY 
+		vd.visit_detail_concept_id
+	UNION
+	SELECT 
+		'device_exposure' cdm_table,
+		COALESCE(visit_detail_concept_id, 0) visit_detail_concept_id,
+		COUNT(*) record_count
+	FROM 
+		omop.cmd.device_exposure de
+	LEFT JOIN 
+		omop.cmd.visit_detail vd 
+	ON 
+		de.visit_occurrence_id = vd.visit_occurrence_id
+	GROUP BY 
+		vd.visit_detail_concept_id
+	UNION
+	SELECT 
+		'procedure_occurrence' cdm_table,
+		COALESCE(vd.visit_detail_concept_id, 0) visit_detail_concept_id,
+		COUNT(*) record_count
+	FROM 
+		omop.cmd.procedure_occurrence po
+	LEFT JOIN 
+		omop.cmd.visit_detail vd 
+	ON 
+		po.visit_occurrence_id = vd.visit_occurrence_id
+	GROUP BY 
+		vd.visit_detail_concept_id
+	UNION
+	SELECT 
+		'measurement' cdm_table,
+		COALESCE(vd.visit_detail_concept_id, 0) visit_detail_concept_id,
+		COUNT(*) record_count
+	FROM 
+		omop.cmd.measurement m
+	LEFT JOIN 
+		omop.cmd.visit_detail vd 
+	ON 
+		m.visit_occurrence_id = vd.visit_occurrence_id
+	GROUP BY 
+		vd.visit_detail_concept_id
+	UNION
+	SELECT 
+		'observation' cdm_table,
+		COALESCE(vd.visit_detail_concept_id, 0) visit_detail_concept_id,
+		COUNT(*) record_count
+	FROM 
+		omop.cmd.observation o
+	LEFT JOIN 
+		omop.cmd.visit_detail vd 
+	ON 
+		o.visit_occurrence_id = vd.visit_occurrence_id
+	GROUP BY 
+		vd.visit_detail_concept_id
+	) v
+
+R version:
+R version 4.2.1 (2022-06-23 ucrt)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- Achilles (1.7)
+- DatabaseConnector (5.1.0)

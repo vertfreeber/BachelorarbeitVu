@@ -1,0 +1,3 @@
+AUC = 0.5888229
+PRAUC = 0.03426214
+Executin time = 6:30h

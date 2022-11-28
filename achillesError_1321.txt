@@ -1,0 +1,58 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: FEHLER: Spalte vd.person_id existiert nicht
+  Hinweis: Vielleicht wurde beabsichtigt, auf die Spalte »op.person_id« zu verweisen.
+  Position: 281
+
+SQL:
+--HINT DISTRIBUTE_ON_KEY(stratum_1)
+CREATE TEMP TABLE s_tmpach_1321
+AS
+WITH rawData  AS (
+SELECT 
+	EXTRACT(YEAR FROM vd.visit_detail_start_date) AS stratum_1,
+	COUNT(DISTINCT vd.person_id) AS count_value
+FROM 
+	omop.cmd.visit_detail vd
+JOIN 
+	omop.cmd.observation_period op 
+ON 
+	vd.person_id = op.person_id
+AND	
+	vd.visit_detail_start_date >= op.observation_period_start_date  
+AND 
+	vd.visit_detail_start_date <= op.observation_period_end_date
+GROUP BY 
+	EXTRACT(YEAR FROM vd.visit_detail_start_date)
+)
+ SELECT
+1321 AS analysis_id,
+  CAST(stratum_1 AS VARCHAR(255)) AS stratum_1,
+  CAST(NULL AS VARCHAR(255)) AS stratum_2,
+  CAST(NULL AS VARCHAR(255)) AS stratum_3,
+  CAST(NULL AS VARCHAR(255)) AS stratum_4,
+  CAST(NULL AS VARCHAR(255)) AS stratum_5,
+  count_value
+FROM
+rawData
+
+R version:
+R version 4.2.1 (2022-06-23 ucrt)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- Achilles (1.7)
+- DatabaseConnector (5.1.0)

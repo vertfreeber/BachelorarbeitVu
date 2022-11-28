@@ -1,0 +1,46 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: FEHLER: Spalte vd.person_id existiert nicht
+  Hinweis: Vielleicht wurde beabsichtigt, auf die Spalte »p.person_id« zu verweisen.
+  Position: 390
+
+SQL:
+CREATE TEMP TABLE s_tmpach_1307
+AS
+SELECT
+1307 AS analysis_id,
+	CAST(NULL AS VARCHAR(255)) AS stratum_1,
+	CAST(NULL AS VARCHAR(255)) AS stratum_2,
+	CAST(NULL AS VARCHAR(255)) AS stratum_3,
+	CAST(NULL AS VARCHAR(255)) AS stratum_4,
+	CAST(NULL AS VARCHAR(255)) AS stratum_5,
+	COUNT(vd.person_id) AS count_value
+FROM
+omop.cmd.visit_detail vd
+LEFT JOIN 
+	omop.cmd.person p 
+ON 
+	p.person_id = vd.person_id
+WHERE 
+	p.person_id IS NULL
+
+R version:
+R version 4.2.1 (2022-06-23 ucrt)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- Achilles (1.7)
+- DatabaseConnector (5.1.0)

@@ -1,0 +1,30 @@
+DBMS:
+postgresql
+
+Error:
+org.postgresql.util.PSQLException: FEHLER: Index »idx_ar_aid« existiert nicht
+
+SQL:
+drop index omop.results.idx_ar_aid
+
+R version:
+R version 4.2.1 (2022-06-23 ucrt)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- FeatureExtraction (3.2.0)
+- Andromeda (0.6.1)
+- dplyr (1.0.10)
+- Achilles (1.7)
+- DatabaseConnector (5.1.0)
